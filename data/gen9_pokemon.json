@@ -1,0 +1,8719 @@
+{
+  "bulbasaur": {
+    "types": [
+      "grass",
+      "poison"
+    ],
+    "base_experience": 64
+  },
+  "ivysaur": {
+    "types": [
+      "grass",
+      "poison"
+    ],
+    "base_experience": 142
+  },
+  "venusaur": {
+    "types": [
+      "grass",
+      "poison"
+    ],
+    "base_experience": 236
+  },
+  "charmander": {
+    "types": [
+      "fire"
+    ],
+    "base_experience": 62
+  },
+  "charmeleon": {
+    "types": [
+      "fire"
+    ],
+    "base_experience": 142
+  },
+  "charizard": {
+    "types": [
+      "fire",
+      "flying"
+    ],
+    "base_experience": 240
+  },
+  "squirtle": {
+    "types": [
+      "water"
+    ],
+    "base_experience": 63
+  },
+  "wartortle": {
+    "types": [
+      "water"
+    ],
+    "base_experience": 142
+  },
+  "blastoise": {
+    "types": [
+      "water"
+    ],
+    "base_experience": 239
+  },
+  "caterpie": {
+    "types": [
+      "bug"
+    ],
+    "base_experience": 39
+  },
+  "metapod": {
+    "types": [
+      "bug"
+    ],
+    "base_experience": 72
+  },
+  "butterfree": {
+    "types": [
+      "bug",
+      "flying"
+    ],
+    "base_experience": 178
+  },
+  "weedle": {
+    "types": [
+      "bug",
+      "poison"
+    ],
+    "base_experience": 39
+  },
+  "kakuna": {
+    "types": [
+      "bug",
+      "poison"
+    ],
+    "base_experience": 72
+  },
+  "beedrill": {
+    "types": [
+      "bug",
+      "poison"
+    ],
+    "base_experience": 178
+  },
+  "pidgey": {
+    "types": [
+      "normal",
+      "flying"
+    ],
+    "base_experience": 50
+  },
+  "pidgeotto": {
+    "types": [
+      "normal",
+      "flying"
+    ],
+    "base_experience": 122
+  },
+  "pidgeot": {
+    "types": [
+      "normal",
+      "flying"
+    ],
+    "base_experience": 216
+  },
+  "rattata": {
+    "types": [
+      "normal"
+    ],
+    "base_experience": 51
+  },
+  "raticate": {
+    "types": [
+      "normal"
+    ],
+    "base_experience": 145
+  },
+  "spearow": {
+    "types": [
+      "normal",
+      "flying"
+    ],
+    "base_experience": 52
+  },
+  "fearow": {
+    "types": [
+      "normal",
+      "flying"
+    ],
+    "base_experience": 155
+  },
+  "ekans": {
+    "types": [
+      "poison"
+    ],
+    "base_experience": 58
+  },
+  "arbok": {
+    "types": [
+      "poison"
+    ],
+    "base_experience": 157
+  },
+  "pikachu": {
+    "types": [
+      "electric"
+    ],
+    "base_experience": 112
+  },
+  "raichu": {
+    "types": [
+      "electric"
+    ],
+    "base_experience": 218
+  },
+  "sandshrew": {
+    "types": [
+      "ground"
+    ],
+    "base_experience": 60
+  },
+  "sandslash": {
+    "types": [
+      "ground"
+    ],
+    "base_experience": 158
+  },
+  "nidoran-f": {
+    "types": [
+      "poison"
+    ],
+    "base_experience": 55
+  },
+  "nidorina": {
+    "types": [
+      "poison"
+    ],
+    "base_experience": 128
+  },
+  "nidoqueen": {
+    "types": [
+      "poison",
+      "ground"
+    ],
+    "base_experience": 227
+  },
+  "nidoran-m": {
+    "types": [
+      "poison"
+    ],
+    "base_experience": 55
+  },
+  "nidorino": {
+    "types": [
+      "poison"
+    ],
+    "base_experience": 128
+  },
+  "nidoking": {
+    "types": [
+      "poison",
+      "ground"
+    ],
+    "base_experience": 227
+  },
+  "clefairy": {
+    "types": [
+      "fairy"
+    ],
+    "base_experience": 113
+  },
+  "clefable": {
+    "types": [
+      "fairy"
+    ],
+    "base_experience": 217
+  },
+  "vulpix": {
+    "types": [
+      "fire"
+    ],
+    "base_experience": 60
+  },
+  "ninetales": {
+    "types": [
+      "fire"
+    ],
+    "base_experience": 177
+  },
+  "jigglypuff": {
+    "types": [
+      "normal",
+      "fairy"
+    ],
+    "base_experience": 95
+  },
+  "wigglytuff": {
+    "types": [
+      "normal",
+      "fairy"
+    ],
+    "base_experience": 196
+  },
+  "zubat": {
+    "types": [
+      "poison",
+      "flying"
+    ],
+    "base_experience": 49
+  },
+  "golbat": {
+    "types": [
+      "poison",
+      "flying"
+    ],
+    "base_experience": 159
+  },
+  "oddish": {
+    "types": [
+      "grass",
+      "poison"
+    ],
+    "base_experience": 64
+  },
+  "gloom": {
+    "types": [
+      "grass",
+      "poison"
+    ],
+    "base_experience": 138
+  },
+  "vileplume": {
+    "types": [
+      "grass",
+      "poison"
+    ],
+    "base_experience": 221
+  },
+  "paras": {
+    "types": [
+      "bug",
+      "grass"
+    ],
+    "base_experience": 57
+  },
+  "parasect": {
+    "types": [
+      "bug",
+      "grass"
+    ],
+    "base_experience": 142
+  },
+  "venonat": {
+    "types": [
+      "bug",
+      "poison"
+    ],
+    "base_experience": 61
+  },
+  "venomoth": {
+    "types": [
+      "bug",
+      "poison"
+    ],
+    "base_experience": 158
+  },
+  "diglett": {
+    "types": [
+      "ground"
+    ],
+    "base_experience": 53
+  },
+  "dugtrio": {
+    "types": [
+      "ground"
+    ],
+    "base_experience": 149
+  },
+  "meowth": {
+    "types": [
+      "normal"
+    ],
+    "base_experience": 58
+  },
+  "persian": {
+    "types": [
+      "normal"
+    ],
+    "base_experience": 154
+  },
+  "psyduck": {
+    "types": [
+      "water"
+    ],
+    "base_experience": 64
+  },
+  "golduck": {
+    "types": [
+      "water"
+    ],
+    "base_experience": 175
+  },
+  "mankey": {
+    "types": [
+      "fighting"
+    ],
+    "base_experience": 61
+  },
+  "primeape": {
+    "types": [
+      "fighting"
+    ],
+    "base_experience": 159
+  },
+  "growlithe": {
+    "types": [
+      "fire"
+    ],
+    "base_experience": 70
+  },
+  "arcanine": {
+    "types": [
+      "fire"
+    ],
+    "base_experience": 194
+  },
+  "poliwag": {
+    "types": [
+      "water"
+    ],
+    "base_experience": 60
+  },
+  "poliwhirl": {
+    "types": [
+      "water"
+    ],
+    "base_experience": 135
+  },
+  "poliwrath": {
+    "types": [
+      "water",
+      "fighting"
+    ],
+    "base_experience": 230
+  },
+  "abra": {
+    "types": [
+      "psychic"
+    ],
+    "base_experience": 62
+  },
+  "kadabra": {
+    "types": [
+      "psychic"
+    ],
+    "base_experience": 140
+  },
+  "alakazam": {
+    "types": [
+      "psychic"
+    ],
+    "base_experience": 225
+  },
+  "machop": {
+    "types": [
+      "fighting"
+    ],
+    "base_experience": 61
+  },
+  "machoke": {
+    "types": [
+      "fighting"
+    ],
+    "base_experience": 142
+  },
+  "machamp": {
+    "types": [
+      "fighting"
+    ],
+    "base_experience": 227
+  },
+  "bellsprout": {
+    "types": [
+      "grass",
+      "poison"
+    ],
+    "base_experience": 60
+  },
+  "weepinbell": {
+    "types": [
+      "grass",
+      "poison"
+    ],
+    "base_experience": 137
+  },
+  "victreebel": {
+    "types": [
+      "grass",
+      "poison"
+    ],
+    "base_experience": 221
+  },
+  "tentacool": {
+    "types": [
+      "water",
+      "poison"
+    ],
+    "base_experience": 67
+  },
+  "tentacruel": {
+    "types": [
+      "water",
+      "poison"
+    ],
+    "base_experience": 180
+  },
+  "geodude": {
+    "types": [
+      "rock",
+      "ground"
+    ],
+    "base_experience": 60
+  },
+  "graveler": {
+    "types": [
+      "rock",
+      "ground"
+    ],
+    "base_experience": 137
+  },
+  "golem": {
+    "types": [
+      "rock",
+      "ground"
+    ],
+    "base_experience": 223
+  },
+  "ponyta": {
+    "types": [
+      "fire"
+    ],
+    "base_experience": 82
+  },
+  "rapidash": {
+    "types": [
+      "fire"
+    ],
+    "base_experience": 175
+  },
+  "slowpoke": {
+    "types": [
+      "water",
+      "psychic"
+    ],
+    "base_experience": 63
+  },
+  "slowbro": {
+    "types": [
+      "water",
+      "psychic"
+    ],
+    "base_experience": 172
+  },
+  "magnemite": {
+    "types": [
+      "electric",
+      "steel"
+    ],
+    "base_experience": 65
+  },
+  "magneton": {
+    "types": [
+      "electric",
+      "steel"
+    ],
+    "base_experience": 163
+  },
+  "farfetchd": {
+    "types": [
+      "normal",
+      "flying"
+    ],
+    "base_experience": 132
+  },
+  "doduo": {
+    "types": [
+      "normal",
+      "flying"
+    ],
+    "base_experience": 62
+  },
+  "dodrio": {
+    "types": [
+      "normal",
+      "flying"
+    ],
+    "base_experience": 165
+  },
+  "seel": {
+    "types": [
+      "water"
+    ],
+    "base_experience": 65
+  },
+  "dewgong": {
+    "types": [
+      "water",
+      "ice"
+    ],
+    "base_experience": 166
+  },
+  "grimer": {
+    "types": [
+      "poison"
+    ],
+    "base_experience": 65
+  },
+  "muk": {
+    "types": [
+      "poison"
+    ],
+    "base_experience": 175
+  },
+  "shellder": {
+    "types": [
+      "water"
+    ],
+    "base_experience": 61
+  },
+  "cloyster": {
+    "types": [
+      "water",
+      "ice"
+    ],
+    "base_experience": 184
+  },
+  "gastly": {
+    "types": [
+      "ghost",
+      "poison"
+    ],
+    "base_experience": 62
+  },
+  "haunter": {
+    "types": [
+      "ghost",
+      "poison"
+    ],
+    "base_experience": 142
+  },
+  "gengar": {
+    "types": [
+      "ghost",
+      "poison"
+    ],
+    "base_experience": 225
+  },
+  "onix": {
+    "types": [
+      "rock",
+      "ground"
+    ],
+    "base_experience": 77
+  },
+  "drowzee": {
+    "types": [
+      "psychic"
+    ],
+    "base_experience": 66
+  },
+  "hypno": {
+    "types": [
+      "psychic"
+    ],
+    "base_experience": 169
+  },
+  "krabby": {
+    "types": [
+      "water"
+    ],
+    "base_experience": 65
+  },
+  "kingler": {
+    "types": [
+      "water"
+    ],
+    "base_experience": 166
+  },
+  "voltorb": {
+    "types": [
+      "electric"
+    ],
+    "base_experience": 66
+  },
+  "electrode": {
+    "types": [
+      "electric"
+    ],
+    "base_experience": 172
+  },
+  "exeggcute": {
+    "types": [
+      "grass",
+      "psychic"
+    ],
+    "base_experience": 65
+  },
+  "exeggutor": {
+    "types": [
+      "grass",
+      "psychic"
+    ],
+    "base_experience": 186
+  },
+  "cubone": {
+    "types": [
+      "ground"
+    ],
+    "base_experience": 64
+  },
+  "marowak": {
+    "types": [
+      "ground"
+    ],
+    "base_experience": 149
+  },
+  "hitmonlee": {
+    "types": [
+      "fighting"
+    ],
+    "base_experience": 159
+  },
+  "hitmonchan": {
+    "types": [
+      "fighting"
+    ],
+    "base_experience": 159
+  },
+  "lickitung": {
+    "types": [
+      "normal"
+    ],
+    "base_experience": 77
+  },
+  "koffing": {
+    "types": [
+      "poison"
+    ],
+    "base_experience": 68
+  },
+  "weezing": {
+    "types": [
+      "poison"
+    ],
+    "base_experience": 172
+  },
+  "rhyhorn": {
+    "types": [
+      "ground",
+      "rock"
+    ],
+    "base_experience": 69
+  },
+  "rhydon": {
+    "types": [
+      "ground",
+      "rock"
+    ],
+    "base_experience": 170
+  },
+  "chansey": {
+    "types": [
+      "normal"
+    ],
+    "base_experience": 395
+  },
+  "tangela": {
+    "types": [
+      "grass"
+    ],
+    "base_experience": 87
+  },
+  "kangaskhan": {
+    "types": [
+      "normal"
+    ],
+    "base_experience": 172
+  },
+  "horsea": {
+    "types": [
+      "water"
+    ],
+    "base_experience": 59
+  },
+  "seadra": {
+    "types": [
+      "water"
+    ],
+    "base_experience": 154
+  },
+  "goldeen": {
+    "types": [
+      "water"
+    ],
+    "base_experience": 64
+  },
+  "seaking": {
+    "types": [
+      "water"
+    ],
+    "base_experience": 158
+  },
+  "staryu": {
+    "types": [
+      "water"
+    ],
+    "base_experience": 68
+  },
+  "starmie": {
+    "types": [
+      "water",
+      "psychic"
+    ],
+    "base_experience": 182
+  },
+  "mr-mime": {
+    "types": [
+      "psychic",
+      "fairy"
+    ],
+    "base_experience": 161
+  },
+  "scyther": {
+    "types": [
+      "bug",
+      "flying"
+    ],
+    "base_experience": 100
+  },
+  "jynx": {
+    "types": [
+      "ice",
+      "psychic"
+    ],
+    "base_experience": 159
+  },
+  "electabuzz": {
+    "types": [
+      "electric"
+    ],
+    "base_experience": 172
+  },
+  "magmar": {
+    "types": [
+      "fire"
+    ],
+    "base_experience": 173
+  },
+  "pinsir": {
+    "types": [
+      "bug"
+    ],
+    "base_experience": 175
+  },
+  "tauros": {
+    "types": [
+      "normal"
+    ],
+    "base_experience": 172
+  },
+  "magikarp": {
+    "types": [
+      "water"
+    ],
+    "base_experience": 40
+  },
+  "gyarados": {
+    "types": [
+      "water",
+      "flying"
+    ],
+    "base_experience": 189
+  },
+  "lapras": {
+    "types": [
+      "water",
+      "ice"
+    ],
+    "base_experience": 187
+  },
+  "ditto": {
+    "types": [
+      "normal"
+    ],
+    "base_experience": 101
+  },
+  "eevee": {
+    "types": [
+      "normal"
+    ],
+    "base_experience": 65
+  },
+  "vaporeon": {
+    "types": [
+      "water"
+    ],
+    "base_experience": 184
+  },
+  "jolteon": {
+    "types": [
+      "electric"
+    ],
+    "base_experience": 184
+  },
+  "flareon": {
+    "types": [
+      "fire"
+    ],
+    "base_experience": 184
+  },
+  "porygon": {
+    "types": [
+      "normal"
+    ],
+    "base_experience": 79
+  },
+  "omanyte": {
+    "types": [
+      "rock",
+      "water"
+    ],
+    "base_experience": 71
+  },
+  "omastar": {
+    "types": [
+      "rock",
+      "water"
+    ],
+    "base_experience": 173
+  },
+  "kabuto": {
+    "types": [
+      "rock",
+      "water"
+    ],
+    "base_experience": 71
+  },
+  "kabutops": {
+    "types": [
+      "rock",
+      "water"
+    ],
+    "base_experience": 173
+  },
+  "aerodactyl": {
+    "types": [
+      "rock",
+      "flying"
+    ],
+    "base_experience": 180
+  },
+  "snorlax": {
+    "types": [
+      "normal"
+    ],
+    "base_experience": 189
+  },
+  "articuno": {
+    "types": [
+      "ice",
+      "flying"
+    ],
+    "base_experience": 261
+  },
+  "zapdos": {
+    "types": [
+      "electric",
+      "flying"
+    ],
+    "base_experience": 261
+  },
+  "moltres": {
+    "types": [
+      "fire",
+      "flying"
+    ],
+    "base_experience": 261
+  },
+  "dratini": {
+    "types": [
+      "dragon"
+    ],
+    "base_experience": 60
+  },
+  "dragonair": {
+    "types": [
+      "dragon"
+    ],
+    "base_experience": 147
+  },
+  "dragonite": {
+    "types": [
+      "dragon",
+      "flying"
+    ],
+    "base_experience": 270
+  },
+  "mewtwo": {
+    "types": [
+      "psychic"
+    ],
+    "base_experience": 306
+  },
+  "mew": {
+    "types": [
+      "psychic"
+    ],
+    "base_experience": 270
+  },
+  "chikorita": {
+    "types": [
+      "grass"
+    ],
+    "base_experience": 64
+  },
+  "bayleef": {
+    "types": [
+      "grass"
+    ],
+    "base_experience": 142
+  },
+  "meganium": {
+    "types": [
+      "grass"
+    ],
+    "base_experience": 236
+  },
+  "cyndaquil": {
+    "types": [
+      "fire"
+    ],
+    "base_experience": 62
+  },
+  "quilava": {
+    "types": [
+      "fire"
+    ],
+    "base_experience": 142
+  },
+  "typhlosion": {
+    "types": [
+      "fire"
+    ],
+    "base_experience": 240
+  },
+  "totodile": {
+    "types": [
+      "water"
+    ],
+    "base_experience": 63
+  },
+  "croconaw": {
+    "types": [
+      "water"
+    ],
+    "base_experience": 142
+  },
+  "feraligatr": {
+    "types": [
+      "water"
+    ],
+    "base_experience": 239
+  },
+  "sentret": {
+    "types": [
+      "normal"
+    ],
+    "base_experience": 43
+  },
+  "furret": {
+    "types": [
+      "normal"
+    ],
+    "base_experience": 145
+  },
+  "hoothoot": {
+    "types": [
+      "normal",
+      "flying"
+    ],
+    "base_experience": 52
+  },
+  "noctowl": {
+    "types": [
+      "normal",
+      "flying"
+    ],
+    "base_experience": 158
+  },
+  "ledyba": {
+    "types": [
+      "bug",
+      "flying"
+    ],
+    "base_experience": 53
+  },
+  "ledian": {
+    "types": [
+      "bug",
+      "flying"
+    ],
+    "base_experience": 137
+  },
+  "spinarak": {
+    "types": [
+      "bug",
+      "poison"
+    ],
+    "base_experience": 50
+  },
+  "ariados": {
+    "types": [
+      "bug",
+      "poison"
+    ],
+    "base_experience": 140
+  },
+  "crobat": {
+    "types": [
+      "poison",
+      "flying"
+    ],
+    "base_experience": 241
+  },
+  "chinchou": {
+    "types": [
+      "water",
+      "electric"
+    ],
+    "base_experience": 66
+  },
+  "lanturn": {
+    "types": [
+      "water",
+      "electric"
+    ],
+    "base_experience": 161
+  },
+  "pichu": {
+    "types": [
+      "electric"
+    ],
+    "base_experience": 41
+  },
+  "cleffa": {
+    "types": [
+      "fairy"
+    ],
+    "base_experience": 44
+  },
+  "igglybuff": {
+    "types": [
+      "normal",
+      "fairy"
+    ],
+    "base_experience": 42
+  },
+  "togepi": {
+    "types": [
+      "fairy"
+    ],
+    "base_experience": 49
+  },
+  "togetic": {
+    "types": [
+      "fairy",
+      "flying"
+    ],
+    "base_experience": 142
+  },
+  "natu": {
+    "types": [
+      "psychic",
+      "flying"
+    ],
+    "base_experience": 64
+  },
+  "xatu": {
+    "types": [
+      "psychic",
+      "flying"
+    ],
+    "base_experience": 165
+  },
+  "mareep": {
+    "types": [
+      "electric"
+    ],
+    "base_experience": 56
+  },
+  "flaaffy": {
+    "types": [
+      "electric"
+    ],
+    "base_experience": 128
+  },
+  "ampharos": {
+    "types": [
+      "electric"
+    ],
+    "base_experience": 230
+  },
+  "bellossom": {
+    "types": [
+      "grass"
+    ],
+    "base_experience": 221
+  },
+  "marill": {
+    "types": [
+      "water",
+      "fairy"
+    ],
+    "base_experience": 88
+  },
+  "azumarill": {
+    "types": [
+      "water",
+      "fairy"
+    ],
+    "base_experience": 189
+  },
+  "sudowoodo": {
+    "types": [
+      "rock"
+    ],
+    "base_experience": 144
+  },
+  "politoed": {
+    "types": [
+      "water"
+    ],
+    "base_experience": 225
+  },
+  "hoppip": {
+    "types": [
+      "grass",
+      "flying"
+    ],
+    "base_experience": 50
+  },
+  "skiploom": {
+    "types": [
+      "grass",
+      "flying"
+    ],
+    "base_experience": 119
+  },
+  "jumpluff": {
+    "types": [
+      "grass",
+      "flying"
+    ],
+    "base_experience": 207
+  },
+  "aipom": {
+    "types": [
+      "normal"
+    ],
+    "base_experience": 72
+  },
+  "sunkern": {
+    "types": [
+      "grass"
+    ],
+    "base_experience": 36
+  },
+  "sunflora": {
+    "types": [
+      "grass"
+    ],
+    "base_experience": 149
+  },
+  "yanma": {
+    "types": [
+      "bug",
+      "flying"
+    ],
+    "base_experience": 78
+  },
+  "wooper": {
+    "types": [
+      "water",
+      "ground"
+    ],
+    "base_experience": 42
+  },
+  "quagsire": {
+    "types": [
+      "water",
+      "ground"
+    ],
+    "base_experience": 151
+  },
+  "espeon": {
+    "types": [
+      "psychic"
+    ],
+    "base_experience": 184
+  },
+  "umbreon": {
+    "types": [
+      "dark"
+    ],
+    "base_experience": 184
+  },
+  "murkrow": {
+    "types": [
+      "dark",
+      "flying"
+    ],
+    "base_experience": 81
+  },
+  "slowking": {
+    "types": [
+      "water",
+      "psychic"
+    ],
+    "base_experience": 172
+  },
+  "misdreavus": {
+    "types": [
+      "ghost"
+    ],
+    "base_experience": 87
+  },
+  "unown": {
+    "types": [
+      "psychic"
+    ],
+    "base_experience": 118
+  },
+  "wobbuffet": {
+    "types": [
+      "psychic"
+    ],
+    "base_experience": 142
+  },
+  "girafarig": {
+    "types": [
+      "normal",
+      "psychic"
+    ],
+    "base_experience": 159
+  },
+  "pineco": {
+    "types": [
+      "bug"
+    ],
+    "base_experience": 58
+  },
+  "forretress": {
+    "types": [
+      "bug",
+      "steel"
+    ],
+    "base_experience": 163
+  },
+  "dunsparce": {
+    "types": [
+      "normal"
+    ],
+    "base_experience": 145
+  },
+  "gligar": {
+    "types": [
+      "ground",
+      "flying"
+    ],
+    "base_experience": 86
+  },
+  "steelix": {
+    "types": [
+      "steel",
+      "ground"
+    ],
+    "base_experience": 179
+  },
+  "snubbull": {
+    "types": [
+      "fairy"
+    ],
+    "base_experience": 60
+  },
+  "granbull": {
+    "types": [
+      "fairy"
+    ],
+    "base_experience": 158
+  },
+  "qwilfish": {
+    "types": [
+      "water",
+      "poison"
+    ],
+    "base_experience": 88
+  },
+  "scizor": {
+    "types": [
+      "bug",
+      "steel"
+    ],
+    "base_experience": 175
+  },
+  "shuckle": {
+    "types": [
+      "bug",
+      "rock"
+    ],
+    "base_experience": 177
+  },
+  "heracross": {
+    "types": [
+      "bug",
+      "fighting"
+    ],
+    "base_experience": 175
+  },
+  "sneasel": {
+    "types": [
+      "dark",
+      "ice"
+    ],
+    "base_experience": 86
+  },
+  "teddiursa": {
+    "types": [
+      "normal"
+    ],
+    "base_experience": 66
+  },
+  "ursaring": {
+    "types": [
+      "normal"
+    ],
+    "base_experience": 175
+  },
+  "slugma": {
+    "types": [
+      "fire"
+    ],
+    "base_experience": 50
+  },
+  "magcargo": {
+    "types": [
+      "fire",
+      "rock"
+    ],
+    "base_experience": 151
+  },
+  "swinub": {
+    "types": [
+      "ice",
+      "ground"
+    ],
+    "base_experience": 50
+  },
+  "piloswine": {
+    "types": [
+      "ice",
+      "ground"
+    ],
+    "base_experience": 158
+  },
+  "corsola": {
+    "types": [
+      "water",
+      "rock"
+    ],
+    "base_experience": 144
+  },
+  "remoraid": {
+    "types": [
+      "water"
+    ],
+    "base_experience": 60
+  },
+  "octillery": {
+    "types": [
+      "water"
+    ],
+    "base_experience": 168
+  },
+  "delibird": {
+    "types": [
+      "ice",
+      "flying"
+    ],
+    "base_experience": 116
+  },
+  "mantine": {
+    "types": [
+      "water",
+      "flying"
+    ],
+    "base_experience": 170
+  },
+  "skarmory": {
+    "types": [
+      "steel",
+      "flying"
+    ],
+    "base_experience": 163
+  },
+  "houndour": {
+    "types": [
+      "dark",
+      "fire"
+    ],
+    "base_experience": 66
+  },
+  "houndoom": {
+    "types": [
+      "dark",
+      "fire"
+    ],
+    "base_experience": 175
+  },
+  "kingdra": {
+    "types": [
+      "water",
+      "dragon"
+    ],
+    "base_experience": 243
+  },
+  "phanpy": {
+    "types": [
+      "ground"
+    ],
+    "base_experience": 66
+  },
+  "donphan": {
+    "types": [
+      "ground"
+    ],
+    "base_experience": 175
+  },
+  "porygon2": {
+    "types": [
+      "normal"
+    ],
+    "base_experience": 180
+  },
+  "stantler": {
+    "types": [
+      "normal"
+    ],
+    "base_experience": 163
+  },
+  "smeargle": {
+    "types": [
+      "normal"
+    ],
+    "base_experience": 88
+  },
+  "tyrogue": {
+    "types": [
+      "fighting"
+    ],
+    "base_experience": 42
+  },
+  "hitmontop": {
+    "types": [
+      "fighting"
+    ],
+    "base_experience": 159
+  },
+  "smoochum": {
+    "types": [
+      "ice",
+      "psychic"
+    ],
+    "base_experience": 61
+  },
+  "elekid": {
+    "types": [
+      "electric"
+    ],
+    "base_experience": 72
+  },
+  "magby": {
+    "types": [
+      "fire"
+    ],
+    "base_experience": 73
+  },
+  "miltank": {
+    "types": [
+      "normal"
+    ],
+    "base_experience": 172
+  },
+  "blissey": {
+    "types": [
+      "normal"
+    ],
+    "base_experience": 608
+  },
+  "raikou": {
+    "types": [
+      "electric"
+    ],
+    "base_experience": 261
+  },
+  "entei": {
+    "types": [
+      "fire"
+    ],
+    "base_experience": 261
+  },
+  "suicune": {
+    "types": [
+      "water"
+    ],
+    "base_experience": 261
+  },
+  "larvitar": {
+    "types": [
+      "rock",
+      "ground"
+    ],
+    "base_experience": 60
+  },
+  "pupitar": {
+    "types": [
+      "rock",
+      "ground"
+    ],
+    "base_experience": 144
+  },
+  "tyranitar": {
+    "types": [
+      "rock",
+      "dark"
+    ],
+    "base_experience": 270
+  },
+  "lugia": {
+    "types": [
+      "psychic",
+      "flying"
+    ],
+    "base_experience": 306
+  },
+  "ho-oh": {
+    "types": [
+      "fire",
+      "flying"
+    ],
+    "base_experience": 306
+  },
+  "celebi": {
+    "types": [
+      "psychic",
+      "grass"
+    ],
+    "base_experience": 270
+  },
+  "treecko": {
+    "types": [
+      "grass"
+    ],
+    "base_experience": 62
+  },
+  "grovyle": {
+    "types": [
+      "grass"
+    ],
+    "base_experience": 142
+  },
+  "sceptile": {
+    "types": [
+      "grass"
+    ],
+    "base_experience": 239
+  },
+  "torchic": {
+    "types": [
+      "fire"
+    ],
+    "base_experience": 62
+  },
+  "combusken": {
+    "types": [
+      "fire",
+      "fighting"
+    ],
+    "base_experience": 142
+  },
+  "blaziken": {
+    "types": [
+      "fire",
+      "fighting"
+    ],
+    "base_experience": 239
+  },
+  "mudkip": {
+    "types": [
+      "water"
+    ],
+    "base_experience": 62
+  },
+  "marshtomp": {
+    "types": [
+      "water",
+      "ground"
+    ],
+    "base_experience": 142
+  },
+  "swampert": {
+    "types": [
+      "water",
+      "ground"
+    ],
+    "base_experience": 241
+  },
+  "poochyena": {
+    "types": [
+      "dark"
+    ],
+    "base_experience": 56
+  },
+  "mightyena": {
+    "types": [
+      "dark"
+    ],
+    "base_experience": 147
+  },
+  "zigzagoon": {
+    "types": [
+      "normal"
+    ],
+    "base_experience": 56
+  },
+  "linoone": {
+    "types": [
+      "normal"
+    ],
+    "base_experience": 147
+  },
+  "wurmple": {
+    "types": [
+      "bug"
+    ],
+    "base_experience": 56
+  },
+  "silcoon": {
+    "types": [
+      "bug"
+    ],
+    "base_experience": 72
+  },
+  "beautifly": {
+    "types": [
+      "bug",
+      "flying"
+    ],
+    "base_experience": 178
+  },
+  "cascoon": {
+    "types": [
+      "bug"
+    ],
+    "base_experience": 72
+  },
+  "dustox": {
+    "types": [
+      "bug",
+      "poison"
+    ],
+    "base_experience": 173
+  },
+  "lotad": {
+    "types": [
+      "water",
+      "grass"
+    ],
+    "base_experience": 44
+  },
+  "lombre": {
+    "types": [
+      "water",
+      "grass"
+    ],
+    "base_experience": 119
+  },
+  "ludicolo": {
+    "types": [
+      "water",
+      "grass"
+    ],
+    "base_experience": 216
+  },
+  "seedot": {
+    "types": [
+      "grass"
+    ],
+    "base_experience": 44
+  },
+  "nuzleaf": {
+    "types": [
+      "grass",
+      "dark"
+    ],
+    "base_experience": 119
+  },
+  "shiftry": {
+    "types": [
+      "grass",
+      "dark"
+    ],
+    "base_experience": 216
+  },
+  "taillow": {
+    "types": [
+      "normal",
+      "flying"
+    ],
+    "base_experience": 54
+  },
+  "swellow": {
+    "types": [
+      "normal",
+      "flying"
+    ],
+    "base_experience": 159
+  },
+  "wingull": {
+    "types": [
+      "water",
+      "flying"
+    ],
+    "base_experience": 54
+  },
+  "pelipper": {
+    "types": [
+      "water",
+      "flying"
+    ],
+    "base_experience": 154
+  },
+  "ralts": {
+    "types": [
+      "psychic",
+      "fairy"
+    ],
+    "base_experience": 40
+  },
+  "kirlia": {
+    "types": [
+      "psychic",
+      "fairy"
+    ],
+    "base_experience": 97
+  },
+  "gardevoir": {
+    "types": [
+      "psychic",
+      "fairy"
+    ],
+    "base_experience": 233
+  },
+  "surskit": {
+    "types": [
+      "bug",
+      "water"
+    ],
+    "base_experience": 54
+  },
+  "masquerain": {
+    "types": [
+      "bug",
+      "flying"
+    ],
+    "base_experience": 159
+  },
+  "shroomish": {
+    "types": [
+      "grass"
+    ],
+    "base_experience": 59
+  },
+  "breloom": {
+    "types": [
+      "grass",
+      "fighting"
+    ],
+    "base_experience": 161
+  },
+  "slakoth": {
+    "types": [
+      "normal"
+    ],
+    "base_experience": 56
+  },
+  "vigoroth": {
+    "types": [
+      "normal"
+    ],
+    "base_experience": 154
+  },
+  "slaking": {
+    "types": [
+      "normal"
+    ],
+    "base_experience": 252
+  },
+  "nincada": {
+    "types": [
+      "bug",
+      "ground"
+    ],
+    "base_experience": 53
+  },
+  "ninjask": {
+    "types": [
+      "bug",
+      "flying"
+    ],
+    "base_experience": 160
+  },
+  "shedinja": {
+    "types": [
+      "bug",
+      "ghost"
+    ],
+    "base_experience": 83
+  },
+  "whismur": {
+    "types": [
+      "normal"
+    ],
+    "base_experience": 48
+  },
+  "loudred": {
+    "types": [
+      "normal"
+    ],
+    "base_experience": 126
+  },
+  "exploud": {
+    "types": [
+      "normal"
+    ],
+    "base_experience": 221
+  },
+  "makuhita": {
+    "types": [
+      "fighting"
+    ],
+    "base_experience": 47
+  },
+  "hariyama": {
+    "types": [
+      "fighting"
+    ],
+    "base_experience": 166
+  },
+  "azurill": {
+    "types": [
+      "normal",
+      "fairy"
+    ],
+    "base_experience": 38
+  },
+  "nosepass": {
+    "types": [
+      "rock"
+    ],
+    "base_experience": 75
+  },
+  "skitty": {
+    "types": [
+      "normal"
+    ],
+    "base_experience": 52
+  },
+  "delcatty": {
+    "types": [
+      "normal"
+    ],
+    "base_experience": 140
+  },
+  "sableye": {
+    "types": [
+      "dark",
+      "ghost"
+    ],
+    "base_experience": 133
+  },
+  "mawile": {
+    "types": [
+      "steel",
+      "fairy"
+    ],
+    "base_experience": 133
+  },
+  "aron": {
+    "types": [
+      "steel",
+      "rock"
+    ],
+    "base_experience": 66
+  },
+  "lairon": {
+    "types": [
+      "steel",
+      "rock"
+    ],
+    "base_experience": 151
+  },
+  "aggron": {
+    "types": [
+      "steel",
+      "rock"
+    ],
+    "base_experience": 239
+  },
+  "meditite": {
+    "types": [
+      "fighting",
+      "psychic"
+    ],
+    "base_experience": 56
+  },
+  "medicham": {
+    "types": [
+      "fighting",
+      "psychic"
+    ],
+    "base_experience": 144
+  },
+  "electrike": {
+    "types": [
+      "electric"
+    ],
+    "base_experience": 59
+  },
+  "manectric": {
+    "types": [
+      "electric"
+    ],
+    "base_experience": 166
+  },
+  "plusle": {
+    "types": [
+      "electric"
+    ],
+    "base_experience": 142
+  },
+  "minun": {
+    "types": [
+      "electric"
+    ],
+    "base_experience": 142
+  },
+  "volbeat": {
+    "types": [
+      "bug"
+    ],
+    "base_experience": 151
+  },
+  "illumise": {
+    "types": [
+      "bug"
+    ],
+    "base_experience": 151
+  },
+  "roselia": {
+    "types": [
+      "grass",
+      "poison"
+    ],
+    "base_experience": 140
+  },
+  "gulpin": {
+    "types": [
+      "poison"
+    ],
+    "base_experience": 60
+  },
+  "swalot": {
+    "types": [
+      "poison"
+    ],
+    "base_experience": 163
+  },
+  "carvanha": {
+    "types": [
+      "water",
+      "dark"
+    ],
+    "base_experience": 61
+  },
+  "sharpedo": {
+    "types": [
+      "water",
+      "dark"
+    ],
+    "base_experience": 161
+  },
+  "wailmer": {
+    "types": [
+      "water"
+    ],
+    "base_experience": 80
+  },
+  "wailord": {
+    "types": [
+      "water"
+    ],
+    "base_experience": 175
+  },
+  "numel": {
+    "types": [
+      "fire",
+      "ground"
+    ],
+    "base_experience": 61
+  },
+  "camerupt": {
+    "types": [
+      "fire",
+      "ground"
+    ],
+    "base_experience": 161
+  },
+  "torkoal": {
+    "types": [
+      "fire"
+    ],
+    "base_experience": 165
+  },
+  "spoink": {
+    "types": [
+      "psychic"
+    ],
+    "base_experience": 66
+  },
+  "grumpig": {
+    "types": [
+      "psychic"
+    ],
+    "base_experience": 165
+  },
+  "spinda": {
+    "types": [
+      "normal"
+    ],
+    "base_experience": 126
+  },
+  "trapinch": {
+    "types": [
+      "ground"
+    ],
+    "base_experience": 58
+  },
+  "vibrava": {
+    "types": [
+      "ground",
+      "dragon"
+    ],
+    "base_experience": 119
+  },
+  "flygon": {
+    "types": [
+      "ground",
+      "dragon"
+    ],
+    "base_experience": 234
+  },
+  "cacnea": {
+    "types": [
+      "grass"
+    ],
+    "base_experience": 67
+  },
+  "cacturne": {
+    "types": [
+      "grass",
+      "dark"
+    ],
+    "base_experience": 166
+  },
+  "swablu": {
+    "types": [
+      "normal",
+      "flying"
+    ],
+    "base_experience": 62
+  },
+  "altaria": {
+    "types": [
+      "dragon",
+      "flying"
+    ],
+    "base_experience": 172
+  },
+  "zangoose": {
+    "types": [
+      "normal"
+    ],
+    "base_experience": 160
+  },
+  "seviper": {
+    "types": [
+      "poison"
+    ],
+    "base_experience": 160
+  },
+  "lunatone": {
+    "types": [
+      "rock",
+      "psychic"
+    ],
+    "base_experience": 161
+  },
+  "solrock": {
+    "types": [
+      "rock",
+      "psychic"
+    ],
+    "base_experience": 161
+  },
+  "barboach": {
+    "types": [
+      "water",
+      "ground"
+    ],
+    "base_experience": 58
+  },
+  "whiscash": {
+    "types": [
+      "water",
+      "ground"
+    ],
+    "base_experience": 164
+  },
+  "corphish": {
+    "types": [
+      "water"
+    ],
+    "base_experience": 62
+  },
+  "crawdaunt": {
+    "types": [
+      "water",
+      "dark"
+    ],
+    "base_experience": 164
+  },
+  "baltoy": {
+    "types": [
+      "ground",
+      "psychic"
+    ],
+    "base_experience": 60
+  },
+  "claydol": {
+    "types": [
+      "ground",
+      "psychic"
+    ],
+    "base_experience": 175
+  },
+  "lileep": {
+    "types": [
+      "rock",
+      "grass"
+    ],
+    "base_experience": 71
+  },
+  "cradily": {
+    "types": [
+      "rock",
+      "grass"
+    ],
+    "base_experience": 173
+  },
+  "anorith": {
+    "types": [
+      "rock",
+      "bug"
+    ],
+    "base_experience": 71
+  },
+  "armaldo": {
+    "types": [
+      "rock",
+      "bug"
+    ],
+    "base_experience": 173
+  },
+  "feebas": {
+    "types": [
+      "water"
+    ],
+    "base_experience": 40
+  },
+  "milotic": {
+    "types": [
+      "water"
+    ],
+    "base_experience": 189
+  },
+  "castform": {
+    "types": [
+      "normal"
+    ],
+    "base_experience": 147
+  },
+  "kecleon": {
+    "types": [
+      "normal"
+    ],
+    "base_experience": 154
+  },
+  "shuppet": {
+    "types": [
+      "ghost"
+    ],
+    "base_experience": 59
+  },
+  "banette": {
+    "types": [
+      "ghost"
+    ],
+    "base_experience": 159
+  },
+  "duskull": {
+    "types": [
+      "ghost"
+    ],
+    "base_experience": 59
+  },
+  "dusclops": {
+    "types": [
+      "ghost"
+    ],
+    "base_experience": 159
+  },
+  "tropius": {
+    "types": [
+      "grass",
+      "flying"
+    ],
+    "base_experience": 161
+  },
+  "chimecho": {
+    "types": [
+      "psychic"
+    ],
+    "base_experience": 159
+  },
+  "absol": {
+    "types": [
+      "dark"
+    ],
+    "base_experience": 163
+  },
+  "wynaut": {
+    "types": [
+      "psychic"
+    ],
+    "base_experience": 52
+  },
+  "snorunt": {
+    "types": [
+      "ice"
+    ],
+    "base_experience": 60
+  },
+  "glalie": {
+    "types": [
+      "ice"
+    ],
+    "base_experience": 168
+  },
+  "spheal": {
+    "types": [
+      "ice",
+      "water"
+    ],
+    "base_experience": 58
+  },
+  "sealeo": {
+    "types": [
+      "ice",
+      "water"
+    ],
+    "base_experience": 144
+  },
+  "walrein": {
+    "types": [
+      "ice",
+      "water"
+    ],
+    "base_experience": 239
+  },
+  "clamperl": {
+    "types": [
+      "water"
+    ],
+    "base_experience": 69
+  },
+  "huntail": {
+    "types": [
+      "water"
+    ],
+    "base_experience": 170
+  },
+  "gorebyss": {
+    "types": [
+      "water"
+    ],
+    "base_experience": 170
+  },
+  "relicanth": {
+    "types": [
+      "water",
+      "rock"
+    ],
+    "base_experience": 170
+  },
+  "luvdisc": {
+    "types": [
+      "water"
+    ],
+    "base_experience": 116
+  },
+  "bagon": {
+    "types": [
+      "dragon"
+    ],
+    "base_experience": 60
+  },
+  "shelgon": {
+    "types": [
+      "dragon"
+    ],
+    "base_experience": 147
+  },
+  "salamence": {
+    "types": [
+      "dragon",
+      "flying"
+    ],
+    "base_experience": 270
+  },
+  "beldum": {
+    "types": [
+      "steel",
+      "psychic"
+    ],
+    "base_experience": 60
+  },
+  "metang": {
+    "types": [
+      "steel",
+      "psychic"
+    ],
+    "base_experience": 147
+  },
+  "metagross": {
+    "types": [
+      "steel",
+      "psychic"
+    ],
+    "base_experience": 270
+  },
+  "regirock": {
+    "types": [
+      "rock"
+    ],
+    "base_experience": 261
+  },
+  "regice": {
+    "types": [
+      "ice"
+    ],
+    "base_experience": 261
+  },
+  "registeel": {
+    "types": [
+      "steel"
+    ],
+    "base_experience": 261
+  },
+  "latias": {
+    "types": [
+      "dragon",
+      "psychic"
+    ],
+    "base_experience": 270
+  },
+  "latios": {
+    "types": [
+      "dragon",
+      "psychic"
+    ],
+    "base_experience": 270
+  },
+  "kyogre": {
+    "types": [
+      "water"
+    ],
+    "base_experience": 302
+  },
+  "groudon": {
+    "types": [
+      "ground"
+    ],
+    "base_experience": 302
+  },
+  "rayquaza": {
+    "types": [
+      "dragon",
+      "flying"
+    ],
+    "base_experience": 306
+  },
+  "jirachi": {
+    "types": [
+      "steel",
+      "psychic"
+    ],
+    "base_experience": 270
+  },
+  "deoxys-normal": {
+    "types": [
+      "psychic"
+    ],
+    "base_experience": 270
+  },
+  "turtwig": {
+    "types": [
+      "grass"
+    ],
+    "base_experience": 64
+  },
+  "grotle": {
+    "types": [
+      "grass"
+    ],
+    "base_experience": 142
+  },
+  "torterra": {
+    "types": [
+      "grass",
+      "ground"
+    ],
+    "base_experience": 236
+  },
+  "chimchar": {
+    "types": [
+      "fire"
+    ],
+    "base_experience": 62
+  },
+  "monferno": {
+    "types": [
+      "fire",
+      "fighting"
+    ],
+    "base_experience": 142
+  },
+  "infernape": {
+    "types": [
+      "fire",
+      "fighting"
+    ],
+    "base_experience": 240
+  },
+  "piplup": {
+    "types": [
+      "water"
+    ],
+    "base_experience": 63
+  },
+  "prinplup": {
+    "types": [
+      "water"
+    ],
+    "base_experience": 142
+  },
+  "empoleon": {
+    "types": [
+      "water",
+      "steel"
+    ],
+    "base_experience": 239
+  },
+  "starly": {
+    "types": [
+      "normal",
+      "flying"
+    ],
+    "base_experience": 49
+  },
+  "staravia": {
+    "types": [
+      "normal",
+      "flying"
+    ],
+    "base_experience": 119
+  },
+  "staraptor": {
+    "types": [
+      "normal",
+      "flying"
+    ],
+    "base_experience": 218
+  },
+  "bidoof": {
+    "types": [
+      "normal"
+    ],
+    "base_experience": 50
+  },
+  "bibarel": {
+    "types": [
+      "normal",
+      "water"
+    ],
+    "base_experience": 144
+  },
+  "kricketot": {
+    "types": [
+      "bug"
+    ],
+    "base_experience": 39
+  },
+  "kricketune": {
+    "types": [
+      "bug"
+    ],
+    "base_experience": 134
+  },
+  "shinx": {
+    "types": [
+      "electric"
+    ],
+    "base_experience": 53
+  },
+  "luxio": {
+    "types": [
+      "electric"
+    ],
+    "base_experience": 127
+  },
+  "luxray": {
+    "types": [
+      "electric"
+    ],
+    "base_experience": 235
+  },
+  "budew": {
+    "types": [
+      "grass",
+      "poison"
+    ],
+    "base_experience": 56
+  },
+  "roserade": {
+    "types": [
+      "grass",
+      "poison"
+    ],
+    "base_experience": 232
+  },
+  "cranidos": {
+    "types": [
+      "rock"
+    ],
+    "base_experience": 70
+  },
+  "rampardos": {
+    "types": [
+      "rock"
+    ],
+    "base_experience": 173
+  },
+  "shieldon": {
+    "types": [
+      "rock",
+      "steel"
+    ],
+    "base_experience": 70
+  },
+  "bastiodon": {
+    "types": [
+      "rock",
+      "steel"
+    ],
+    "base_experience": 173
+  },
+  "burmy": {
+    "types": [
+      "bug"
+    ],
+    "base_experience": 45
+  },
+  "wormadam-plant": {
+    "types": [
+      "bug",
+      "grass"
+    ],
+    "base_experience": 148
+  },
+  "mothim": {
+    "types": [
+      "bug",
+      "flying"
+    ],
+    "base_experience": 148
+  },
+  "combee": {
+    "types": [
+      "bug",
+      "flying"
+    ],
+    "base_experience": 49
+  },
+  "vespiquen": {
+    "types": [
+      "bug",
+      "flying"
+    ],
+    "base_experience": 166
+  },
+  "pachirisu": {
+    "types": [
+      "electric"
+    ],
+    "base_experience": 142
+  },
+  "buizel": {
+    "types": [
+      "water"
+    ],
+    "base_experience": 66
+  },
+  "floatzel": {
+    "types": [
+      "water"
+    ],
+    "base_experience": 173
+  },
+  "cherubi": {
+    "types": [
+      "grass"
+    ],
+    "base_experience": 55
+  },
+  "cherrim": {
+    "types": [
+      "grass"
+    ],
+    "base_experience": 158
+  },
+  "shellos": {
+    "types": [
+      "water"
+    ],
+    "base_experience": 65
+  },
+  "gastrodon": {
+    "types": [
+      "water",
+      "ground"
+    ],
+    "base_experience": 166
+  },
+  "ambipom": {
+    "types": [
+      "normal"
+    ],
+    "base_experience": 169
+  },
+  "drifloon": {
+    "types": [
+      "ghost",
+      "flying"
+    ],
+    "base_experience": 70
+  },
+  "drifblim": {
+    "types": [
+      "ghost",
+      "flying"
+    ],
+    "base_experience": 174
+  },
+  "buneary": {
+    "types": [
+      "normal"
+    ],
+    "base_experience": 70
+  },
+  "lopunny": {
+    "types": [
+      "normal"
+    ],
+    "base_experience": 168
+  },
+  "mismagius": {
+    "types": [
+      "ghost"
+    ],
+    "base_experience": 173
+  },
+  "honchkrow": {
+    "types": [
+      "dark",
+      "flying"
+    ],
+    "base_experience": 177
+  },
+  "glameow": {
+    "types": [
+      "normal"
+    ],
+    "base_experience": 62
+  },
+  "purugly": {
+    "types": [
+      "normal"
+    ],
+    "base_experience": 158
+  },
+  "chingling": {
+    "types": [
+      "psychic"
+    ],
+    "base_experience": 57
+  },
+  "stunky": {
+    "types": [
+      "poison",
+      "dark"
+    ],
+    "base_experience": 66
+  },
+  "skuntank": {
+    "types": [
+      "poison",
+      "dark"
+    ],
+    "base_experience": 168
+  },
+  "bronzor": {
+    "types": [
+      "steel",
+      "psychic"
+    ],
+    "base_experience": 60
+  },
+  "bronzong": {
+    "types": [
+      "steel",
+      "psychic"
+    ],
+    "base_experience": 175
+  },
+  "bonsly": {
+    "types": [
+      "rock"
+    ],
+    "base_experience": 58
+  },
+  "mime-jr": {
+    "types": [
+      "psychic",
+      "fairy"
+    ],
+    "base_experience": 62
+  },
+  "happiny": {
+    "types": [
+      "normal"
+    ],
+    "base_experience": 110
+  },
+  "chatot": {
+    "types": [
+      "normal",
+      "flying"
+    ],
+    "base_experience": 144
+  },
+  "spiritomb": {
+    "types": [
+      "ghost",
+      "dark"
+    ],
+    "base_experience": 170
+  },
+  "gible": {
+    "types": [
+      "dragon",
+      "ground"
+    ],
+    "base_experience": 60
+  },
+  "gabite": {
+    "types": [
+      "dragon",
+      "ground"
+    ],
+    "base_experience": 144
+  },
+  "garchomp": {
+    "types": [
+      "dragon",
+      "ground"
+    ],
+    "base_experience": 270
+  },
+  "munchlax": {
+    "types": [
+      "normal"
+    ],
+    "base_experience": 78
+  },
+  "riolu": {
+    "types": [
+      "fighting"
+    ],
+    "base_experience": 57
+  },
+  "lucario": {
+    "types": [
+      "fighting",
+      "steel"
+    ],
+    "base_experience": 184
+  },
+  "hippopotas": {
+    "types": [
+      "ground"
+    ],
+    "base_experience": 66
+  },
+  "hippowdon": {
+    "types": [
+      "ground"
+    ],
+    "base_experience": 184
+  },
+  "skorupi": {
+    "types": [
+      "poison",
+      "bug"
+    ],
+    "base_experience": 66
+  },
+  "drapion": {
+    "types": [
+      "poison",
+      "dark"
+    ],
+    "base_experience": 175
+  },
+  "croagunk": {
+    "types": [
+      "poison",
+      "fighting"
+    ],
+    "base_experience": 60
+  },
+  "toxicroak": {
+    "types": [
+      "poison",
+      "fighting"
+    ],
+    "base_experience": 172
+  },
+  "carnivine": {
+    "types": [
+      "grass"
+    ],
+    "base_experience": 159
+  },
+  "finneon": {
+    "types": [
+      "water"
+    ],
+    "base_experience": 66
+  },
+  "lumineon": {
+    "types": [
+      "water"
+    ],
+    "base_experience": 161
+  },
+  "mantyke": {
+    "types": [
+      "water",
+      "flying"
+    ],
+    "base_experience": 69
+  },
+  "snover": {
+    "types": [
+      "grass",
+      "ice"
+    ],
+    "base_experience": 67
+  },
+  "abomasnow": {
+    "types": [
+      "grass",
+      "ice"
+    ],
+    "base_experience": 173
+  },
+  "weavile": {
+    "types": [
+      "dark",
+      "ice"
+    ],
+    "base_experience": 179
+  },
+  "magnezone": {
+    "types": [
+      "electric",
+      "steel"
+    ],
+    "base_experience": 241
+  },
+  "lickilicky": {
+    "types": [
+      "normal"
+    ],
+    "base_experience": 180
+  },
+  "rhyperior": {
+    "types": [
+      "ground",
+      "rock"
+    ],
+    "base_experience": 241
+  },
+  "tangrowth": {
+    "types": [
+      "grass"
+    ],
+    "base_experience": 187
+  },
+  "electivire": {
+    "types": [
+      "electric"
+    ],
+    "base_experience": 243
+  },
+  "magmortar": {
+    "types": [
+      "fire"
+    ],
+    "base_experience": 243
+  },
+  "togekiss": {
+    "types": [
+      "fairy",
+      "flying"
+    ],
+    "base_experience": 245
+  },
+  "yanmega": {
+    "types": [
+      "bug",
+      "flying"
+    ],
+    "base_experience": 180
+  },
+  "leafeon": {
+    "types": [
+      "grass"
+    ],
+    "base_experience": 184
+  },
+  "glaceon": {
+    "types": [
+      "ice"
+    ],
+    "base_experience": 184
+  },
+  "gliscor": {
+    "types": [
+      "ground",
+      "flying"
+    ],
+    "base_experience": 179
+  },
+  "mamoswine": {
+    "types": [
+      "ice",
+      "ground"
+    ],
+    "base_experience": 239
+  },
+  "porygon-z": {
+    "types": [
+      "normal"
+    ],
+    "base_experience": 241
+  },
+  "gallade": {
+    "types": [
+      "psychic",
+      "fighting"
+    ],
+    "base_experience": 233
+  },
+  "probopass": {
+    "types": [
+      "rock",
+      "steel"
+    ],
+    "base_experience": 184
+  },
+  "dusknoir": {
+    "types": [
+      "ghost"
+    ],
+    "base_experience": 236
+  },
+  "froslass": {
+    "types": [
+      "ice",
+      "ghost"
+    ],
+    "base_experience": 168
+  },
+  "rotom": {
+    "types": [
+      "electric",
+      "ghost"
+    ],
+    "base_experience": 154
+  },
+  "uxie": {
+    "types": [
+      "psychic"
+    ],
+    "base_experience": 261
+  },
+  "mesprit": {
+    "types": [
+      "psychic"
+    ],
+    "base_experience": 261
+  },
+  "azelf": {
+    "types": [
+      "psychic"
+    ],
+    "base_experience": 261
+  },
+  "dialga": {
+    "types": [
+      "steel",
+      "dragon"
+    ],
+    "base_experience": 306
+  },
+  "palkia": {
+    "types": [
+      "water",
+      "dragon"
+    ],
+    "base_experience": 306
+  },
+  "heatran": {
+    "types": [
+      "fire",
+      "steel"
+    ],
+    "base_experience": 270
+  },
+  "regigigas": {
+    "types": [
+      "normal"
+    ],
+    "base_experience": 302
+  },
+  "giratina-altered": {
+    "types": [
+      "ghost",
+      "dragon"
+    ],
+    "base_experience": 306
+  },
+  "cresselia": {
+    "types": [
+      "psychic"
+    ],
+    "base_experience": 270
+  },
+  "phione": {
+    "types": [
+      "water"
+    ],
+    "base_experience": 216
+  },
+  "manaphy": {
+    "types": [
+      "water"
+    ],
+    "base_experience": 270
+  },
+  "darkrai": {
+    "types": [
+      "dark"
+    ],
+    "base_experience": 270
+  },
+  "shaymin-land": {
+    "types": [
+      "grass"
+    ],
+    "base_experience": 270
+  },
+  "arceus": {
+    "types": [
+      "normal"
+    ],
+    "base_experience": 324
+  },
+  "victini": {
+    "types": [
+      "psychic",
+      "fire"
+    ],
+    "base_experience": 270
+  },
+  "snivy": {
+    "types": [
+      "grass"
+    ],
+    "base_experience": 62
+  },
+  "servine": {
+    "types": [
+      "grass"
+    ],
+    "base_experience": 145
+  },
+  "serperior": {
+    "types": [
+      "grass"
+    ],
+    "base_experience": 238
+  },
+  "tepig": {
+    "types": [
+      "fire"
+    ],
+    "base_experience": 62
+  },
+  "pignite": {
+    "types": [
+      "fire",
+      "fighting"
+    ],
+    "base_experience": 146
+  },
+  "emboar": {
+    "types": [
+      "fire",
+      "fighting"
+    ],
+    "base_experience": 238
+  },
+  "oshawott": {
+    "types": [
+      "water"
+    ],
+    "base_experience": 62
+  },
+  "dewott": {
+    "types": [
+      "water"
+    ],
+    "base_experience": 145
+  },
+  "samurott": {
+    "types": [
+      "water"
+    ],
+    "base_experience": 238
+  },
+  "patrat": {
+    "types": [
+      "normal"
+    ],
+    "base_experience": 51
+  },
+  "watchog": {
+    "types": [
+      "normal"
+    ],
+    "base_experience": 147
+  },
+  "lillipup": {
+    "types": [
+      "normal"
+    ],
+    "base_experience": 55
+  },
+  "herdier": {
+    "types": [
+      "normal"
+    ],
+    "base_experience": 130
+  },
+  "stoutland": {
+    "types": [
+      "normal"
+    ],
+    "base_experience": 225
+  },
+  "purrloin": {
+    "types": [
+      "dark"
+    ],
+    "base_experience": 56
+  },
+  "liepard": {
+    "types": [
+      "dark"
+    ],
+    "base_experience": 156
+  },
+  "pansage": {
+    "types": [
+      "grass"
+    ],
+    "base_experience": 63
+  },
+  "simisage": {
+    "types": [
+      "grass"
+    ],
+    "base_experience": 174
+  },
+  "pansear": {
+    "types": [
+      "fire"
+    ],
+    "base_experience": 63
+  },
+  "simisear": {
+    "types": [
+      "fire"
+    ],
+    "base_experience": 174
+  },
+  "panpour": {
+    "types": [
+      "water"
+    ],
+    "base_experience": 63
+  },
+  "simipour": {
+    "types": [
+      "water"
+    ],
+    "base_experience": 174
+  },
+  "munna": {
+    "types": [
+      "psychic"
+    ],
+    "base_experience": 58
+  },
+  "musharna": {
+    "types": [
+      "psychic"
+    ],
+    "base_experience": 170
+  },
+  "pidove": {
+    "types": [
+      "normal",
+      "flying"
+    ],
+    "base_experience": 53
+  },
+  "tranquill": {
+    "types": [
+      "normal",
+      "flying"
+    ],
+    "base_experience": 125
+  },
+  "unfezant": {
+    "types": [
+      "normal",
+      "flying"
+    ],
+    "base_experience": 220
+  },
+  "blitzle": {
+    "types": [
+      "electric"
+    ],
+    "base_experience": 59
+  },
+  "zebstrika": {
+    "types": [
+      "electric"
+    ],
+    "base_experience": 174
+  },
+  "roggenrola": {
+    "types": [
+      "rock"
+    ],
+    "base_experience": 56
+  },
+  "boldore": {
+    "types": [
+      "rock"
+    ],
+    "base_experience": 137
+  },
+  "gigalith": {
+    "types": [
+      "rock"
+    ],
+    "base_experience": 232
+  },
+  "woobat": {
+    "types": [
+      "psychic",
+      "flying"
+    ],
+    "base_experience": 65
+  },
+  "swoobat": {
+    "types": [
+      "psychic",
+      "flying"
+    ],
+    "base_experience": 149
+  },
+  "drilbur": {
+    "types": [
+      "ground"
+    ],
+    "base_experience": 66
+  },
+  "excadrill": {
+    "types": [
+      "ground",
+      "steel"
+    ],
+    "base_experience": 178
+  },
+  "audino": {
+    "types": [
+      "normal"
+    ],
+    "base_experience": 390
+  },
+  "timburr": {
+    "types": [
+      "fighting"
+    ],
+    "base_experience": 61
+  },
+  "gurdurr": {
+    "types": [
+      "fighting"
+    ],
+    "base_experience": 142
+  },
+  "conkeldurr": {
+    "types": [
+      "fighting"
+    ],
+    "base_experience": 227
+  },
+  "tympole": {
+    "types": [
+      "water"
+    ],
+    "base_experience": 59
+  },
+  "palpitoad": {
+    "types": [
+      "water",
+      "ground"
+    ],
+    "base_experience": 134
+  },
+  "seismitoad": {
+    "types": [
+      "water",
+      "ground"
+    ],
+    "base_experience": 229
+  },
+  "throh": {
+    "types": [
+      "fighting"
+    ],
+    "base_experience": 163
+  },
+  "sawk": {
+    "types": [
+      "fighting"
+    ],
+    "base_experience": 163
+  },
+  "sewaddle": {
+    "types": [
+      "bug",
+      "grass"
+    ],
+    "base_experience": 62
+  },
+  "swadloon": {
+    "types": [
+      "bug",
+      "grass"
+    ],
+    "base_experience": 133
+  },
+  "leavanny": {
+    "types": [
+      "bug",
+      "grass"
+    ],
+    "base_experience": 225
+  },
+  "venipede": {
+    "types": [
+      "bug",
+      "poison"
+    ],
+    "base_experience": 52
+  },
+  "whirlipede": {
+    "types": [
+      "bug",
+      "poison"
+    ],
+    "base_experience": 126
+  },
+  "scolipede": {
+    "types": [
+      "bug",
+      "poison"
+    ],
+    "base_experience": 218
+  },
+  "cottonee": {
+    "types": [
+      "grass",
+      "fairy"
+    ],
+    "base_experience": 56
+  },
+  "whimsicott": {
+    "types": [
+      "grass",
+      "fairy"
+    ],
+    "base_experience": 168
+  },
+  "petilil": {
+    "types": [
+      "grass"
+    ],
+    "base_experience": 56
+  },
+  "lilligant": {
+    "types": [
+      "grass"
+    ],
+    "base_experience": 168
+  },
+  "basculin-red-striped": {
+    "types": [
+      "water"
+    ],
+    "base_experience": 161
+  },
+  "sandile": {
+    "types": [
+      "ground",
+      "dark"
+    ],
+    "base_experience": 58
+  },
+  "krokorok": {
+    "types": [
+      "ground",
+      "dark"
+    ],
+    "base_experience": 123
+  },
+  "krookodile": {
+    "types": [
+      "ground",
+      "dark"
+    ],
+    "base_experience": 234
+  },
+  "darumaka": {
+    "types": [
+      "fire"
+    ],
+    "base_experience": 63
+  },
+  "darmanitan-standard": {
+    "types": [
+      "fire"
+    ],
+    "base_experience": 168
+  },
+  "maractus": {
+    "types": [
+      "grass"
+    ],
+    "base_experience": 161
+  },
+  "dwebble": {
+    "types": [
+      "bug",
+      "rock"
+    ],
+    "base_experience": 65
+  },
+  "crustle": {
+    "types": [
+      "bug",
+      "rock"
+    ],
+    "base_experience": 170
+  },
+  "scraggy": {
+    "types": [
+      "dark",
+      "fighting"
+    ],
+    "base_experience": 70
+  },
+  "scrafty": {
+    "types": [
+      "dark",
+      "fighting"
+    ],
+    "base_experience": 171
+  },
+  "sigilyph": {
+    "types": [
+      "psychic",
+      "flying"
+    ],
+    "base_experience": 172
+  },
+  "yamask": {
+    "types": [
+      "ghost"
+    ],
+    "base_experience": 61
+  },
+  "cofagrigus": {
+    "types": [
+      "ghost"
+    ],
+    "base_experience": 169
+  },
+  "tirtouga": {
+    "types": [
+      "water",
+      "rock"
+    ],
+    "base_experience": 71
+  },
+  "carracosta": {
+    "types": [
+      "water",
+      "rock"
+    ],
+    "base_experience": 173
+  },
+  "archen": {
+    "types": [
+      "rock",
+      "flying"
+    ],
+    "base_experience": 71
+  },
+  "archeops": {
+    "types": [
+      "rock",
+      "flying"
+    ],
+    "base_experience": 177
+  },
+  "trubbish": {
+    "types": [
+      "poison"
+    ],
+    "base_experience": 66
+  },
+  "garbodor": {
+    "types": [
+      "poison"
+    ],
+    "base_experience": 166
+  },
+  "zorua": {
+    "types": [
+      "dark"
+    ],
+    "base_experience": 66
+  },
+  "zoroark": {
+    "types": [
+      "dark"
+    ],
+    "base_experience": 179
+  },
+  "minccino": {
+    "types": [
+      "normal"
+    ],
+    "base_experience": 60
+  },
+  "cinccino": {
+    "types": [
+      "normal"
+    ],
+    "base_experience": 165
+  },
+  "gothita": {
+    "types": [
+      "psychic"
+    ],
+    "base_experience": 58
+  },
+  "gothorita": {
+    "types": [
+      "psychic"
+    ],
+    "base_experience": 137
+  },
+  "gothitelle": {
+    "types": [
+      "psychic"
+    ],
+    "base_experience": 221
+  },
+  "solosis": {
+    "types": [
+      "psychic"
+    ],
+    "base_experience": 58
+  },
+  "duosion": {
+    "types": [
+      "psychic"
+    ],
+    "base_experience": 130
+  },
+  "reuniclus": {
+    "types": [
+      "psychic"
+    ],
+    "base_experience": 221
+  },
+  "ducklett": {
+    "types": [
+      "water",
+      "flying"
+    ],
+    "base_experience": 61
+  },
+  "swanna": {
+    "types": [
+      "water",
+      "flying"
+    ],
+    "base_experience": 166
+  },
+  "vanillite": {
+    "types": [
+      "ice"
+    ],
+    "base_experience": 61
+  },
+  "vanillish": {
+    "types": [
+      "ice"
+    ],
+    "base_experience": 138
+  },
+  "vanilluxe": {
+    "types": [
+      "ice"
+    ],
+    "base_experience": 241
+  },
+  "deerling": {
+    "types": [
+      "normal",
+      "grass"
+    ],
+    "base_experience": 67
+  },
+  "sawsbuck": {
+    "types": [
+      "normal",
+      "grass"
+    ],
+    "base_experience": 166
+  },
+  "emolga": {
+    "types": [
+      "electric",
+      "flying"
+    ],
+    "base_experience": 150
+  },
+  "karrablast": {
+    "types": [
+      "bug"
+    ],
+    "base_experience": 63
+  },
+  "escavalier": {
+    "types": [
+      "bug",
+      "steel"
+    ],
+    "base_experience": 173
+  },
+  "foongus": {
+    "types": [
+      "grass",
+      "poison"
+    ],
+    "base_experience": 59
+  },
+  "amoonguss": {
+    "types": [
+      "grass",
+      "poison"
+    ],
+    "base_experience": 162
+  },
+  "frillish": {
+    "types": [
+      "water",
+      "ghost"
+    ],
+    "base_experience": 67
+  },
+  "jellicent": {
+    "types": [
+      "water",
+      "ghost"
+    ],
+    "base_experience": 168
+  },
+  "alomomola": {
+    "types": [
+      "water"
+    ],
+    "base_experience": 165
+  },
+  "joltik": {
+    "types": [
+      "bug",
+      "electric"
+    ],
+    "base_experience": 64
+  },
+  "galvantula": {
+    "types": [
+      "bug",
+      "electric"
+    ],
+    "base_experience": 165
+  },
+  "ferroseed": {
+    "types": [
+      "grass",
+      "steel"
+    ],
+    "base_experience": 61
+  },
+  "ferrothorn": {
+    "types": [
+      "grass",
+      "steel"
+    ],
+    "base_experience": 171
+  },
+  "klink": {
+    "types": [
+      "steel"
+    ],
+    "base_experience": 60
+  },
+  "klang": {
+    "types": [
+      "steel"
+    ],
+    "base_experience": 154
+  },
+  "klinklang": {
+    "types": [
+      "steel"
+    ],
+    "base_experience": 234
+  },
+  "tynamo": {
+    "types": [
+      "electric"
+    ],
+    "base_experience": 55
+  },
+  "eelektrik": {
+    "types": [
+      "electric"
+    ],
+    "base_experience": 142
+  },
+  "eelektross": {
+    "types": [
+      "electric"
+    ],
+    "base_experience": 232
+  },
+  "elgyem": {
+    "types": [
+      "psychic"
+    ],
+    "base_experience": 67
+  },
+  "beheeyem": {
+    "types": [
+      "psychic"
+    ],
+    "base_experience": 170
+  },
+  "litwick": {
+    "types": [
+      "ghost",
+      "fire"
+    ],
+    "base_experience": 55
+  },
+  "lampent": {
+    "types": [
+      "ghost",
+      "fire"
+    ],
+    "base_experience": 130
+  },
+  "chandelure": {
+    "types": [
+      "ghost",
+      "fire"
+    ],
+    "base_experience": 234
+  },
+  "axew": {
+    "types": [
+      "dragon"
+    ],
+    "base_experience": 64
+  },
+  "fraxure": {
+    "types": [
+      "dragon"
+    ],
+    "base_experience": 144
+  },
+  "haxorus": {
+    "types": [
+      "dragon"
+    ],
+    "base_experience": 243
+  },
+  "cubchoo": {
+    "types": [
+      "ice"
+    ],
+    "base_experience": 61
+  },
+  "beartic": {
+    "types": [
+      "ice"
+    ],
+    "base_experience": 177
+  },
+  "cryogonal": {
+    "types": [
+      "ice"
+    ],
+    "base_experience": 180
+  },
+  "shelmet": {
+    "types": [
+      "bug"
+    ],
+    "base_experience": 61
+  },
+  "accelgor": {
+    "types": [
+      "bug"
+    ],
+    "base_experience": 173
+  },
+  "stunfisk": {
+    "types": [
+      "ground",
+      "electric"
+    ],
+    "base_experience": 165
+  },
+  "mienfoo": {
+    "types": [
+      "fighting"
+    ],
+    "base_experience": 70
+  },
+  "mienshao": {
+    "types": [
+      "fighting"
+    ],
+    "base_experience": 179
+  },
+  "druddigon": {
+    "types": [
+      "dragon"
+    ],
+    "base_experience": 170
+  },
+  "golett": {
+    "types": [
+      "ground",
+      "ghost"
+    ],
+    "base_experience": 61
+  },
+  "golurk": {
+    "types": [
+      "ground",
+      "ghost"
+    ],
+    "base_experience": 169
+  },
+  "pawniard": {
+    "types": [
+      "dark",
+      "steel"
+    ],
+    "base_experience": 68
+  },
+  "bisharp": {
+    "types": [
+      "dark",
+      "steel"
+    ],
+    "base_experience": 172
+  },
+  "bouffalant": {
+    "types": [
+      "normal"
+    ],
+    "base_experience": 172
+  },
+  "rufflet": {
+    "types": [
+      "normal",
+      "flying"
+    ],
+    "base_experience": 70
+  },
+  "braviary": {
+    "types": [
+      "normal",
+      "flying"
+    ],
+    "base_experience": 179
+  },
+  "vullaby": {
+    "types": [
+      "dark",
+      "flying"
+    ],
+    "base_experience": 74
+  },
+  "mandibuzz": {
+    "types": [
+      "dark",
+      "flying"
+    ],
+    "base_experience": 179
+  },
+  "heatmor": {
+    "types": [
+      "fire"
+    ],
+    "base_experience": 169
+  },
+  "durant": {
+    "types": [
+      "bug",
+      "steel"
+    ],
+    "base_experience": 169
+  },
+  "deino": {
+    "types": [
+      "dark",
+      "dragon"
+    ],
+    "base_experience": 60
+  },
+  "zweilous": {
+    "types": [
+      "dark",
+      "dragon"
+    ],
+    "base_experience": 147
+  },
+  "hydreigon": {
+    "types": [
+      "dark",
+      "dragon"
+    ],
+    "base_experience": 270
+  },
+  "larvesta": {
+    "types": [
+      "bug",
+      "fire"
+    ],
+    "base_experience": 72
+  },
+  "volcarona": {
+    "types": [
+      "bug",
+      "fire"
+    ],
+    "base_experience": 248
+  },
+  "cobalion": {
+    "types": [
+      "steel",
+      "fighting"
+    ],
+    "base_experience": 261
+  },
+  "terrakion": {
+    "types": [
+      "rock",
+      "fighting"
+    ],
+    "base_experience": 261
+  },
+  "virizion": {
+    "types": [
+      "grass",
+      "fighting"
+    ],
+    "base_experience": 261
+  },
+  "tornadus-incarnate": {
+    "types": [
+      "flying"
+    ],
+    "base_experience": 261
+  },
+  "thundurus-incarnate": {
+    "types": [
+      "electric",
+      "flying"
+    ],
+    "base_experience": 261
+  },
+  "reshiram": {
+    "types": [
+      "dragon",
+      "fire"
+    ],
+    "base_experience": 306
+  },
+  "zekrom": {
+    "types": [
+      "dragon",
+      "electric"
+    ],
+    "base_experience": 306
+  },
+  "landorus-incarnate": {
+    "types": [
+      "ground",
+      "flying"
+    ],
+    "base_experience": 270
+  },
+  "kyurem": {
+    "types": [
+      "dragon",
+      "ice"
+    ],
+    "base_experience": 297
+  },
+  "keldeo-ordinary": {
+    "types": [
+      "water",
+      "fighting"
+    ],
+    "base_experience": 261
+  },
+  "meloetta-aria": {
+    "types": [
+      "normal",
+      "psychic"
+    ],
+    "base_experience": 270
+  },
+  "genesect": {
+    "types": [
+      "bug",
+      "steel"
+    ],
+    "base_experience": 270
+  },
+  "chespin": {
+    "types": [
+      "grass"
+    ],
+    "base_experience": 63
+  },
+  "quilladin": {
+    "types": [
+      "grass"
+    ],
+    "base_experience": 142
+  },
+  "chesnaught": {
+    "types": [
+      "grass",
+      "fighting"
+    ],
+    "base_experience": 239
+  },
+  "fennekin": {
+    "types": [
+      "fire"
+    ],
+    "base_experience": 61
+  },
+  "braixen": {
+    "types": [
+      "fire"
+    ],
+    "base_experience": 143
+  },
+  "delphox": {
+    "types": [
+      "fire",
+      "psychic"
+    ],
+    "base_experience": 240
+  },
+  "froakie": {
+    "types": [
+      "water"
+    ],
+    "base_experience": 63
+  },
+  "frogadier": {
+    "types": [
+      "water"
+    ],
+    "base_experience": 142
+  },
+  "greninja": {
+    "types": [
+      "water",
+      "dark"
+    ],
+    "base_experience": 239
+  },
+  "bunnelby": {
+    "types": [
+      "normal"
+    ],
+    "base_experience": 47
+  },
+  "diggersby": {
+    "types": [
+      "normal",
+      "ground"
+    ],
+    "base_experience": 148
+  },
+  "fletchling": {
+    "types": [
+      "normal",
+      "flying"
+    ],
+    "base_experience": 56
+  },
+  "fletchinder": {
+    "types": [
+      "fire",
+      "flying"
+    ],
+    "base_experience": 134
+  },
+  "talonflame": {
+    "types": [
+      "fire",
+      "flying"
+    ],
+    "base_experience": 175
+  },
+  "scatterbug": {
+    "types": [
+      "bug"
+    ],
+    "base_experience": 40
+  },
+  "spewpa": {
+    "types": [
+      "bug"
+    ],
+    "base_experience": 75
+  },
+  "vivillon": {
+    "types": [
+      "bug",
+      "flying"
+    ],
+    "base_experience": 185
+  },
+  "litleo": {
+    "types": [
+      "fire",
+      "normal"
+    ],
+    "base_experience": 74
+  },
+  "pyroar": {
+    "types": [
+      "fire",
+      "normal"
+    ],
+    "base_experience": 177
+  },
+  "flabebe": {
+    "types": [
+      "fairy"
+    ],
+    "base_experience": 61
+  },
+  "floette": {
+    "types": [
+      "fairy"
+    ],
+    "base_experience": 130
+  },
+  "florges": {
+    "types": [
+      "fairy"
+    ],
+    "base_experience": 248
+  },
+  "skiddo": {
+    "types": [
+      "grass"
+    ],
+    "base_experience": 70
+  },
+  "gogoat": {
+    "types": [
+      "grass"
+    ],
+    "base_experience": 186
+  },
+  "pancham": {
+    "types": [
+      "fighting"
+    ],
+    "base_experience": 70
+  },
+  "pangoro": {
+    "types": [
+      "fighting",
+      "dark"
+    ],
+    "base_experience": 173
+  },
+  "furfrou": {
+    "types": [
+      "normal"
+    ],
+    "base_experience": 165
+  },
+  "espurr": {
+    "types": [
+      "psychic"
+    ],
+    "base_experience": 71
+  },
+  "meowstic-male": {
+    "types": [
+      "psychic"
+    ],
+    "base_experience": 163
+  },
+  "honedge": {
+    "types": [
+      "steel",
+      "ghost"
+    ],
+    "base_experience": 65
+  },
+  "doublade": {
+    "types": [
+      "steel",
+      "ghost"
+    ],
+    "base_experience": 157
+  },
+  "aegislash-shield": {
+    "types": [
+      "steel",
+      "ghost"
+    ],
+    "base_experience": 234
+  },
+  "spritzee": {
+    "types": [
+      "fairy"
+    ],
+    "base_experience": 68
+  },
+  "aromatisse": {
+    "types": [
+      "fairy"
+    ],
+    "base_experience": 162
+  },
+  "swirlix": {
+    "types": [
+      "fairy"
+    ],
+    "base_experience": 68
+  },
+  "slurpuff": {
+    "types": [
+      "fairy"
+    ],
+    "base_experience": 168
+  },
+  "inkay": {
+    "types": [
+      "dark",
+      "psychic"
+    ],
+    "base_experience": 58
+  },
+  "malamar": {
+    "types": [
+      "dark",
+      "psychic"
+    ],
+    "base_experience": 169
+  },
+  "binacle": {
+    "types": [
+      "rock",
+      "water"
+    ],
+    "base_experience": 61
+  },
+  "barbaracle": {
+    "types": [
+      "rock",
+      "water"
+    ],
+    "base_experience": 175
+  },
+  "skrelp": {
+    "types": [
+      "poison",
+      "water"
+    ],
+    "base_experience": 64
+  },
+  "dragalge": {
+    "types": [
+      "poison",
+      "dragon"
+    ],
+    "base_experience": 173
+  },
+  "clauncher": {
+    "types": [
+      "water"
+    ],
+    "base_experience": 66
+  },
+  "clawitzer": {
+    "types": [
+      "water"
+    ],
+    "base_experience": 100
+  },
+  "helioptile": {
+    "types": [
+      "electric",
+      "normal"
+    ],
+    "base_experience": 58
+  },
+  "heliolisk": {
+    "types": [
+      "electric",
+      "normal"
+    ],
+    "base_experience": 168
+  },
+  "tyrunt": {
+    "types": [
+      "rock",
+      "dragon"
+    ],
+    "base_experience": 72
+  },
+  "tyrantrum": {
+    "types": [
+      "rock",
+      "dragon"
+    ],
+    "base_experience": 182
+  },
+  "amaura": {
+    "types": [
+      "rock",
+      "ice"
+    ],
+    "base_experience": 72
+  },
+  "aurorus": {
+    "types": [
+      "rock",
+      "ice"
+    ],
+    "base_experience": 104
+  },
+  "sylveon": {
+    "types": [
+      "fairy"
+    ],
+    "base_experience": 184
+  },
+  "hawlucha": {
+    "types": [
+      "fighting",
+      "flying"
+    ],
+    "base_experience": 175
+  },
+  "dedenne": {
+    "types": [
+      "electric",
+      "fairy"
+    ],
+    "base_experience": 151
+  },
+  "carbink": {
+    "types": [
+      "rock",
+      "fairy"
+    ],
+    "base_experience": 100
+  },
+  "goomy": {
+    "types": [
+      "dragon"
+    ],
+    "base_experience": 60
+  },
+  "sliggoo": {
+    "types": [
+      "dragon"
+    ],
+    "base_experience": 158
+  },
+  "goodra": {
+    "types": [
+      "dragon"
+    ],
+    "base_experience": 270
+  },
+  "klefki": {
+    "types": [
+      "steel",
+      "fairy"
+    ],
+    "base_experience": 165
+  },
+  "phantump": {
+    "types": [
+      "ghost",
+      "grass"
+    ],
+    "base_experience": 62
+  },
+  "trevenant": {
+    "types": [
+      "ghost",
+      "grass"
+    ],
+    "base_experience": 166
+  },
+  "pumpkaboo-average": {
+    "types": [
+      "ghost",
+      "grass"
+    ],
+    "base_experience": 67
+  },
+  "gourgeist-average": {
+    "types": [
+      "ghost",
+      "grass"
+    ],
+    "base_experience": 173
+  },
+  "bergmite": {
+    "types": [
+      "ice"
+    ],
+    "base_experience": 61
+  },
+  "avalugg": {
+    "types": [
+      "ice"
+    ],
+    "base_experience": 180
+  },
+  "noibat": {
+    "types": [
+      "flying",
+      "dragon"
+    ],
+    "base_experience": 49
+  },
+  "noivern": {
+    "types": [
+      "flying",
+      "dragon"
+    ],
+    "base_experience": 187
+  },
+  "xerneas": {
+    "types": [
+      "fairy"
+    ],
+    "base_experience": 306
+  },
+  "yveltal": {
+    "types": [
+      "dark",
+      "flying"
+    ],
+    "base_experience": 306
+  },
+  "zygarde-50": {
+    "types": [
+      "dragon",
+      "ground"
+    ],
+    "base_experience": 270
+  },
+  "diancie": {
+    "types": [
+      "rock",
+      "fairy"
+    ],
+    "base_experience": 270
+  },
+  "hoopa": {
+    "types": [
+      "psychic",
+      "ghost"
+    ],
+    "base_experience": 270
+  },
+  "volcanion": {
+    "types": [
+      "fire",
+      "water"
+    ],
+    "base_experience": 270
+  },
+  "rowlet": {
+    "types": [
+      "grass",
+      "flying"
+    ],
+    "base_experience": 64
+  },
+  "dartrix": {
+    "types": [
+      "grass",
+      "flying"
+    ],
+    "base_experience": 147
+  },
+  "decidueye": {
+    "types": [
+      "grass",
+      "ghost"
+    ],
+    "base_experience": 239
+  },
+  "litten": {
+    "types": [
+      "fire"
+    ],
+    "base_experience": 64
+  },
+  "torracat": {
+    "types": [
+      "fire"
+    ],
+    "base_experience": 147
+  },
+  "incineroar": {
+    "types": [
+      "fire",
+      "dark"
+    ],
+    "base_experience": 239
+  },
+  "popplio": {
+    "types": [
+      "water"
+    ],
+    "base_experience": 64
+  },
+  "brionne": {
+    "types": [
+      "water"
+    ],
+    "base_experience": 147
+  },
+  "primarina": {
+    "types": [
+      "water",
+      "fairy"
+    ],
+    "base_experience": 239
+  },
+  "pikipek": {
+    "types": [
+      "normal",
+      "flying"
+    ],
+    "base_experience": 53
+  },
+  "trumbeak": {
+    "types": [
+      "normal",
+      "flying"
+    ],
+    "base_experience": 124
+  },
+  "toucannon": {
+    "types": [
+      "normal",
+      "flying"
+    ],
+    "base_experience": 218
+  },
+  "yungoos": {
+    "types": [
+      "normal"
+    ],
+    "base_experience": 51
+  },
+  "gumshoos": {
+    "types": [
+      "normal"
+    ],
+    "base_experience": 146
+  },
+  "grubbin": {
+    "types": [
+      "bug"
+    ],
+    "base_experience": 60
+  },
+  "charjabug": {
+    "types": [
+      "bug",
+      "electric"
+    ],
+    "base_experience": 140
+  },
+  "vikavolt": {
+    "types": [
+      "bug",
+      "electric"
+    ],
+    "base_experience": 225
+  },
+  "crabrawler": {
+    "types": [
+      "fighting"
+    ],
+    "base_experience": 68
+  },
+  "crabominable": {
+    "types": [
+      "fighting",
+      "ice"
+    ],
+    "base_experience": 167
+  },
+  "oricorio-baile": {
+    "types": [
+      "fire",
+      "flying"
+    ],
+    "base_experience": 167
+  },
+  "cutiefly": {
+    "types": [
+      "bug",
+      "fairy"
+    ],
+    "base_experience": 61
+  },
+  "ribombee": {
+    "types": [
+      "bug",
+      "fairy"
+    ],
+    "base_experience": 162
+  },
+  "rockruff": {
+    "types": [
+      "rock"
+    ],
+    "base_experience": 56
+  },
+  "lycanroc-midday": {
+    "types": [
+      "rock"
+    ],
+    "base_experience": 170
+  },
+  "wishiwashi-solo": {
+    "types": [
+      "water"
+    ],
+    "base_experience": 61
+  },
+  "mareanie": {
+    "types": [
+      "poison",
+      "water"
+    ],
+    "base_experience": 61
+  },
+  "toxapex": {
+    "types": [
+      "poison",
+      "water"
+    ],
+    "base_experience": 173
+  },
+  "mudbray": {
+    "types": [
+      "ground"
+    ],
+    "base_experience": 77
+  },
+  "mudsdale": {
+    "types": [
+      "ground"
+    ],
+    "base_experience": 175
+  },
+  "dewpider": {
+    "types": [
+      "water",
+      "bug"
+    ],
+    "base_experience": 54
+  },
+  "araquanid": {
+    "types": [
+      "water",
+      "bug"
+    ],
+    "base_experience": 159
+  },
+  "fomantis": {
+    "types": [
+      "grass"
+    ],
+    "base_experience": 50
+  },
+  "lurantis": {
+    "types": [
+      "grass"
+    ],
+    "base_experience": 168
+  },
+  "morelull": {
+    "types": [
+      "grass",
+      "fairy"
+    ],
+    "base_experience": 57
+  },
+  "shiinotic": {
+    "types": [
+      "grass",
+      "fairy"
+    ],
+    "base_experience": 142
+  },
+  "salandit": {
+    "types": [
+      "poison",
+      "fire"
+    ],
+    "base_experience": 64
+  },
+  "salazzle": {
+    "types": [
+      "poison",
+      "fire"
+    ],
+    "base_experience": 168
+  },
+  "stufful": {
+    "types": [
+      "normal",
+      "fighting"
+    ],
+    "base_experience": 68
+  },
+  "bewear": {
+    "types": [
+      "normal",
+      "fighting"
+    ],
+    "base_experience": 175
+  },
+  "bounsweet": {
+    "types": [
+      "grass"
+    ],
+    "base_experience": 42
+  },
+  "steenee": {
+    "types": [
+      "grass"
+    ],
+    "base_experience": 102
+  },
+  "tsareena": {
+    "types": [
+      "grass"
+    ],
+    "base_experience": 230
+  },
+  "comfey": {
+    "types": [
+      "fairy"
+    ],
+    "base_experience": 170
+  },
+  "oranguru": {
+    "types": [
+      "normal",
+      "psychic"
+    ],
+    "base_experience": 172
+  },
+  "passimian": {
+    "types": [
+      "fighting"
+    ],
+    "base_experience": 172
+  },
+  "wimpod": {
+    "types": [
+      "bug",
+      "water"
+    ],
+    "base_experience": 46
+  },
+  "golisopod": {
+    "types": [
+      "bug",
+      "water"
+    ],
+    "base_experience": 186
+  },
+  "sandygast": {
+    "types": [
+      "ghost",
+      "ground"
+    ],
+    "base_experience": 64
+  },
+  "palossand": {
+    "types": [
+      "ghost",
+      "ground"
+    ],
+    "base_experience": 168
+  },
+  "pyukumuku": {
+    "types": [
+      "water"
+    ],
+    "base_experience": 144
+  },
+  "type-null": {
+    "types": [
+      "normal"
+    ],
+    "base_experience": 107
+  },
+  "silvally": {
+    "types": [
+      "normal"
+    ],
+    "base_experience": 257
+  },
+  "minior-red-meteor": {
+    "types": [
+      "rock",
+      "flying"
+    ],
+    "base_experience": 154
+  },
+  "komala": {
+    "types": [
+      "normal"
+    ],
+    "base_experience": 168
+  },
+  "turtonator": {
+    "types": [
+      "fire",
+      "dragon"
+    ],
+    "base_experience": 170
+  },
+  "togedemaru": {
+    "types": [
+      "electric",
+      "steel"
+    ],
+    "base_experience": 152
+  },
+  "mimikyu-disguised": {
+    "types": [
+      "ghost",
+      "fairy"
+    ],
+    "base_experience": 167
+  },
+  "bruxish": {
+    "types": [
+      "water",
+      "psychic"
+    ],
+    "base_experience": 166
+  },
+  "drampa": {
+    "types": [
+      "normal",
+      "dragon"
+    ],
+    "base_experience": 170
+  },
+  "dhelmise": {
+    "types": [
+      "ghost",
+      "grass"
+    ],
+    "base_experience": 181
+  },
+  "jangmo-o": {
+    "types": [
+      "dragon"
+    ],
+    "base_experience": 60
+  },
+  "hakamo-o": {
+    "types": [
+      "dragon",
+      "fighting"
+    ],
+    "base_experience": 147
+  },
+  "kommo-o": {
+    "types": [
+      "dragon",
+      "fighting"
+    ],
+    "base_experience": 270
+  },
+  "tapu-koko": {
+    "types": [
+      "electric",
+      "fairy"
+    ],
+    "base_experience": 257
+  },
+  "tapu-lele": {
+    "types": [
+      "psychic",
+      "fairy"
+    ],
+    "base_experience": 257
+  },
+  "tapu-bulu": {
+    "types": [
+      "grass",
+      "fairy"
+    ],
+    "base_experience": 257
+  },
+  "tapu-fini": {
+    "types": [
+      "water",
+      "fairy"
+    ],
+    "base_experience": 257
+  },
+  "cosmog": {
+    "types": [
+      "psychic"
+    ],
+    "base_experience": 40
+  },
+  "cosmoem": {
+    "types": [
+      "psychic"
+    ],
+    "base_experience": 140
+  },
+  "solgaleo": {
+    "types": [
+      "psychic",
+      "steel"
+    ],
+    "base_experience": 306
+  },
+  "lunala": {
+    "types": [
+      "psychic",
+      "ghost"
+    ],
+    "base_experience": 306
+  },
+  "nihilego": {
+    "types": [
+      "rock",
+      "poison"
+    ],
+    "base_experience": 257
+  },
+  "buzzwole": {
+    "types": [
+      "bug",
+      "fighting"
+    ],
+    "base_experience": 257
+  },
+  "pheromosa": {
+    "types": [
+      "bug",
+      "fighting"
+    ],
+    "base_experience": 257
+  },
+  "xurkitree": {
+    "types": [
+      "electric"
+    ],
+    "base_experience": 257
+  },
+  "celesteela": {
+    "types": [
+      "steel",
+      "flying"
+    ],
+    "base_experience": 257
+  },
+  "kartana": {
+    "types": [
+      "grass",
+      "steel"
+    ],
+    "base_experience": 257
+  },
+  "guzzlord": {
+    "types": [
+      "dark",
+      "dragon"
+    ],
+    "base_experience": 257
+  },
+  "necrozma": {
+    "types": [
+      "psychic"
+    ],
+    "base_experience": 270
+  },
+  "magearna": {
+    "types": [
+      "steel",
+      "fairy"
+    ],
+    "base_experience": 270
+  },
+  "marshadow": {
+    "types": [
+      "fighting",
+      "ghost"
+    ],
+    "base_experience": 270
+  },
+  "poipole": {
+    "types": [
+      "poison"
+    ],
+    "base_experience": 189
+  },
+  "naganadel": {
+    "types": [
+      "poison",
+      "dragon"
+    ],
+    "base_experience": 243
+  },
+  "stakataka": {
+    "types": [
+      "rock",
+      "steel"
+    ],
+    "base_experience": 257
+  },
+  "blacephalon": {
+    "types": [
+      "fire",
+      "ghost"
+    ],
+    "base_experience": 257
+  },
+  "zeraora": {
+    "types": [
+      "electric"
+    ],
+    "base_experience": 270
+  },
+  "meltan": {
+    "types": [
+      "steel"
+    ],
+    "base_experience": 135
+  },
+  "melmetal": {
+    "types": [
+      "steel"
+    ],
+    "base_experience": 270
+  },
+  "grookey": {
+    "types": [
+      "grass"
+    ],
+    "base_experience": 62
+  },
+  "thwackey": {
+    "types": [
+      "grass"
+    ],
+    "base_experience": 147
+  },
+  "rillaboom": {
+    "types": [
+      "grass"
+    ],
+    "base_experience": 265
+  },
+  "scorbunny": {
+    "types": [
+      "fire"
+    ],
+    "base_experience": 62
+  },
+  "raboot": {
+    "types": [
+      "fire"
+    ],
+    "base_experience": 147
+  },
+  "cinderace": {
+    "types": [
+      "fire"
+    ],
+    "base_experience": 265
+  },
+  "sobble": {
+    "types": [
+      "water"
+    ],
+    "base_experience": 62
+  },
+  "drizzile": {
+    "types": [
+      "water"
+    ],
+    "base_experience": 147
+  },
+  "inteleon": {
+    "types": [
+      "water"
+    ],
+    "base_experience": 265
+  },
+  "skwovet": {
+    "types": [
+      "normal"
+    ],
+    "base_experience": 55
+  },
+  "greedent": {
+    "types": [
+      "normal"
+    ],
+    "base_experience": 161
+  },
+  "rookidee": {
+    "types": [
+      "flying"
+    ],
+    "base_experience": 49
+  },
+  "corvisquire": {
+    "types": [
+      "flying"
+    ],
+    "base_experience": 128
+  },
+  "corviknight": {
+    "types": [
+      "flying",
+      "steel"
+    ],
+    "base_experience": 248
+  },
+  "blipbug": {
+    "types": [
+      "bug"
+    ],
+    "base_experience": 36
+  },
+  "dottler": {
+    "types": [
+      "bug",
+      "psychic"
+    ],
+    "base_experience": 117
+  },
+  "orbeetle": {
+    "types": [
+      "bug",
+      "psychic"
+    ],
+    "base_experience": 253
+  },
+  "nickit": {
+    "types": [
+      "dark"
+    ],
+    "base_experience": 49
+  },
+  "thievul": {
+    "types": [
+      "dark"
+    ],
+    "base_experience": 159
+  },
+  "gossifleur": {
+    "types": [
+      "grass"
+    ],
+    "base_experience": 50
+  },
+  "eldegoss": {
+    "types": [
+      "grass"
+    ],
+    "base_experience": 161
+  },
+  "wooloo": {
+    "types": [
+      "normal"
+    ],
+    "base_experience": 122
+  },
+  "dubwool": {
+    "types": [
+      "normal"
+    ],
+    "base_experience": 172
+  },
+  "chewtle": {
+    "types": [
+      "water"
+    ],
+    "base_experience": 57
+  },
+  "drednaw": {
+    "types": [
+      "water",
+      "rock"
+    ],
+    "base_experience": 170
+  },
+  "yamper": {
+    "types": [
+      "electric"
+    ],
+    "base_experience": 54
+  },
+  "boltund": {
+    "types": [
+      "electric"
+    ],
+    "base_experience": 172
+  },
+  "rolycoly": {
+    "types": [
+      "rock"
+    ],
+    "base_experience": 48
+  },
+  "carkol": {
+    "types": [
+      "rock",
+      "fire"
+    ],
+    "base_experience": 144
+  },
+  "coalossal": {
+    "types": [
+      "rock",
+      "fire"
+    ],
+    "base_experience": 255
+  },
+  "applin": {
+    "types": [
+      "grass",
+      "dragon"
+    ],
+    "base_experience": 52
+  },
+  "flapple": {
+    "types": [
+      "grass",
+      "dragon"
+    ],
+    "base_experience": 170
+  },
+  "appletun": {
+    "types": [
+      "grass",
+      "dragon"
+    ],
+    "base_experience": 170
+  },
+  "silicobra": {
+    "types": [
+      "ground"
+    ],
+    "base_experience": 63
+  },
+  "sandaconda": {
+    "types": [
+      "ground"
+    ],
+    "base_experience": 179
+  },
+  "cramorant": {
+    "types": [
+      "flying",
+      "water"
+    ],
+    "base_experience": 166
+  },
+  "arrokuda": {
+    "types": [
+      "water"
+    ],
+    "base_experience": 56
+  },
+  "barraskewda": {
+    "types": [
+      "water"
+    ],
+    "base_experience": 172
+  },
+  "toxel": {
+    "types": [
+      "electric",
+      "poison"
+    ],
+    "base_experience": 48
+  },
+  "toxtricity-amped": {
+    "types": [
+      "electric",
+      "poison"
+    ],
+    "base_experience": 176
+  },
+  "sizzlipede": {
+    "types": [
+      "fire",
+      "bug"
+    ],
+    "base_experience": 61
+  },
+  "centiskorch": {
+    "types": [
+      "fire",
+      "bug"
+    ],
+    "base_experience": 184
+  },
+  "clobbopus": {
+    "types": [
+      "fighting"
+    ],
+    "base_experience": 62
+  },
+  "grapploct": {
+    "types": [
+      "fighting"
+    ],
+    "base_experience": 168
+  },
+  "sinistea": {
+    "types": [
+      "ghost"
+    ],
+    "base_experience": 62
+  },
+  "polteageist": {
+    "types": [
+      "ghost"
+    ],
+    "base_experience": 178
+  },
+  "hatenna": {
+    "types": [
+      "psychic"
+    ],
+    "base_experience": 53
+  },
+  "hattrem": {
+    "types": [
+      "psychic"
+    ],
+    "base_experience": 130
+  },
+  "hatterene": {
+    "types": [
+      "psychic",
+      "fairy"
+    ],
+    "base_experience": 255
+  },
+  "impidimp": {
+    "types": [
+      "dark",
+      "fairy"
+    ],
+    "base_experience": 53
+  },
+  "morgrem": {
+    "types": [
+      "dark",
+      "fairy"
+    ],
+    "base_experience": 130
+  },
+  "grimmsnarl": {
+    "types": [
+      "dark",
+      "fairy"
+    ],
+    "base_experience": 255
+  },
+  "obstagoon": {
+    "types": [
+      "dark",
+      "normal"
+    ],
+    "base_experience": 260
+  },
+  "perrserker": {
+    "types": [
+      "steel"
+    ],
+    "base_experience": 154
+  },
+  "cursola": {
+    "types": [
+      "ghost"
+    ],
+    "base_experience": 179
+  },
+  "sirfetchd": {
+    "types": [
+      "fighting"
+    ],
+    "base_experience": 177
+  },
+  "mr-rime": {
+    "types": [
+      "ice",
+      "psychic"
+    ],
+    "base_experience": 182
+  },
+  "runerigus": {
+    "types": [
+      "ground",
+      "ghost"
+    ],
+    "base_experience": 169
+  },
+  "milcery": {
+    "types": [
+      "fairy"
+    ],
+    "base_experience": 54
+  },
+  "alcremie": {
+    "types": [
+      "fairy"
+    ],
+    "base_experience": 173
+  },
+  "falinks": {
+    "types": [
+      "fighting"
+    ],
+    "base_experience": 165
+  },
+  "pincurchin": {
+    "types": [
+      "electric"
+    ],
+    "base_experience": 152
+  },
+  "snom": {
+    "types": [
+      "ice",
+      "bug"
+    ],
+    "base_experience": 37
+  },
+  "frosmoth": {
+    "types": [
+      "ice",
+      "bug"
+    ],
+    "base_experience": 166
+  },
+  "stonjourner": {
+    "types": [
+      "rock"
+    ],
+    "base_experience": 165
+  },
+  "eiscue-ice": {
+    "types": [
+      "ice"
+    ],
+    "base_experience": 165
+  },
+  "indeedee-male": {
+    "types": [
+      "psychic",
+      "normal"
+    ],
+    "base_experience": 166
+  },
+  "morpeko-full-belly": {
+    "types": [
+      "electric",
+      "dark"
+    ],
+    "base_experience": 153
+  },
+  "cufant": {
+    "types": [
+      "steel"
+    ],
+    "base_experience": 66
+  },
+  "copperajah": {
+    "types": [
+      "steel"
+    ],
+    "base_experience": 175
+  },
+  "dracozolt": {
+    "types": [
+      "electric",
+      "dragon"
+    ],
+    "base_experience": 177
+  },
+  "arctozolt": {
+    "types": [
+      "electric",
+      "ice"
+    ],
+    "base_experience": 177
+  },
+  "dracovish": {
+    "types": [
+      "water",
+      "dragon"
+    ],
+    "base_experience": 177
+  },
+  "arctovish": {
+    "types": [
+      "water",
+      "ice"
+    ],
+    "base_experience": 177
+  },
+  "duraludon": {
+    "types": [
+      "steel",
+      "dragon"
+    ],
+    "base_experience": 187
+  },
+  "dreepy": {
+    "types": [
+      "dragon",
+      "ghost"
+    ],
+    "base_experience": 54
+  },
+  "drakloak": {
+    "types": [
+      "dragon",
+      "ghost"
+    ],
+    "base_experience": 144
+  },
+  "dragapult": {
+    "types": [
+      "dragon",
+      "ghost"
+    ],
+    "base_experience": 300
+  },
+  "zacian": {
+    "types": [
+      "fairy"
+    ],
+    "base_experience": 335
+  },
+  "zamazenta": {
+    "types": [
+      "fighting"
+    ],
+    "base_experience": 335
+  },
+  "eternatus": {
+    "types": [
+      "poison",
+      "dragon"
+    ],
+    "base_experience": 345
+  },
+  "kubfu": {
+    "types": [
+      "fighting"
+    ],
+    "base_experience": 77
+  },
+  "urshifu-single-strike": {
+    "types": [
+      "fighting",
+      "dark"
+    ],
+    "base_experience": 275
+  },
+  "zarude": {
+    "types": [
+      "dark",
+      "grass"
+    ],
+    "base_experience": 300
+  },
+  "regieleki": {
+    "types": [
+      "electric"
+    ],
+    "base_experience": 290
+  },
+  "regidrago": {
+    "types": [
+      "dragon"
+    ],
+    "base_experience": 290
+  },
+  "glastrier": {
+    "types": [
+      "ice"
+    ],
+    "base_experience": 290
+  },
+  "spectrier": {
+    "types": [
+      "ghost"
+    ],
+    "base_experience": 290
+  },
+  "calyrex": {
+    "types": [
+      "psychic",
+      "grass"
+    ],
+    "base_experience": 250
+  },
+  "wyrdeer": {
+    "types": [
+      "normal",
+      "psychic"
+    ],
+    "base_experience": 263
+  },
+  "kleavor": {
+    "types": [
+      "bug",
+      "rock"
+    ],
+    "base_experience": 175
+  },
+  "ursaluna": {
+    "types": [
+      "ground",
+      "normal"
+    ],
+    "base_experience": 275
+  },
+  "basculegion-male": {
+    "types": [
+      "water",
+      "ghost"
+    ],
+    "base_experience": 265
+  },
+  "sneasler": {
+    "types": [
+      "fighting",
+      "poison"
+    ],
+    "base_experience": 102
+  },
+  "overqwil": {
+    "types": [
+      "dark",
+      "poison"
+    ],
+    "base_experience": 179
+  },
+  "enamorus-incarnate": {
+    "types": [
+      "fairy",
+      "flying"
+    ],
+    "base_experience": 116
+  },
+  "sprigatito": {
+    "types": [
+      "grass"
+    ],
+    "base_experience": 62
+  },
+  "floragato": {
+    "types": [
+      "grass"
+    ],
+    "base_experience": 144
+  },
+  "meowscarada": {
+    "types": [
+      "grass",
+      "dark"
+    ],
+    "base_experience": 265
+  },
+  "fuecoco": {
+    "types": [
+      "fire"
+    ],
+    "base_experience": 62
+  },
+  "crocalor": {
+    "types": [
+      "fire"
+    ],
+    "base_experience": 144
+  },
+  "skeledirge": {
+    "types": [
+      "fire",
+      "ghost"
+    ],
+    "base_experience": 265
+  },
+  "quaxly": {
+    "types": [
+      "water"
+    ],
+    "base_experience": 62
+  },
+  "quaxwell": {
+    "types": [
+      "water"
+    ],
+    "base_experience": 144
+  },
+  "quaquaval": {
+    "types": [
+      "water",
+      "fighting"
+    ],
+    "base_experience": 265
+  },
+  "lechonk": {
+    "types": [
+      "normal"
+    ],
+    "base_experience": 51
+  },
+  "oinkologne-male": {
+    "types": [
+      "normal"
+    ],
+    "base_experience": 171
+  },
+  "tarountula": {
+    "types": [
+      "bug"
+    ],
+    "base_experience": 42
+  },
+  "spidops": {
+    "types": [
+      "bug"
+    ],
+    "base_experience": 141
+  },
+  "nymble": {
+    "types": [
+      "bug"
+    ],
+    "base_experience": 42
+  },
+  "lokix": {
+    "types": [
+      "bug",
+      "dark"
+    ],
+    "base_experience": 158
+  },
+  "pawmi": {
+    "types": [
+      "electric"
+    ],
+    "base_experience": 48
+  },
+  "pawmo": {
+    "types": [
+      "electric",
+      "fighting"
+    ],
+    "base_experience": 123
+  },
+  "pawmot": {
+    "types": [
+      "electric",
+      "fighting"
+    ],
+    "base_experience": 245
+  },
+  "tandemaus": {
+    "types": [
+      "normal"
+    ],
+    "base_experience": 61
+  },
+  "maushold-family-of-four": {
+    "types": [
+      "normal"
+    ],
+    "base_experience": 165
+  },
+  "fidough": {
+    "types": [
+      "fairy"
+    ],
+    "base_experience": 62
+  },
+  "dachsbun": {
+    "types": [
+      "fairy"
+    ],
+    "base_experience": 167
+  },
+  "smoliv": {
+    "types": [
+      "grass",
+      "normal"
+    ],
+    "base_experience": 52
+  },
+  "dolliv": {
+    "types": [
+      "grass",
+      "normal"
+    ],
+    "base_experience": 124
+  },
+  "arboliva": {
+    "types": [
+      "grass",
+      "normal"
+    ],
+    "base_experience": 255
+  },
+  "squawkabilly-green-plumage": {
+    "types": [
+      "normal",
+      "flying"
+    ],
+    "base_experience": 146
+  },
+  "nacli": {
+    "types": [
+      "rock"
+    ],
+    "base_experience": 56
+  },
+  "naclstack": {
+    "types": [
+      "rock"
+    ],
+    "base_experience": 124
+  },
+  "garganacl": {
+    "types": [
+      "rock"
+    ],
+    "base_experience": 250
+  },
+  "charcadet": {
+    "types": [
+      "fire"
+    ],
+    "base_experience": 51
+  },
+  "armarouge": {
+    "types": [
+      "fire",
+      "psychic"
+    ],
+    "base_experience": 263
+  },
+  "ceruledge": {
+    "types": [
+      "fire",
+      "ghost"
+    ],
+    "base_experience": 263
+  },
+  "tadbulb": {
+    "types": [
+      "electric"
+    ],
+    "base_experience": 54
+  },
+  "bellibolt": {
+    "types": [
+      "electric"
+    ],
+    "base_experience": 173
+  },
+  "wattrel": {
+    "types": [
+      "electric",
+      "flying"
+    ],
+    "base_experience": 56
+  },
+  "kilowattrel": {
+    "types": [
+      "electric",
+      "flying"
+    ],
+    "base_experience": 172
+  },
+  "maschiff": {
+    "types": [
+      "dark"
+    ],
+    "base_experience": 68
+  },
+  "mabosstiff": {
+    "types": [
+      "dark"
+    ],
+    "base_experience": 177
+  },
+  "shroodle": {
+    "types": [
+      "poison",
+      "normal"
+    ],
+    "base_experience": 58
+  },
+  "grafaiai": {
+    "types": [
+      "poison",
+      "normal"
+    ],
+    "base_experience": 170
+  },
+  "bramblin": {
+    "types": [
+      "grass",
+      "ghost"
+    ],
+    "base_experience": 55
+  },
+  "brambleghast": {
+    "types": [
+      "grass",
+      "ghost"
+    ],
+    "base_experience": 168
+  },
+  "toedscool": {
+    "types": [
+      "ground",
+      "grass"
+    ],
+    "base_experience": 67
+  },
+  "toedscruel": {
+    "types": [
+      "ground",
+      "grass"
+    ],
+    "base_experience": 180
+  },
+  "klawf": {
+    "types": [
+      "rock"
+    ],
+    "base_experience": 158
+  },
+  "capsakid": {
+    "types": [
+      "grass"
+    ],
+    "base_experience": 61
+  },
+  "scovillain": {
+    "types": [
+      "grass",
+      "fire"
+    ],
+    "base_experience": 170
+  },
+  "rellor": {
+    "types": [
+      "bug"
+    ],
+    "base_experience": 54
+  },
+  "rabsca": {
+    "types": [
+      "bug",
+      "psychic"
+    ],
+    "base_experience": 165
+  },
+  "flittle": {
+    "types": [
+      "psychic"
+    ],
+    "base_experience": 51
+  },
+  "espathra": {
+    "types": [
+      "psychic"
+    ],
+    "base_experience": 168
+  },
+  "tinkatink": {
+    "types": [
+      "fairy",
+      "steel"
+    ],
+    "base_experience": 59
+  },
+  "tinkatuff": {
+    "types": [
+      "fairy",
+      "steel"
+    ],
+    "base_experience": 133
+  },
+  "tinkaton": {
+    "types": [
+      "fairy",
+      "steel"
+    ],
+    "base_experience": 253
+  },
+  "wiglett": {
+    "types": [
+      "water"
+    ],
+    "base_experience": 49
+  },
+  "wugtrio": {
+    "types": [
+      "water"
+    ],
+    "base_experience": 149
+  },
+  "bombirdier": {
+    "types": [
+      "flying",
+      "dark"
+    ],
+    "base_experience": 243
+  },
+  "finizen": {
+    "types": [
+      "water"
+    ],
+    "base_experience": 63
+  },
+  "palafin-zero": {
+    "types": [
+      "water"
+    ],
+    "base_experience": 160
+  },
+  "varoom": {
+    "types": [
+      "steel",
+      "poison"
+    ],
+    "base_experience": 60
+  },
+  "revavroom": {
+    "types": [
+      "steel",
+      "poison"
+    ],
+    "base_experience": 175
+  },
+  "cyclizar": {
+    "types": [
+      "dragon",
+      "normal"
+    ],
+    "base_experience": 175
+  },
+  "orthworm": {
+    "types": [
+      "steel"
+    ],
+    "base_experience": 240
+  },
+  "glimmet": {
+    "types": [
+      "rock",
+      "poison"
+    ],
+    "base_experience": 70
+  },
+  "glimmora": {
+    "types": [
+      "rock",
+      "poison"
+    ],
+    "base_experience": 184
+  },
+  "greavard": {
+    "types": [
+      "ghost"
+    ],
+    "base_experience": 58
+  },
+  "houndstone": {
+    "types": [
+      "ghost"
+    ],
+    "base_experience": 171
+  },
+  "flamigo": {
+    "types": [
+      "flying",
+      "fighting"
+    ],
+    "base_experience": 175
+  },
+  "cetoddle": {
+    "types": [
+      "ice"
+    ],
+    "base_experience": 67
+  },
+  "cetitan": {
+    "types": [
+      "ice"
+    ],
+    "base_experience": 182
+  },
+  "veluza": {
+    "types": [
+      "water",
+      "psychic"
+    ],
+    "base_experience": 167
+  },
+  "dondozo": {
+    "types": [
+      "water"
+    ],
+    "base_experience": 265
+  },
+  "tatsugiri-curly": {
+    "types": [
+      "dragon",
+      "water"
+    ],
+    "base_experience": 166
+  },
+  "annihilape": {
+    "types": [
+      "fighting",
+      "ghost"
+    ],
+    "base_experience": 268
+  },
+  "clodsire": {
+    "types": [
+      "poison",
+      "ground"
+    ],
+    "base_experience": 151
+  },
+  "farigiraf": {
+    "types": [
+      "normal",
+      "psychic"
+    ],
+    "base_experience": 260
+  },
+  "dudunsparce-two-segment": {
+    "types": [
+      "normal"
+    ],
+    "base_experience": 182
+  },
+  "kingambit": {
+    "types": [
+      "dark",
+      "steel"
+    ],
+    "base_experience": 275
+  },
+  "great-tusk": {
+    "types": [
+      "ground",
+      "fighting"
+    ],
+    "base_experience": 285
+  },
+  "scream-tail": {
+    "types": [
+      "fairy",
+      "psychic"
+    ],
+    "base_experience": 285
+  },
+  "brute-bonnet": {
+    "types": [
+      "grass",
+      "dark"
+    ],
+    "base_experience": 285
+  },
+  "flutter-mane": {
+    "types": [
+      "ghost",
+      "fairy"
+    ],
+    "base_experience": 285
+  },
+  "slither-wing": {
+    "types": [
+      "bug",
+      "fighting"
+    ],
+    "base_experience": 285
+  },
+  "sandy-shocks": {
+    "types": [
+      "electric",
+      "ground"
+    ],
+    "base_experience": 285
+  },
+  "iron-treads": {
+    "types": [
+      "ground",
+      "steel"
+    ],
+    "base_experience": 285
+  },
+  "iron-bundle": {
+    "types": [
+      "ice",
+      "water"
+    ],
+    "base_experience": 285
+  },
+  "iron-hands": {
+    "types": [
+      "fighting",
+      "electric"
+    ],
+    "base_experience": 285
+  },
+  "iron-jugulis": {
+    "types": [
+      "dark",
+      "flying"
+    ],
+    "base_experience": 285
+  },
+  "iron-moth": {
+    "types": [
+      "fire",
+      "poison"
+    ],
+    "base_experience": 285
+  },
+  "iron-thorns": {
+    "types": [
+      "rock",
+      "electric"
+    ],
+    "base_experience": 285
+  },
+  "frigibax": {
+    "types": [
+      "dragon",
+      "ice"
+    ],
+    "base_experience": 64
+  },
+  "arctibax": {
+    "types": [
+      "dragon",
+      "ice"
+    ],
+    "base_experience": 148
+  },
+  "baxcalibur": {
+    "types": [
+      "dragon",
+      "ice"
+    ],
+    "base_experience": 300
+  },
+  "gimmighoul": {
+    "types": [
+      "ghost"
+    ],
+    "base_experience": 60
+  },
+  "gholdengo": {
+    "types": [
+      "steel",
+      "ghost"
+    ],
+    "base_experience": 275
+  },
+  "wo-chien": {
+    "types": [
+      "dark",
+      "grass"
+    ],
+    "base_experience": 285
+  },
+  "chien-pao": {
+    "types": [
+      "dark",
+      "ice"
+    ],
+    "base_experience": 285
+  },
+  "ting-lu": {
+    "types": [
+      "dark",
+      "ground"
+    ],
+    "base_experience": 285
+  },
+  "chi-yu": {
+    "types": [
+      "dark",
+      "fire"
+    ],
+    "base_experience": 285
+  },
+  "roaring-moon": {
+    "types": [
+      "dragon",
+      "dark"
+    ],
+    "base_experience": 295
+  },
+  "iron-valiant": {
+    "types": [
+      "fairy",
+      "fighting"
+    ],
+    "base_experience": 295
+  },
+  "koraidon": {
+    "types": [
+      "fighting",
+      "dragon"
+    ],
+    "base_experience": 335
+  },
+  "miraidon": {
+    "types": [
+      "electric",
+      "dragon"
+    ],
+    "base_experience": 335
+  },
+  "walking-wake": {
+    "types": [
+      "water",
+      "dragon"
+    ],
+    "base_experience": 295
+  },
+  "iron-leaves": {
+    "types": [
+      "grass",
+      "psychic"
+    ],
+    "base_experience": 295
+  },
+  "dipplin": {
+    "types": [
+      "grass",
+      "dragon"
+    ],
+    "base_experience": 170
+  },
+  "poltchageist": {
+    "types": [
+      "grass",
+      "ghost"
+    ],
+    "base_experience": 62
+  },
+  "sinistcha": {
+    "types": [
+      "grass",
+      "ghost"
+    ],
+    "base_experience": 178
+  },
+  "okidogi": {
+    "types": [
+      "poison",
+      "fighting"
+    ],
+    "base_experience": 278
+  },
+  "munkidori": {
+    "types": [
+      "poison",
+      "psychic"
+    ],
+    "base_experience": 278
+  },
+  "fezandipiti": {
+    "types": [
+      "poison",
+      "fairy"
+    ],
+    "base_experience": 278
+  },
+  "ogerpon": {
+    "types": [
+      "grass"
+    ],
+    "base_experience": 275
+  },
+  "archaludon": {
+    "types": [
+      "steel",
+      "dragon"
+    ],
+    "base_experience": 300
+  },
+  "hydrapple": {
+    "types": [
+      "grass",
+      "dragon"
+    ],
+    "base_experience": 270
+  },
+  "gouging-fire": {
+    "types": [
+      "fire",
+      "dragon"
+    ],
+    "base_experience": 295
+  },
+  "raging-bolt": {
+    "types": [
+      "electric",
+      "dragon"
+    ],
+    "base_experience": 295
+  },
+  "iron-boulder": {
+    "types": [
+      "rock",
+      "psychic"
+    ],
+    "base_experience": 295
+  },
+  "iron-crown": {
+    "types": [
+      "steel",
+      "psychic"
+    ],
+    "base_experience": 295
+  },
+  "terapagos": {
+    "types": [
+      "normal"
+    ],
+    "base_experience": 90
+  },
+  "pecharunt": {
+    "types": [
+      "poison",
+      "ghost"
+    ],
+    "base_experience": 300
+  },
+  "deoxys-attack": {
+    "types": [
+      "psychic"
+    ],
+    "base_experience": 270
+  },
+  "deoxys-defense": {
+    "types": [
+      "psychic"
+    ],
+    "base_experience": 270
+  },
+  "deoxys-speed": {
+    "types": [
+      "psychic"
+    ],
+    "base_experience": 270
+  },
+  "wormadam-sandy": {
+    "types": [
+      "bug",
+      "ground"
+    ],
+    "base_experience": 148
+  },
+  "wormadam-trash": {
+    "types": [
+      "bug",
+      "steel"
+    ],
+    "base_experience": 148
+  },
+  "shaymin-sky": {
+    "types": [
+      "grass",
+      "flying"
+    ],
+    "base_experience": 270
+  },
+  "giratina-origin": {
+    "types": [
+      "ghost",
+      "dragon"
+    ],
+    "base_experience": 340
+  },
+  "rotom-heat": {
+    "types": [
+      "electric",
+      "fire"
+    ],
+    "base_experience": 182
+  },
+  "rotom-wash": {
+    "types": [
+      "electric",
+      "water"
+    ],
+    "base_experience": 182
+  },
+  "rotom-frost": {
+    "types": [
+      "electric",
+      "ice"
+    ],
+    "base_experience": 182
+  },
+  "rotom-fan": {
+    "types": [
+      "electric",
+      "flying"
+    ],
+    "base_experience": 182
+  },
+  "rotom-mow": {
+    "types": [
+      "electric",
+      "grass"
+    ],
+    "base_experience": 182
+  },
+  "castform-sunny": {
+    "types": [
+      "fire"
+    ],
+    "base_experience": 147
+  },
+  "castform-rainy": {
+    "types": [
+      "water"
+    ],
+    "base_experience": 147
+  },
+  "castform-snowy": {
+    "types": [
+      "ice"
+    ],
+    "base_experience": 147
+  },
+  "basculin-blue-striped": {
+    "types": [
+      "water"
+    ],
+    "base_experience": 161
+  },
+  "darmanitan-zen": {
+    "types": [
+      "fire",
+      "psychic"
+    ],
+    "base_experience": 189
+  },
+  "meloetta-pirouette": {
+    "types": [
+      "normal",
+      "fighting"
+    ],
+    "base_experience": 270
+  },
+  "tornadus-therian": {
+    "types": [
+      "flying"
+    ],
+    "base_experience": 290
+  },
+  "thundurus-therian": {
+    "types": [
+      "electric",
+      "flying"
+    ],
+    "base_experience": 290
+  },
+  "landorus-therian": {
+    "types": [
+      "ground",
+      "flying"
+    ],
+    "base_experience": 300
+  },
+  "kyurem-black": {
+    "types": [
+      "dragon",
+      "ice"
+    ],
+    "base_experience": 350
+  },
+  "kyurem-white": {
+    "types": [
+      "dragon",
+      "ice"
+    ],
+    "base_experience": 350
+  },
+  "keldeo-resolute": {
+    "types": [
+      "water",
+      "fighting"
+    ],
+    "base_experience": 290
+  },
+  "meowstic-female": {
+    "types": [
+      "psychic"
+    ],
+    "base_experience": 163
+  },
+  "aegislash-blade": {
+    "types": [
+      "steel",
+      "ghost"
+    ],
+    "base_experience": 250
+  },
+  "pumpkaboo-small": {
+    "types": [
+      "ghost",
+      "grass"
+    ],
+    "base_experience": 67
+  },
+  "pumpkaboo-large": {
+    "types": [
+      "ghost",
+      "grass"
+    ],
+    "base_experience": 67
+  },
+  "pumpkaboo-super": {
+    "types": [
+      "ghost",
+      "grass"
+    ],
+    "base_experience": 67
+  },
+  "gourgeist-small": {
+    "types": [
+      "ghost",
+      "grass"
+    ],
+    "base_experience": 173
+  },
+  "gourgeist-large": {
+    "types": [
+      "ghost",
+      "grass"
+    ],
+    "base_experience": 173
+  },
+  "gourgeist-super": {
+    "types": [
+      "ghost",
+      "grass"
+    ],
+    "base_experience": 173
+  },
+  "venusaur-mega": {
+    "types": [
+      "grass",
+      "poison"
+    ],
+    "base_experience": 281
+  },
+  "charizard-mega-x": {
+    "types": [
+      "fire",
+      "dragon"
+    ],
+    "base_experience": 285
+  },
+  "charizard-mega-y": {
+    "types": [
+      "fire",
+      "flying"
+    ],
+    "base_experience": 285
+  },
+  "blastoise-mega": {
+    "types": [
+      "water"
+    ],
+    "base_experience": 284
+  },
+  "alakazam-mega": {
+    "types": [
+      "psychic"
+    ],
+    "base_experience": 270
+  },
+  "gengar-mega": {
+    "types": [
+      "ghost",
+      "poison"
+    ],
+    "base_experience": 270
+  },
+  "kangaskhan-mega": {
+    "types": [
+      "normal"
+    ],
+    "base_experience": 207
+  },
+  "pinsir-mega": {
+    "types": [
+      "bug",
+      "flying"
+    ],
+    "base_experience": 210
+  },
+  "gyarados-mega": {
+    "types": [
+      "water",
+      "dark"
+    ],
+    "base_experience": 224
+  },
+  "aerodactyl-mega": {
+    "types": [
+      "rock",
+      "flying"
+    ],
+    "base_experience": 215
+  },
+  "mewtwo-mega-x": {
+    "types": [
+      "psychic",
+      "fighting"
+    ],
+    "base_experience": 351
+  },
+  "mewtwo-mega-y": {
+    "types": [
+      "psychic"
+    ],
+    "base_experience": 351
+  },
+  "ampharos-mega": {
+    "types": [
+      "electric",
+      "dragon"
+    ],
+    "base_experience": 275
+  },
+  "scizor-mega": {
+    "types": [
+      "bug",
+      "steel"
+    ],
+    "base_experience": 210
+  },
+  "heracross-mega": {
+    "types": [
+      "bug",
+      "fighting"
+    ],
+    "base_experience": 210
+  },
+  "houndoom-mega": {
+    "types": [
+      "dark",
+      "fire"
+    ],
+    "base_experience": 210
+  },
+  "tyranitar-mega": {
+    "types": [
+      "rock",
+      "dark"
+    ],
+    "base_experience": 315
+  },
+  "blaziken-mega": {
+    "types": [
+      "fire",
+      "fighting"
+    ],
+    "base_experience": 284
+  },
+  "gardevoir-mega": {
+    "types": [
+      "psychic",
+      "fairy"
+    ],
+    "base_experience": 278
+  },
+  "mawile-mega": {
+    "types": [
+      "steel",
+      "fairy"
+    ],
+    "base_experience": 168
+  },
+  "aggron-mega": {
+    "types": [
+      "steel"
+    ],
+    "base_experience": 284
+  },
+  "medicham-mega": {
+    "types": [
+      "fighting",
+      "psychic"
+    ],
+    "base_experience": 179
+  },
+  "manectric-mega": {
+    "types": [
+      "electric"
+    ],
+    "base_experience": 201
+  },
+  "banette-mega": {
+    "types": [
+      "ghost"
+    ],
+    "base_experience": 194
+  },
+  "absol-mega": {
+    "types": [
+      "dark"
+    ],
+    "base_experience": 198
+  },
+  "garchomp-mega": {
+    "types": [
+      "dragon",
+      "ground"
+    ],
+    "base_experience": 315
+  },
+  "lucario-mega": {
+    "types": [
+      "fighting",
+      "steel"
+    ],
+    "base_experience": 219
+  },
+  "abomasnow-mega": {
+    "types": [
+      "grass",
+      "ice"
+    ],
+    "base_experience": 208
+  },
+  "floette-eternal": {
+    "types": [
+      "fairy"
+    ],
+    "base_experience": 243
+  },
+  "latias-mega": {
+    "types": [
+      "dragon",
+      "psychic"
+    ],
+    "base_experience": 315
+  },
+  "latios-mega": {
+    "types": [
+      "dragon",
+      "psychic"
+    ],
+    "base_experience": 315
+  },
+  "swampert-mega": {
+    "types": [
+      "water",
+      "ground"
+    ],
+    "base_experience": 286
+  },
+  "sceptile-mega": {
+    "types": [
+      "grass",
+      "dragon"
+    ],
+    "base_experience": 284
+  },
+  "sableye-mega": {
+    "types": [
+      "dark",
+      "ghost"
+    ],
+    "base_experience": 168
+  },
+  "altaria-mega": {
+    "types": [
+      "dragon",
+      "fairy"
+    ],
+    "base_experience": 207
+  },
+  "gallade-mega": {
+    "types": [
+      "psychic",
+      "fighting"
+    ],
+    "base_experience": 278
+  },
+  "audino-mega": {
+    "types": [
+      "normal",
+      "fairy"
+    ],
+    "base_experience": 425
+  },
+  "sharpedo-mega": {
+    "types": [
+      "water",
+      "dark"
+    ],
+    "base_experience": 196
+  },
+  "slowbro-mega": {
+    "types": [
+      "water",
+      "psychic"
+    ],
+    "base_experience": 207
+  },
+  "steelix-mega": {
+    "types": [
+      "steel",
+      "ground"
+    ],
+    "base_experience": 214
+  },
+  "pidgeot-mega": {
+    "types": [
+      "normal",
+      "flying"
+    ],
+    "base_experience": 261
+  },
+  "glalie-mega": {
+    "types": [
+      "ice"
+    ],
+    "base_experience": 203
+  },
+  "diancie-mega": {
+    "types": [
+      "rock",
+      "fairy"
+    ],
+    "base_experience": 315
+  },
+  "metagross-mega": {
+    "types": [
+      "steel",
+      "psychic"
+    ],
+    "base_experience": 315
+  },
+  "kyogre-primal": {
+    "types": [
+      "water"
+    ],
+    "base_experience": 347
+  },
+  "groudon-primal": {
+    "types": [
+      "ground",
+      "fire"
+    ],
+    "base_experience": 347
+  },
+  "rayquaza-mega": {
+    "types": [
+      "dragon",
+      "flying"
+    ],
+    "base_experience": 351
+  },
+  "pikachu-rock-star": {
+    "types": [
+      "electric"
+    ],
+    "base_experience": 112
+  },
+  "pikachu-belle": {
+    "types": [
+      "electric"
+    ],
+    "base_experience": 112
+  },
+  "pikachu-pop-star": {
+    "types": [
+      "electric"
+    ],
+    "base_experience": 112
+  },
+  "pikachu-phd": {
+    "types": [
+      "electric"
+    ],
+    "base_experience": 112
+  },
+  "pikachu-libre": {
+    "types": [
+      "electric"
+    ],
+    "base_experience": 112
+  },
+  "pikachu-cosplay": {
+    "types": [
+      "electric"
+    ],
+    "base_experience": 112
+  },
+  "hoopa-unbound": {
+    "types": [
+      "psychic",
+      "dark"
+    ],
+    "base_experience": 306
+  },
+  "camerupt-mega": {
+    "types": [
+      "fire",
+      "ground"
+    ],
+    "base_experience": 196
+  },
+  "lopunny-mega": {
+    "types": [
+      "normal",
+      "fighting"
+    ],
+    "base_experience": 203
+  },
+  "salamence-mega": {
+    "types": [
+      "dragon",
+      "flying"
+    ],
+    "base_experience": 315
+  },
+  "beedrill-mega": {
+    "types": [
+      "bug",
+      "poison"
+    ],
+    "base_experience": 223
+  },
+  "rattata-alola": {
+    "types": [
+      "dark",
+      "normal"
+    ],
+    "base_experience": 51
+  },
+  "raticate-alola": {
+    "types": [
+      "dark",
+      "normal"
+    ],
+    "base_experience": 145
+  },
+  "raticate-totem-alola": {
+    "types": [
+      "dark",
+      "normal"
+    ],
+    "base_experience": 145
+  },
+  "pikachu-original-cap": {
+    "types": [
+      "electric"
+    ],
+    "base_experience": 112
+  },
+  "pikachu-hoenn-cap": {
+    "types": [
+      "electric"
+    ],
+    "base_experience": 112
+  },
+  "pikachu-sinnoh-cap": {
+    "types": [
+      "electric"
+    ],
+    "base_experience": 112
+  },
+  "pikachu-unova-cap": {
+    "types": [
+      "electric"
+    ],
+    "base_experience": 112
+  },
+  "pikachu-kalos-cap": {
+    "types": [
+      "electric"
+    ],
+    "base_experience": 112
+  },
+  "pikachu-alola-cap": {
+    "types": [
+      "electric"
+    ],
+    "base_experience": 112
+  },
+  "raichu-alola": {
+    "types": [
+      "electric",
+      "psychic"
+    ],
+    "base_experience": 243
+  },
+  "sandshrew-alola": {
+    "types": [
+      "ice",
+      "steel"
+    ],
+    "base_experience": 60
+  },
+  "sandslash-alola": {
+    "types": [
+      "ice",
+      "steel"
+    ],
+    "base_experience": 158
+  },
+  "vulpix-alola": {
+    "types": [
+      "ice"
+    ],
+    "base_experience": 60
+  },
+  "ninetales-alola": {
+    "types": [
+      "ice",
+      "fairy"
+    ],
+    "base_experience": 177
+  },
+  "diglett-alola": {
+    "types": [
+      "ground",
+      "steel"
+    ],
+    "base_experience": 53
+  },
+  "dugtrio-alola": {
+    "types": [
+      "ground",
+      "steel"
+    ],
+    "base_experience": 149
+  },
+  "meowth-alola": {
+    "types": [
+      "dark"
+    ],
+    "base_experience": 58
+  },
+  "persian-alola": {
+    "types": [
+      "dark"
+    ],
+    "base_experience": 154
+  },
+  "geodude-alola": {
+    "types": [
+      "rock",
+      "electric"
+    ],
+    "base_experience": 60
+  },
+  "graveler-alola": {
+    "types": [
+      "rock",
+      "electric"
+    ],
+    "base_experience": 137
+  },
+  "golem-alola": {
+    "types": [
+      "rock",
+      "electric"
+    ],
+    "base_experience": 223
+  },
+  "grimer-alola": {
+    "types": [
+      "poison",
+      "dark"
+    ],
+    "base_experience": 65
+  },
+  "muk-alola": {
+    "types": [
+      "poison",
+      "dark"
+    ],
+    "base_experience": 175
+  },
+  "exeggutor-alola": {
+    "types": [
+      "grass",
+      "dragon"
+    ],
+    "base_experience": 186
+  },
+  "marowak-alola": {
+    "types": [
+      "fire",
+      "ghost"
+    ],
+    "base_experience": 149
+  },
+  "greninja-battle-bond": {
+    "types": [
+      "water",
+      "dark"
+    ],
+    "base_experience": 239
+  },
+  "greninja-ash": {
+    "types": [
+      "water",
+      "dark"
+    ],
+    "base_experience": 288
+  },
+  "zygarde-10-power-construct": {
+    "types": [
+      "dragon",
+      "ground"
+    ],
+    "base_experience": 243
+  },
+  "zygarde-50-power-construct": {
+    "types": [
+      "dragon",
+      "ground"
+    ],
+    "base_experience": 300
+  },
+  "zygarde-complete": {
+    "types": [
+      "dragon",
+      "ground"
+    ],
+    "base_experience": 354
+  },
+  "gumshoos-totem": {
+    "types": [
+      "normal"
+    ],
+    "base_experience": 146
+  },
+  "vikavolt-totem": {
+    "types": [
+      "bug",
+      "electric"
+    ],
+    "base_experience": 225
+  },
+  "oricorio-pom-pom": {
+    "types": [
+      "electric",
+      "flying"
+    ],
+    "base_experience": 167
+  },
+  "oricorio-pau": {
+    "types": [
+      "psychic",
+      "flying"
+    ],
+    "base_experience": 167
+  },
+  "oricorio-sensu": {
+    "types": [
+      "ghost",
+      "flying"
+    ],
+    "base_experience": 167
+  },
+  "lycanroc-midnight": {
+    "types": [
+      "rock"
+    ],
+    "base_experience": 170
+  },
+  "wishiwashi-school": {
+    "types": [
+      "water"
+    ],
+    "base_experience": 217
+  },
+  "lurantis-totem": {
+    "types": [
+      "grass"
+    ],
+    "base_experience": 168
+  },
+  "salazzle-totem": {
+    "types": [
+      "poison",
+      "fire"
+    ],
+    "base_experience": 168
+  },
+  "minior-orange-meteor": {
+    "types": [
+      "rock",
+      "flying"
+    ],
+    "base_experience": 154
+  },
+  "minior-yellow-meteor": {
+    "types": [
+      "rock",
+      "flying"
+    ],
+    "base_experience": 154
+  },
+  "minior-green-meteor": {
+    "types": [
+      "rock",
+      "flying"
+    ],
+    "base_experience": 154
+  },
+  "minior-blue-meteor": {
+    "types": [
+      "rock",
+      "flying"
+    ],
+    "base_experience": 154
+  },
+  "minior-indigo-meteor": {
+    "types": [
+      "rock",
+      "flying"
+    ],
+    "base_experience": 154
+  },
+  "minior-violet-meteor": {
+    "types": [
+      "rock",
+      "flying"
+    ],
+    "base_experience": 154
+  },
+  "minior-red": {
+    "types": [
+      "rock",
+      "flying"
+    ],
+    "base_experience": 175
+  },
+  "minior-orange": {
+    "types": [
+      "rock",
+      "flying"
+    ],
+    "base_experience": 175
+  },
+  "minior-yellow": {
+    "types": [
+      "rock",
+      "flying"
+    ],
+    "base_experience": 175
+  },
+  "minior-green": {
+    "types": [
+      "rock",
+      "flying"
+    ],
+    "base_experience": 175
+  },
+  "minior-blue": {
+    "types": [
+      "rock",
+      "flying"
+    ],
+    "base_experience": 175
+  },
+  "minior-indigo": {
+    "types": [
+      "rock",
+      "flying"
+    ],
+    "base_experience": 175
+  },
+  "minior-violet": {
+    "types": [
+      "rock",
+      "flying"
+    ],
+    "base_experience": 175
+  },
+  "mimikyu-busted": {
+    "types": [
+      "ghost",
+      "fairy"
+    ],
+    "base_experience": 167
+  },
+  "mimikyu-totem-disguised": {
+    "types": [
+      "ghost",
+      "fairy"
+    ],
+    "base_experience": 167
+  },
+  "mimikyu-totem-busted": {
+    "types": [
+      "ghost",
+      "fairy"
+    ],
+    "base_experience": 167
+  },
+  "kommo-o-totem": {
+    "types": [
+      "dragon",
+      "fighting"
+    ],
+    "base_experience": 270
+  },
+  "magearna-original": {
+    "types": [
+      "steel",
+      "fairy"
+    ],
+    "base_experience": 300
+  },
+  "pikachu-partner-cap": {
+    "types": [
+      "electric"
+    ],
+    "base_experience": 112
+  },
+  "marowak-totem": {
+    "types": [
+      "fire",
+      "ghost"
+    ],
+    "base_experience": 149
+  },
+  "ribombee-totem": {
+    "types": [
+      "bug",
+      "fairy"
+    ],
+    "base_experience": 162
+  },
+  "rockruff-own-tempo": {
+    "types": [
+      "rock"
+    ],
+    "base_experience": 56
+  },
+  "lycanroc-dusk": {
+    "types": [
+      "rock"
+    ],
+    "base_experience": 170
+  },
+  "araquanid-totem": {
+    "types": [
+      "water",
+      "bug"
+    ],
+    "base_experience": 159
+  },
+  "togedemaru-totem": {
+    "types": [
+      "electric",
+      "steel"
+    ],
+    "base_experience": 152
+  },
+  "necrozma-dusk": {
+    "types": [
+      "psychic",
+      "steel"
+    ],
+    "base_experience": 340
+  },
+  "necrozma-dawn": {
+    "types": [
+      "psychic",
+      "ghost"
+    ],
+    "base_experience": 340
+  },
+  "necrozma-ultra": {
+    "types": [
+      "psychic",
+      "dragon"
+    ],
+    "base_experience": 339
+  },
+  "pikachu-starter": {
+    "types": [
+      "electric"
+    ],
+    "base_experience": 86
+  },
+  "eevee-starter": {
+    "types": [
+      "normal"
+    ],
+    "base_experience": 87
+  },
+  "pikachu-world-cap": {
+    "types": [
+      "electric"
+    ],
+    "base_experience": 112
+  },
+  "meowth-galar": {
+    "types": [
+      "steel"
+    ],
+    "base_experience": 58
+  },
+  "ponyta-galar": {
+    "types": [
+      "psychic"
+    ],
+    "base_experience": 82
+  },
+  "rapidash-galar": {
+    "types": [
+      "psychic",
+      "fairy"
+    ],
+    "base_experience": 175
+  },
+  "slowpoke-galar": {
+    "types": [
+      "psychic"
+    ],
+    "base_experience": 63
+  },
+  "slowbro-galar": {
+    "types": [
+      "poison",
+      "psychic"
+    ],
+    "base_experience": 172
+  },
+  "farfetchd-galar": {
+    "types": [
+      "fighting"
+    ],
+    "base_experience": 132
+  },
+  "weezing-galar": {
+    "types": [
+      "poison",
+      "fairy"
+    ],
+    "base_experience": 172
+  },
+  "mr-mime-galar": {
+    "types": [
+      "ice",
+      "psychic"
+    ],
+    "base_experience": 161
+  },
+  "articuno-galar": {
+    "types": [
+      "psychic",
+      "flying"
+    ],
+    "base_experience": 290
+  },
+  "zapdos-galar": {
+    "types": [
+      "fighting",
+      "flying"
+    ],
+    "base_experience": 290
+  },
+  "moltres-galar": {
+    "types": [
+      "dark",
+      "flying"
+    ],
+    "base_experience": 290
+  },
+  "slowking-galar": {
+    "types": [
+      "poison",
+      "psychic"
+    ],
+    "base_experience": 172
+  },
+  "corsola-galar": {
+    "types": [
+      "ghost"
+    ],
+    "base_experience": 144
+  },
+  "zigzagoon-galar": {
+    "types": [
+      "dark",
+      "normal"
+    ],
+    "base_experience": 56
+  },
+  "linoone-galar": {
+    "types": [
+      "dark",
+      "normal"
+    ],
+    "base_experience": 147
+  },
+  "darumaka-galar": {
+    "types": [
+      "ice"
+    ],
+    "base_experience": 63
+  },
+  "darmanitan-galar-standard": {
+    "types": [
+      "ice"
+    ],
+    "base_experience": 168
+  },
+  "darmanitan-galar-zen": {
+    "types": [
+      "ice",
+      "fire"
+    ],
+    "base_experience": 189
+  },
+  "yamask-galar": {
+    "types": [
+      "ground",
+      "ghost"
+    ],
+    "base_experience": 61
+  },
+  "stunfisk-galar": {
+    "types": [
+      "ground",
+      "steel"
+    ],
+    "base_experience": 165
+  },
+  "zygarde-10": {
+    "types": [
+      "dragon",
+      "ground"
+    ],
+    "base_experience": 243
+  },
+  "cramorant-gulping": {
+    "types": [
+      "flying",
+      "water"
+    ],
+    "base_experience": 166
+  },
+  "cramorant-gorging": {
+    "types": [
+      "flying",
+      "water"
+    ],
+    "base_experience": 166
+  },
+  "toxtricity-low-key": {
+    "types": [
+      "electric",
+      "poison"
+    ],
+    "base_experience": 176
+  },
+  "eiscue-noice": {
+    "types": [
+      "ice"
+    ],
+    "base_experience": 165
+  },
+  "indeedee-female": {
+    "types": [
+      "psychic",
+      "normal"
+    ],
+    "base_experience": 166
+  },
+  "morpeko-hangry": {
+    "types": [
+      "electric",
+      "dark"
+    ],
+    "base_experience": 153
+  },
+  "zacian-crowned": {
+    "types": [
+      "fairy",
+      "steel"
+    ],
+    "base_experience": 360
+  },
+  "zamazenta-crowned": {
+    "types": [
+      "fighting",
+      "steel"
+    ],
+    "base_experience": 360
+  },
+  "eternatus-eternamax": {
+    "types": [
+      "poison",
+      "dragon"
+    ],
+    "base_experience": 563
+  },
+  "urshifu-rapid-strike": {
+    "types": [
+      "fighting",
+      "water"
+    ],
+    "base_experience": 275
+  },
+  "zarude-dada": {
+    "types": [
+      "dark",
+      "grass"
+    ],
+    "base_experience": 300
+  },
+  "calyrex-ice": {
+    "types": [
+      "psychic",
+      "ice"
+    ],
+    "base_experience": 340
+  },
+  "calyrex-shadow": {
+    "types": [
+      "psychic",
+      "ghost"
+    ],
+    "base_experience": 340
+  },
+  "venusaur-gmax": {
+    "types": [
+      "grass",
+      "poison"
+    ],
+    "base_experience": 236
+  },
+  "charizard-gmax": {
+    "types": [
+      "fire",
+      "flying"
+    ],
+    "base_experience": 240
+  },
+  "blastoise-gmax": {
+    "types": [
+      "water"
+    ],
+    "base_experience": 239
+  },
+  "butterfree-gmax": {
+    "types": [
+      "bug",
+      "flying"
+    ],
+    "base_experience": 178
+  },
+  "pikachu-gmax": {
+    "types": [
+      "electric"
+    ],
+    "base_experience": 112
+  },
+  "meowth-gmax": {
+    "types": [
+      "normal"
+    ],
+    "base_experience": 58
+  },
+  "machamp-gmax": {
+    "types": [
+      "fighting"
+    ],
+    "base_experience": 227
+  },
+  "gengar-gmax": {
+    "types": [
+      "ghost",
+      "poison"
+    ],
+    "base_experience": 225
+  },
+  "kingler-gmax": {
+    "types": [
+      "water"
+    ],
+    "base_experience": 166
+  },
+  "lapras-gmax": {
+    "types": [
+      "water",
+      "ice"
+    ],
+    "base_experience": 187
+  },
+  "eevee-gmax": {
+    "types": [
+      "normal"
+    ],
+    "base_experience": 65
+  },
+  "snorlax-gmax": {
+    "types": [
+      "normal"
+    ],
+    "base_experience": 189
+  },
+  "garbodor-gmax": {
+    "types": [
+      "poison"
+    ],
+    "base_experience": 166
+  },
+  "melmetal-gmax": {
+    "types": [
+      "steel"
+    ],
+    "base_experience": 270
+  },
+  "rillaboom-gmax": {
+    "types": [
+      "grass"
+    ],
+    "base_experience": 265
+  },
+  "cinderace-gmax": {
+    "types": [
+      "fire"
+    ],
+    "base_experience": 265
+  },
+  "inteleon-gmax": {
+    "types": [
+      "water"
+    ],
+    "base_experience": 265
+  },
+  "corviknight-gmax": {
+    "types": [
+      "flying",
+      "steel"
+    ],
+    "base_experience": 248
+  },
+  "orbeetle-gmax": {
+    "types": [
+      "bug",
+      "psychic"
+    ],
+    "base_experience": 253
+  },
+  "drednaw-gmax": {
+    "types": [
+      "water",
+      "rock"
+    ],
+    "base_experience": 170
+  },
+  "coalossal-gmax": {
+    "types": [
+      "rock",
+      "fire"
+    ],
+    "base_experience": 255
+  },
+  "flapple-gmax": {
+    "types": [
+      "grass",
+      "dragon"
+    ],
+    "base_experience": 170
+  },
+  "appletun-gmax": {
+    "types": [
+      "grass",
+      "dragon"
+    ],
+    "base_experience": 170
+  },
+  "sandaconda-gmax": {
+    "types": [
+      "ground"
+    ],
+    "base_experience": 179
+  },
+  "toxtricity-amped-gmax": {
+    "types": [
+      "electric",
+      "poison"
+    ],
+    "base_experience": 176
+  },
+  "centiskorch-gmax": {
+    "types": [
+      "fire",
+      "bug"
+    ],
+    "base_experience": 184
+  },
+  "hatterene-gmax": {
+    "types": [
+      "psychic",
+      "fairy"
+    ],
+    "base_experience": 255
+  },
+  "grimmsnarl-gmax": {
+    "types": [
+      "dark",
+      "fairy"
+    ],
+    "base_experience": 255
+  },
+  "alcremie-gmax": {
+    "types": [
+      "fairy"
+    ],
+    "base_experience": 173
+  },
+  "copperajah-gmax": {
+    "types": [
+      "steel"
+    ],
+    "base_experience": 175
+  },
+  "duraludon-gmax": {
+    "types": [
+      "steel",
+      "dragon"
+    ],
+    "base_experience": 187
+  },
+  "urshifu-single-strike-gmax": {
+    "types": [
+      "fighting",
+      "dark"
+    ],
+    "base_experience": 275
+  },
+  "urshifu-rapid-strike-gmax": {
+    "types": [
+      "fighting",
+      "water"
+    ],
+    "base_experience": 275
+  },
+  "toxtricity-low-key-gmax": {
+    "types": [
+      "electric",
+      "poison"
+    ],
+    "base_experience": 176
+  },
+  "growlithe-hisui": {
+    "types": [
+      "fire",
+      "rock"
+    ],
+    "base_experience": 70
+  },
+  "arcanine-hisui": {
+    "types": [
+      "fire",
+      "rock"
+    ],
+    "base_experience": 194
+  },
+  "voltorb-hisui": {
+    "types": [
+      "electric",
+      "grass"
+    ],
+    "base_experience": 66
+  },
+  "electrode-hisui": {
+    "types": [
+      "electric",
+      "grass"
+    ],
+    "base_experience": 172
+  },
+  "typhlosion-hisui": {
+    "types": [
+      "fire",
+      "ghost"
+    ],
+    "base_experience": 240
+  },
+  "qwilfish-hisui": {
+    "types": [
+      "dark",
+      "poison"
+    ],
+    "base_experience": 88
+  },
+  "sneasel-hisui": {
+    "types": [
+      "fighting",
+      "poison"
+    ],
+    "base_experience": 86
+  },
+  "samurott-hisui": {
+    "types": [
+      "water",
+      "dark"
+    ],
+    "base_experience": 238
+  },
+  "lilligant-hisui": {
+    "types": [
+      "grass",
+      "fighting"
+    ],
+    "base_experience": 168
+  },
+  "zorua-hisui": {
+    "types": [
+      "normal",
+      "ghost"
+    ],
+    "base_experience": 66
+  },
+  "zoroark-hisui": {
+    "types": [
+      "normal",
+      "ghost"
+    ],
+    "base_experience": 179
+  },
+  "braviary-hisui": {
+    "types": [
+      "psychic",
+      "flying"
+    ],
+    "base_experience": 179
+  },
+  "sliggoo-hisui": {
+    "types": [
+      "steel",
+      "dragon"
+    ],
+    "base_experience": 158
+  },
+  "goodra-hisui": {
+    "types": [
+      "steel",
+      "dragon"
+    ],
+    "base_experience": 270
+  },
+  "avalugg-hisui": {
+    "types": [
+      "ice",
+      "rock"
+    ],
+    "base_experience": 180
+  },
+  "decidueye-hisui": {
+    "types": [
+      "grass",
+      "fighting"
+    ],
+    "base_experience": 239
+  },
+  "dialga-origin": {
+    "types": [
+      "steel",
+      "dragon"
+    ],
+    "base_experience": 306
+  },
+  "palkia-origin": {
+    "types": [
+      "water",
+      "dragon"
+    ],
+    "base_experience": 306
+  },
+  "basculin-white-striped": {
+    "types": [
+      "water"
+    ],
+    "base_experience": 161
+  },
+  "basculegion-female": {
+    "types": [
+      "water",
+      "ghost"
+    ],
+    "base_experience": 265
+  },
+  "enamorus-therian": {
+    "types": [
+      "fairy",
+      "flying"
+    ],
+    "base_experience": 116
+  },
+  "tauros-paldea-combat-breed": {
+    "types": [
+      "fighting"
+    ],
+    "base_experience": 172
+  },
+  "tauros-paldea-blaze-breed": {
+    "types": [
+      "fighting",
+      "fire"
+    ],
+    "base_experience": 172
+  },
+  "tauros-paldea-aqua-breed": {
+    "types": [
+      "fighting",
+      "water"
+    ],
+    "base_experience": 172
+  },
+  "wooper-paldea": {
+    "types": [
+      "poison",
+      "ground"
+    ],
+    "base_experience": 42
+  },
+  "oinkologne-female": {
+    "types": [
+      "normal"
+    ],
+    "base_experience": 171
+  },
+  "dudunsparce-three-segment": {
+    "types": [
+      "normal"
+    ],
+    "base_experience": 182
+  },
+  "palafin-hero": {
+    "types": [
+      "water"
+    ],
+    "base_experience": 160
+  },
+  "maushold-family-of-three": {
+    "types": [
+      "normal"
+    ],
+    "base_experience": 165
+  },
+  "tatsugiri-droopy": {
+    "types": [
+      "dragon",
+      "water"
+    ],
+    "base_experience": 166
+  },
+  "tatsugiri-stretchy": {
+    "types": [
+      "dragon",
+      "water"
+    ],
+    "base_experience": 166
+  },
+  "squawkabilly-blue-plumage": {
+    "types": [
+      "normal",
+      "flying"
+    ],
+    "base_experience": 146
+  },
+  "squawkabilly-yellow-plumage": {
+    "types": [
+      "normal",
+      "flying"
+    ],
+    "base_experience": 146
+  },
+  "squawkabilly-white-plumage": {
+    "types": [
+      "normal",
+      "flying"
+    ],
+    "base_experience": 146
+  },
+  "gimmighoul-roaming": {
+    "types": [
+      "ghost"
+    ],
+    "base_experience": 60
+  },
+  "koraidon-limited-build": {
+    "types": [
+      "fighting",
+      "dragon"
+    ],
+    "base_experience": 335
+  },
+  "koraidon-sprinting-build": {
+    "types": [
+      "fighting",
+      "dragon"
+    ],
+    "base_experience": 335
+  },
+  "koraidon-swimming-build": {
+    "types": [
+      "fighting",
+      "dragon"
+    ],
+    "base_experience": 335
+  },
+  "koraidon-gliding-build": {
+    "types": [
+      "fighting",
+      "dragon"
+    ],
+    "base_experience": 335
+  },
+  "miraidon-low-power-mode": {
+    "types": [
+      "electric",
+      "dragon"
+    ],
+    "base_experience": 335
+  },
+  "miraidon-drive-mode": {
+    "types": [
+      "electric",
+      "dragon"
+    ],
+    "base_experience": 335
+  },
+  "miraidon-aquatic-mode": {
+    "types": [
+      "electric",
+      "dragon"
+    ],
+    "base_experience": 335
+  },
+  "miraidon-glide-mode": {
+    "types": [
+      "electric",
+      "dragon"
+    ],
+    "base_experience": 335
+  },
+  "ursaluna-bloodmoon": {
+    "types": [
+      "ground",
+      "normal"
+    ],
+    "base_experience": 275
+  },
+  "ogerpon-wellspring-mask": {
+    "types": [
+      "grass",
+      "water"
+    ],
+    "base_experience": 275
+  },
+  "ogerpon-hearthflame-mask": {
+    "types": [
+      "grass",
+      "fire"
+    ],
+    "base_experience": 275
+  },
+  "ogerpon-cornerstone-mask": {
+    "types": [
+      "grass",
+      "rock"
+    ],
+    "base_experience": 275
+  },
+  "terapagos-terastal": {
+    "types": [
+      "normal"
+    ],
+    "base_experience": 90
+  },
+  "terapagos-stellar": {
+    "types": [
+      "normal"
+    ],
+    "base_experience": 90
+  },
+  "clefable-mega": {
+    "types": [
+      "fairy",
+      "flying"
+    ],
+    "base_experience": null
+  },
+  "victreebel-mega": {
+    "types": [
+      "grass",
+      "poison"
+    ],
+    "base_experience": null
+  },
+  "starmie-mega": {
+    "types": [
+      "water",
+      "psychic"
+    ],
+    "base_experience": null
+  },
+  "dragonite-mega": {
+    "types": [
+      "dragon",
+      "flying"
+    ],
+    "base_experience": null
+  },
+  "meganium-mega": {
+    "types": [
+      "grass",
+      "fairy"
+    ],
+    "base_experience": null
+  },
+  "feraligatr-mega": {
+    "types": [
+      "water",
+      "dragon"
+    ],
+    "base_experience": null
+  },
+  "skarmory-mega": {
+    "types": [
+      "steel",
+      "flying"
+    ],
+    "base_experience": null
+  },
+  "froslass-mega": {
+    "types": [
+      "ice",
+      "ghost"
+    ],
+    "base_experience": null
+  },
+  "emboar-mega": {
+    "types": [
+      "fire",
+      "fighting"
+    ],
+    "base_experience": null
+  },
+  "excadrill-mega": {
+    "types": [
+      "ground",
+      "steel"
+    ],
+    "base_experience": null
+  },
+  "scolipede-mega": {
+    "types": [
+      "bug",
+      "poison"
+    ],
+    "base_experience": null
+  },
+  "scrafty-mega": {
+    "types": [
+      "dark",
+      "fighting"
+    ],
+    "base_experience": null
+  },
+  "eelektross-mega": {
+    "types": [
+      "electric"
+    ],
+    "base_experience": null
+  },
+  "chandelure-mega": {
+    "types": [
+      "ghost",
+      "fire"
+    ],
+    "base_experience": null
+  },
+  "chesnaught-mega": {
+    "types": [
+      "grass",
+      "fighting"
+    ],
+    "base_experience": null
+  },
+  "delphox-mega": {
+    "types": [
+      "fire",
+      "psychic"
+    ],
+    "base_experience": null
+  },
+  "greninja-mega": {
+    "types": [
+      "water",
+      "dark"
+    ],
+    "base_experience": null
+  },
+  "pyroar-mega": {
+    "types": [
+      "fire",
+      "normal"
+    ],
+    "base_experience": null
+  },
+  "floette-mega": {
+    "types": [
+      "fairy"
+    ],
+    "base_experience": null
+  },
+  "malamar-mega": {
+    "types": [
+      "dark",
+      "psychic"
+    ],
+    "base_experience": null
+  },
+  "barbaracle-mega": {
+    "types": [
+      "rock",
+      "fighting"
+    ],
+    "base_experience": null
+  },
+  "dragalge-mega": {
+    "types": [
+      "poison",
+      "dragon"
+    ],
+    "base_experience": null
+  },
+  "hawlucha-mega": {
+    "types": [
+      "fighting",
+      "flying"
+    ],
+    "base_experience": null
+  },
+  "zygarde-mega": {
+    "types": [
+      "dragon",
+      "ground"
+    ],
+    "base_experience": null
+  },
+  "drampa-mega": {
+    "types": [
+      "normal",
+      "dragon"
+    ],
+    "base_experience": null
+  },
+  "falinks-mega": {
+    "types": [
+      "fighting"
+    ],
+    "base_experience": null
+  }
+}
