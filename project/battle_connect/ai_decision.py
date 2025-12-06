@@ -312,14 +312,14 @@ def get_ai_command_from_replay(replay_link, request_json=None, device=None, play
             json.dump(parsed_state, f, indent=2)
         
         result = subprocess.run(
-            ["node", "attempt3.js", parsed_file],
+            ["node", "brancher.js", parsed_file],
             capture_output=True,
             text=True,
             cwd=str(project_root)
         )
         
         if result.returncode != 0:
-            raise RuntimeError(f"attempt3.js failed: {result.stderr}")
+            raise RuntimeError(f"brancher.js failed: {result.stderr}")
         
         # Evaluate branches
         with open(str(project_root / "branches.json"), "r") as f:

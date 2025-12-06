@@ -1,4 +1,4 @@
-// attempt3.js - Direct state construction (no replay)
+// bracnher.js - Direct state construction (no replay)
 const fs = require('fs');
 const Sim = require('pokemon-showdown');
 const { Worker, isMainThread, parentPort, workerData } = require('worker_threads');
