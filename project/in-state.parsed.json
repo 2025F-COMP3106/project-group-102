@@ -1,353 +1,409 @@
 {
-    "player1": {
-        "pokemon": [
-            {
-                "species": "Garganacl",
-                "type": [
-                    "rock"
-                ],
-                "health": 100,
-                "status_effects": null,
-                "toxic_counter": 0,
-                "stat_changes": null,
-                "item": null,
-                "ability": null,
-                "tera_type": null,
-                "moves": [
-                    {
-                        "name": "Iron Defense",
-                        "max_pp": 24,
-                        "current_pp": 24
-                    },
-                    {
-                        "name": "Body Press",
-                        "max_pp": 16,
-                        "current_pp": 16
-                    },
-                    {
-                        "name": "Salt Cure",
-                        "max_pp": 24,
-                        "current_pp": 24
-                    },
-                    {
-                        "name": "Recover",
-                        "max_pp": 8,
-                        "current_pp": 8
-                    }
-                ],
-                "volatile_effects": {}
-            },
-            {
-                "species": "Dragapult",
-                "type": [
-                    "dragon",
-                    "ghost"
-                ],
-                "health": 100,
-                "status_effects": null,
-                "toxic_counter": 0,
-                "stat_changes": null,
-                "item": null,
-                "ability": null,
-                "tera_type": null,
-                "moves": [
-                    {
-                        "name": "Dragon Darts",
-                        "max_pp": 16,
-                        "current_pp": 16
-                    },
-                    {
-                        "name": "Hex",
-                        "max_pp": 16,
-                        "current_pp": 16
-                    },
-                    {
-                        "name": "Will-O-Wisp",
-                        "max_pp": 24,
-                        "current_pp": 24
-                    },
-                    {
-                        "name": "U-turn",
-                        "max_pp": 32,
-                        "current_pp": 32
-                    }
-                ],
-                "volatile_effects": {}
-            },
-            {
-                "species": "Ogerpon-Wellspring",
-                "type": null,
-                "health": 100,
-                "status_effects": null,
-                "toxic_counter": 0,
-                "stat_changes": null,
-                "item": null,
-                "ability": null,
-                "tera_type": null,
-                "moves": [
-                    {
-                        "name": "Swords Dance",
-                        "max_pp": 32,
-                        "current_pp": 32
-                    },
-                    {
-                        "name": "Ivy Cudgel",
-                        "max_pp": 16,
-                        "current_pp": 16
-                    },
-                    {
-                        "name": "Horn leech",
-                        "max_pp": 16,
-                        "current_pp": 16
-                    },
-                    {
-                        "name": "Play Rough",
-                        "max_pp": 16,
-                        "current_pp": 16
-                    }
-                ],
-                "volatile_effects": {}
-            },
-            {
-                "species": "Moltres",
-                "type": [
-                    "fire",
-                    "flying"
-                ],
-                "health": 100,
-                "status_effects": null,
-                "toxic_counter": 0,
-                "stat_changes": null,
-                "item": null,
-                "ability": null,
-                "tera_type": null,
-                "moves": [
-                    {
-                        "name": "Flamethrower",
-                        "max_pp": 24,
-                        "current_pp": 24
-                    },
-                    {
-                        "name": "Will-O-Wisp",
-                        "max_pp": 24,
-                        "current_pp": 24
-                    },
-                    {
-                        "name": "U-turn",
-                        "max_pp": 32,
-                        "current_pp": 32
-                    },
-                    {
-                        "name": "Roost",
-                        "max_pp": 8,
-                        "current_pp": 8
-                    }
-                ],
-                "volatile_effects": {}
-            },
-            {
-                "species": "Zamazenta-*",
-                "type": null,
-                "health": 100,
-                "status_effects": null,
-                "toxic_counter": 0,
-                "stat_changes": null,
-                "item": null,
-                "ability": null,
-                "tera_type": null,
-                "moves": [
-                    {
-                        "name": "Stealth Rock",
-                        "max_pp": 32,
-                        "current_pp": 32
-                    },
-                    {
-                        "name": "Earthquake",
-                        "max_pp": 16,
-                        "current_pp": 16
-                    },
-                    {
-                        "name": "Knock Off",
-                        "max_pp": 32,
-                        "current_pp": 32
-                    },
-                    {
-                        "name": "Rapid Spin",
-                        "max_pp": 64,
-                        "current_pp": 64
-                    }
-                ],
-                "volatile_effects": {}
-            },
-            {
-                "species": "Iron Treads",
-                "type": [
-                    "ground",
-                    "steel"
-                ],
-                "health": 100,
-                "status_effects": null,
-                "toxic_counter": 0,
-                "stat_changes": null,
-                "item": null,
-                "ability": null,
-                "tera_type": null,
-                "moves": [
-                    {
-                        "name": "Close Combat",
-                        "max_pp": 8,
-                        "current_pp": 8
-                    },
-                    {
-                        "name": "Heavy Slam",
-                        "max_pp": 16,
-                        "current_pp": 16
-                    },
-                    {
-                        "name": "Ice Fang",
-                        "max_pp": 24,
-                        "current_pp": 24
-                    },
-                    {
-                        "name": "Crunch",
-                        "max_pp": 24,
-                        "current_pp": 24
-                    }
-                ],
-                "volatile_effects": {}
-            }
-        ]
-    },
-    "player2": {
-        "pokemon": [
-            {
-                "species": "Garganacl",
-                "type": [
-                    "rock"
-                ],
-                "health": 100,
-                "status_effects": null,
-                "toxic_counter": 0,
-                "stat_changes": null,
-                "item": null,
-                "ability": null,
-                "tera_type": null,
-                "moves": [],
-                "volatile_effects": {}
-            },
-            {
-                "species": "Dragapult",
-                "type": [
-                    "dragon",
-                    "ghost"
-                ],
-                "health": 100,
-                "status_effects": null,
-                "toxic_counter": 0,
-                "stat_changes": null,
-                "item": null,
-                "ability": null,
-                "tera_type": null,
-                "moves": [],
-                "volatile_effects": {}
-            },
-            {
-                "species": "Ogerpon-Wellspring",
-                "type": null,
-                "health": 100,
-                "status_effects": null,
-                "toxic_counter": 0,
-                "stat_changes": null,
-                "item": null,
-                "ability": null,
-                "tera_type": null,
-                "moves": [],
-                "volatile_effects": {}
-            },
-            {
-                "species": "Moltres",
-                "type": [
-                    "fire",
-                    "flying"
-                ],
-                "health": 100,
-                "status_effects": null,
-                "toxic_counter": 0,
-                "stat_changes": null,
-                "item": null,
-                "ability": null,
-                "tera_type": null,
-                "moves": [
-                    {
-                        "name": "Roost",
-                        "max_pp": 8,
-                        "current_pp": 7
-                    }
-                ],
-                "volatile_effects": {}
-            },
-            {
-                "species": "Zamazenta-*",
-                "type": null,
-                "health": 100,
-                "status_effects": null,
-                "toxic_counter": 0,
-                "stat_changes": null,
-                "item": null,
-                "ability": null,
-                "tera_type": null,
-                "moves": [],
-                "volatile_effects": {}
-            },
-            {
-                "species": "Iron Treads",
-                "type": [
-                    "ground",
-                    "steel"
-                ],
-                "health": 100,
-                "status_effects": null,
-                "toxic_counter": 0,
-                "stat_changes": null,
-                "item": null,
-                "ability": null,
-                "tera_type": null,
-                "moves": [],
-                "volatile_effects": {}
-            }
-        ]
-    },
-    "environment": {
-        "weather": null,
-        "weather_turns": null,
-        "terrain": null,
-        "terrain_turns": null,
-        "field_effects": [],
-        "field_effects_turns": {},
-        "hazards": {
-            "p1": {},
-            "p2": {}
-        },
-        "active_pokemon": {
-            "p1": "Iron Treads",
-            "p2": "Moltres"
-        },
-        "prev_actions": [
-            {
-                "player": "p1",
-                "move": "Earthquake"
-            },
-            {
-                "player": "p2",
-                "move": "Roost"
-            }
+  "player1": {
+    "pokemon": [
+      {
+        "species": "Samurott-Hisui",
+        "type": [
+          "water",
+          "dark"
         ],
-        "tera_used": {
-            "p1": false,
-            "p2": false
+        "health": 100,
+        "status_effects": null,
+        "toxic_counter": 0,
+        "stat_changes": null,
+        "item": null,
+        "ability": null,
+        "tera_type": null,
+        "moves": [
+          {
+            "name": "Ceaseless Edge",
+            "max_pp": 24,
+            "current_pp": 24
+          },
+          {
+            "name": "Flip Turn",
+            "max_pp": 32,
+            "current_pp": 32
+          },
+          {
+            "name": "Aqua Cutter",
+            "max_pp": 32,
+            "current_pp": 32
+          },
+          {
+            "name": "Knock Off",
+            "max_pp": 32,
+            "current_pp": 32
+          }
+        ],
+        "volatile_effects": {}
+      },
+      {
+        "species": "Ogerpon-Wellspring",
+        "type": null,
+        "health": 100,
+        "status_effects": null,
+        "toxic_counter": 0,
+        "stat_changes": null,
+        "item": null,
+        "ability": null,
+        "tera_type": "Water",
+        "moves": [
+          {
+            "name": "Horn Leech",
+            "max_pp": 16,
+            "current_pp": 16
+          },
+          {
+            "name": "Ivy Cudgel",
+            "max_pp": 16,
+            "current_pp": 16
+          },
+          {
+            "name": "Play Rough",
+            "max_pp": 16,
+            "current_pp": 16
+          },
+          {
+            "name": "Swords Dance",
+            "max_pp": 32,
+            "current_pp": 32
+          }
+        ],
+        "volatile_effects": {}
+      },
+      {
+        "species": "Raging Bolt",
+        "type": [
+          "electric",
+          "dragon"
+        ],
+        "health": 100,
+        "status_effects": null,
+        "toxic_counter": 0,
+        "stat_changes": null,
+        "item": null,
+        "ability": null,
+        "tera_type": null,
+        "moves": [
+          {
+            "name": "Ancient Power",
+            "max_pp": 8,
+            "current_pp": 8
+          },
+          {
+            "name": "Thunderbolt",
+            "max_pp": 24,
+            "current_pp": 24
+          },
+          {
+            "name": "Thunderclap",
+            "max_pp": 8,
+            "current_pp": 8
+          },
+          {
+            "name": "Dragon Pulse",
+            "max_pp": 16,
+            "current_pp": 16
+          }
+        ],
+        "volatile_effects": {}
+      },
+      {
+        "species": "Dragapult",
+        "type": [
+          "dragon",
+          "ghost"
+        ],
+        "health": 91,
+        "status_effects": null,
+        "toxic_counter": 0,
+        "stat_changes": null,
+        "item": "Life Orb",
+        "ability": null,
+        "tera_type": null,
+        "moves": [
+          {
+            "name": "Dragon Darts",
+            "max_pp": 16,
+            "current_pp": 16
+          },
+          {
+            "name": "Psychic Fangs",
+            "max_pp": 16,
+            "current_pp": 16
+          },
+          {
+            "name": "Dragon Tail",
+            "max_pp": 16,
+            "current_pp": 16
+          },
+          {
+            "name": "U-turn",
+            "max_pp": 32,
+            "current_pp": 32
+          }
+        ],
+        "volatile_effects": {}
+      },
+      {
+        "species": "Kyurem",
+        "type": [
+          "dragon",
+          "ice"
+        ],
+        "health": 100,
+        "status_effects": null,
+        "toxic_counter": 0,
+        "stat_changes": null,
+        "item": null,
+        "ability": null,
+        "tera_type": null,
+        "moves": [
+          {
+            "name": "Freeze-Dry",
+            "max_pp": 32,
+            "current_pp": 32
+          },
+          {
+            "name": "Earth Power",
+            "max_pp": 16,
+            "current_pp": 16
+          },
+          {
+            "name": "Icicle Spear",
+            "max_pp": 48,
+            "current_pp": 48
+          },
+          {
+            "name": "Dragon Pulse",
+            "max_pp": 16,
+            "current_pp": 16
+          }
+        ],
+        "volatile_effects": {}
+      },
+      {
+        "species": "Slowking-Galar",
+        "type": [
+          "poison",
+          "psychic"
+        ],
+        "health": 100,
+        "status_effects": null,
+        "toxic_counter": 0,
+        "stat_changes": null,
+        "item": null,
+        "ability": null,
+        "tera_type": null,
+        "moves": [
+          {
+            "name": "Chilly Reception",
+            "max_pp": 16,
+            "current_pp": 16
+          },
+          {
+            "name": "Toxic Spikes",
+            "max_pp": 32,
+            "current_pp": 32
+          },
+          {
+            "name": "Psychic Noise",
+            "max_pp": 16,
+            "current_pp": 16
+          },
+          {
+            "name": "Sludge Bomb",
+            "max_pp": 16,
+            "current_pp": 16
+          }
+        ],
+        "volatile_effects": {}
+      },
+      {
+        "species": "Ogerpon-Wellspring-Tera",
+        "type": null,
+        "health": 100,
+        "status_effects": null,
+        "toxic_counter": 0,
+        "stat_changes": {
+          "spd": 1
+        },
+        "item": null,
+        "ability": "Embody Aspect (Wellspring)",
+        "tera_type": "Water",
+        "moves": [
+          {
+            "name": "Ivy Cudgel",
+            "max_pp": 16,
+            "current_pp": 15
+          }
+        ],
+        "volatile_effects": {}
+      }
+    ]
+  },
+  "player2": {
+    "pokemon": [
+      {
+        "species": "Meowscarada",
+        "type": [
+          "grass",
+          "dark"
+        ],
+        "health": 100,
+        "status_effects": null,
+        "toxic_counter": 0,
+        "stat_changes": null,
+        "item": null,
+        "ability": null,
+        "tera_type": null,
+        "moves": [],
+        "volatile_effects": {}
+      },
+      {
+        "species": "Iron Treads",
+        "type": [
+          "ground",
+          "steel"
+        ],
+        "health": 0,
+        "status_effects": null,
+        "toxic_counter": 0,
+        "stat_changes": null,
+        "item": null,
+        "ability": null,
+        "tera_type": null,
+        "moves": [],
+        "volatile_effects": {}
+      },
+      {
+        "species": "Zamazenta-*",
+        "type": null,
+        "health": 100,
+        "status_effects": null,
+        "toxic_counter": 0,
+        "stat_changes": null,
+        "item": null,
+        "ability": null,
+        "tera_type": null,
+        "moves": [],
+        "volatile_effects": {}
+      },
+      {
+        "species": "Raging Bolt",
+        "type": [
+          "electric",
+          "dragon"
+        ],
+        "health": 100,
+        "status_effects": null,
+        "toxic_counter": 0,
+        "stat_changes": null,
+        "item": null,
+        "ability": null,
+        "tera_type": null,
+        "moves": [],
+        "volatile_effects": {}
+      },
+      {
+        "species": "Zapdos",
+        "type": [
+          "electric",
+          "flying"
+        ],
+        "health": 100,
+        "status_effects": null,
+        "toxic_counter": 0,
+        "stat_changes": null,
+        "item": null,
+        "ability": null,
+        "tera_type": null,
+        "moves": [],
+        "volatile_effects": {}
+      },
+      {
+        "species": "Slowking-Galar",
+        "type": [
+          "poison",
+          "psychic"
+        ],
+        "health": 100,
+        "status_effects": null,
+        "toxic_counter": 0,
+        "stat_changes": null,
+        "item": null,
+        "ability": null,
+        "tera_type": null,
+        "moves": [
+          {
+            "name": "Future Sight",
+            "max_pp": 16,
+            "current_pp": 15
+          }
+        ],
+        "volatile_effects": {
+          "move: future sight": true
         }
+      },
+      {
+        "species": "Zamazenta",
+        "type": [
+          "fighting"
+        ],
+        "health": 70,
+        "status_effects": null,
+        "toxic_counter": 0,
+        "stat_changes": {
+          "def": 1
+        },
+        "item": "Leftovers",
+        "ability": "Dauntless Shield",
+        "tera_type": null,
+        "moves": [],
+        "volatile_effects": {}
+      }
+    ]
+  },
+  "environment": {
+    "weather": null,
+    "weather_turns": null,
+    "terrain": null,
+    "terrain_turns": null,
+    "field_effects": [],
+    "field_effects_turns": {},
+    "hazards": {
+      "p1": {},
+      "p2": {}
     },
-    "winner": null,
-    "avg_rating": 1400,
-    "p2_next_move": null
+    "active_pokemon": {
+      "p1": "Dragapult",
+      "p2": "Zamazenta"
+    },
+    "prev_actions": [
+      {
+        "player": "p2",
+        "move": "switch:Zamazenta"
+      },
+      {
+        "player": "p2",
+        "stat_change": {
+          "stat": "def",
+          "change": 1,
+          "new_stage": 1
+        }
+      },
+      {
+        "player": "p1",
+        "move": "Dragon Darts"
+      }
+    ],
+    "tera_used": {
+      "p1": true,
+      "p2": false
+    }
+  },
+  "winner": null,
+  "avg_rating": 1400,
+  "p2_next_move": null
 }
