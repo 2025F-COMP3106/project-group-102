@@ -1,0 +1,61 @@
+Samurott-Hisui @ Assault Vest  
+Ability: Sharpness  
+Tera Type: Water  
+EVs: 252 Atk / 4 SpD / 252 Spe  
+Jolly Nature  
+- Ceaseless Edge  
+- Flip Turn  
+- Aqua Cutter  
+- Knock Off  
+
+Ogerpon-Wellspring (F) @ Wellspring Mask  
+Ability: Water Absorb  
+Tera Type: Water  
+EVs: 4 HP / 252 Atk / 252 Spe  
+Jolly Nature  
+- Horn Leech
+- Ivy Cudgel  
+- Play Rough  
+- Swords Dance  
+
+Raging Bolt @ Booster Energy  
+Ability: Protosynthesis  
+Tera Type: Bug  
+EVs: 252 HP / 4 Def / 252 SpA  
+Modest Nature  
+IVs: 20 Atk  
+- Ancient Power  
+- Thunderbolt  
+- Thunderclap  
+- Dragon Pulse  
+
+Dragapult @ Life Orb  
+Ability: Infiltrator  
+Tera Type: Dragon  
+EVs: 4 HP / 252 Atk / 252 Spe  
+Adamant Nature  
+- Dragon Darts  
+- Psychic Fangs  
+- Dragon Tail  
+- U-turn  
+
+Kyurem @ Never-Melt Ice  
+Ability: Pressure  
+Tera Type: Ice  
+EVs: 4 HP / 252 SpA / 252 Spe  
+Hasty Nature  
+- Freeze-Dry  
+- Earth Power  
+- Icicle Spear  
+- Dragon Pulse  
+
+Slowking-Galar @ Heavy-Duty Boots  
+Ability: Regenerator  
+Tera Type: Ghost  
+EVs: 252 HP / 104 Def / 152 SpD  
+Sassy Nature  
+IVs: 0 Atk / 0 Spe  
+- Chilly Reception  
+- Toxic Spikes  
+- Psychic Noise  
+- Sludge Bomb
