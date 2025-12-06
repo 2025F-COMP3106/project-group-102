@@ -469,7 +469,6 @@ function parseTopSwitches(text, activeP2Species, usePJoint = true) {  // ← Add
       
       // Parse BOTH values
       const switchRegex = /^\s{4,}([A-Za-z0-9\-]+):\s*P\(cond\)=([\d.]+),\s*P\(joint\)=([\d.]+)/gm;
-      //                                                        ^^^^^^^^^          ^^^^^^^^^^
       
       let match;
       
@@ -490,8 +489,8 @@ function parseTopSwitches(text, activeP2Species, usePJoint = true) {  // ← Add
   return data;
 }
 
-function parseTopTera(text, usePJoint = true) {  // ✅ Add usePJoint parameter
-  const data = {};  // ✅ Return object with probabilities instead of array
+function parseTopTera(text, usePJoint = true) {  
+  const data = {}; 
   const sections = text.split(/Turn type:/);
 
   for (const section of sections) {
@@ -516,7 +515,7 @@ function parseTopTera(text, usePJoint = true) {  // ✅ Add usePJoint parameter
     }
   }
 
-  return data;  // ✅ Returns { "fairy": 0.005, "steel": 0.003, ... }
+  return data; 
 }
 
 
@@ -687,159 +686,6 @@ function generatePossibleActions(battle, side, isOpponent = false) {
   return actions;
 }
 
-// Create a fresh battle from current state for branching
-function createBranchBattle(baseBattle) {
-  const newBattle = new Sim.Battle({
-    formatid: baseBattle.format.id,
-    seed: [Math.random() * 0x10000, Math.random() * 0x10000, Math.random() * 0x10000, Math.random() * 0x10000],
-  });
-  
-  // Pack teams from current battle state
-  const p1Team = baseBattle.sides[0].pokemon.map(p => {
-    const species = p.species.name;
-    const ability = toID(p.ability);
-    const item = toID(p.item);
-    const moves = p.moveSlots.map(m => toID(m.move)).join(',');
-    const nature = 'Serious';
-    const evs = '0,0,0,0,0,0';
-    const ivs = '31,31,31,31,31,31';
-    return `${species}||${item}|${ability}|${moves}|${nature}|${evs}||${ivs}||||||`;
-  }).join(']');
-  
-  const p2Team = baseBattle.sides[1].pokemon.map(p => {
-    const species = p.species.name;
-    const ability = toID(p.ability);
-    const item = toID(p.item);
-    const moves = p.moveSlots.map(m => toID(m.move)).join(',');
-    const nature = 'Serious';
-    const evs = '0,0,0,0,0,0';
-    const ivs = '31,31,31,31,31,31';
-    return `${species}||${item}|${ability}|${moves}|${nature}|${evs}||${ivs}||||||`;
-  }).join(']');
-  
-  newBattle.setPlayer('p1', { name: 'Player1', team: p1Team });
-  newBattle.setPlayer('p2', { name: 'Player2', team: p2Team });
-  
-  // Copy HP and fainted status
-  for (let i = 0; i < baseBattle.sides[0].pokemon.length; i++) {
-    const oldMon = baseBattle.sides[0].pokemon[i];
-    const newMon = newBattle.sides[0].pokemon[i];
-    if (newMon && oldMon) {
-      newMon.hp = oldMon.hp;
-      newMon.fainted = oldMon.fainted;
-    }
-  }
-  
-  for (let i = 0; i < baseBattle.sides[1].pokemon.length; i++) {
-    const oldMon = baseBattle.sides[1].pokemon[i];
-    const newMon = newBattle.sides[1].pokemon[i];
-    if (newMon && oldMon) {
-      newMon.hp = oldMon.hp;
-      newMon.fainted = oldMon.fainted;
-    }
-  }
-  
-  // Set active pokemon
-  if (baseBattle.sides[0].active[0]) {
-    const activeIndex = baseBattle.sides[0].pokemon.indexOf(baseBattle.sides[0].active[0]);
-    if (activeIndex >= 0 && newBattle.sides[0].pokemon[activeIndex]) {
-      newBattle.sides[0].active[0] = newBattle.sides[0].pokemon[activeIndex];
-    }
-  }
-  
-  if (baseBattle.sides[1].active[0]) {
-    const activeIndex = baseBattle.sides[1].pokemon.indexOf(baseBattle.sides[1].active[0]);
-    if (activeIndex >= 0 && newBattle.sides[1].pokemon[activeIndex]) {
-      newBattle.sides[1].active[0] = newBattle.sides[1].pokemon[activeIndex];
-    }
-  }
-  
-  return newBattle;
-}
-
-// Create a branch battle using BattleStream for proper turn execution
-function createBranchBattle(baseBattle) {
-  const stream = new Sim.BattleStream();
-  
-  const battle = stream.battle;
-  
-  // Pack teams from current battle state
-  const p1Team = baseBattle.sides[0].pokemon.map(p => {
-    const species = p.species.name;
-    const ability = toID(p.ability);
-    const item = toID(p.item);
-    const moves = p.moveSlots.map(m => toID(m.move)).join(',');
-    const nature = 'Serious';
-    const evs = '0,0,0,0,0,0';
-    const ivs = '31,31,31,31,31,31';
-    return `${species}||${item}|${ability}|${moves}|${nature}|${evs}||${ivs}||||||`;
-  }).join(']');
-  
-  const p2Team = baseBattle.sides[1].pokemon.map(p => {
-    const species = p.species.name;
-    const ability = toID(p.ability);
-    const item = toID(p.item);
-    const moves = p.moveSlots.map(m => toID(m.move)).join(',');
-    const nature = 'Serious';
-    const evs = '0,0,0,0,0,0';
-    const ivs = '31,31,31,31,31,31';
-    return `${species}||${item}|${ability}|${moves}|${nature}|${evs}||${ivs}||||||`;
-  }).join(']');
-  
-  // Initialize the stream
-  stream.write(`>start {"formatid":"gen9ou"}`);
-  stream.write(`>player p1 {"name":"Player1","team":"${p1Team}"}`);
-  stream.write(`>player p2 {"name":"Player2","team":"${p2Team}"}`);
-  
-  // Read output to process initialization
-  let chunk;
-  while ((chunk = stream.read()) !== null) {
-    // Process output
-  }
-  
-  // Copy HP state
-  for (let i = 0; i < baseBattle.sides[0].pokemon.length; i++) {
-    const oldMon = baseBattle.sides[0].pokemon[i];
-    const newMon = battle.sides[0].pokemon[i];
-    if (newMon && oldMon) {
-      newMon.hp = oldMon.hp;
-      newMon.fainted = oldMon.fainted;
-    }
-  }
-  
-  for (let i = 0; i < baseBattle.sides[1].pokemon.length; i++) {
-    const oldMon = baseBattle.sides[1].pokemon[i];
-    const newMon = battle.sides[1].pokemon[i];
-    if (newMon && oldMon) {
-      newMon.hp = oldMon.hp;
-      newMon.fainted = oldMon.fainted;
-    }
-  }
-  
-  return { battle, stream };
-}
-
-function extractMoveHistory(states) {
-  const history = [];
-  
-  for (let i = 0; i < states.length; i++) {
-    const state = states[i];
-    const actions = state.environment?.prev_actions || [];
-    
-    for (const action of actions) {
-      if (action.move) {
-        history.push({
-          player: action.player,
-          action: action.move,
-          stateIndex: i
-        });
-      }
-    }
-  }
-  
-  return history;
-}
-
 // Helper function to read with timeout
 async function readWithTimeout(stream, timeoutMs = 100) {
   return Promise.race([
@@ -856,164 +702,6 @@ function findPokemonSlot(battle, side, speciesName) {
     }
   }
   return -1;
-}
-
-async function buildBattleFromHistory(states) {
-  
-  const stream = new Sim.BattleStream();
-  const firstState = states[0];
-  
-  // Pack teams
-  const p1Team = packTeam(state.player1.pokemon, myTeam, false);     // P1: myteam.txt
-  const p2Team = packTeam(state.player2.pokemon, null, true);        // P2: top-moves.txt
-  
-  // Start battle
-  stream.write(`>start {"formatid":"gen9ou"}`);
-  stream.write(`>player p1 {"name":"Player1","team":"${p1Team}"}`);
-  stream.write(`>player p2 {"name":"Player2","team":"${p2Team}"}`);
-  
-  // Read until team preview
-  while (true) {
-    const chunk = await readWithTimeout(stream);
-    if (chunk === null) break;
-    if (String(chunk).includes('|teampreview')) {
-      const p1Active = firstState.environment.active_pokemon.p1;
-      const p2Active = firstState.environment.active_pokemon.p2;
-      
-      const p1Idx = firstState.player1.pokemon.findIndex(p => p.species === p1Active);
-      const p2Idx = firstState.player2.pokemon.findIndex(p => p.species === p2Active);
-      
-      let p1Order = [p1Idx, ...Array.from({length: 6}, (_, i) => i).filter(i => i !== p1Idx)].map(i => i + 1).join('');
-      let p2Order = [p2Idx, ...Array.from({length: 6}, (_, i) => i).filter(i => i !== p2Idx)].map(i => i + 1).join('');
-      
-      stream.write(`>p1 team ${p1Order}`);
-      stream.write(`>p2 team ${p2Order}`);
-      break;
-    }
-  }
-  
-  // Read until battle starts
-  for (let i = 0; i < 100; i++) {
-    const chunk = await readWithTimeout(stream);
-    if (chunk === null) break;
-    if (stream.battle?.sides?.[0]?.active?.[0] && stream.battle?.sides?.[1]?.active?.[0]) {
-      break;
-    }
-  }
-  
-  if (!stream.battle?.sides?.[0]?.active?.[0]) {
-    console.error('Failed to initialize');
-    return null;
-  }
-  
-  // Replay actions
-  for (let stateIdx = 1; stateIdx < states.length; stateIdx++) {
-    const state = states[stateIdx];
-    const prevActions = state.environment?.prev_actions || [];
-    
-    let p1Cmd = null;
-    let p2Cmd = null;
-    let p1FaintSwitch = null;
-    let p2FaintSwitch = null;
-    
-    for (const action of prevActions) {
-      if (!action.player || !action.move) continue;
-      
-      const player = action.player;
-      const moveStr = action.move;
-      const sideNum = player === 'p1' ? 0 : 1;
-      
-      if (moveStr.startsWith('faint:')) {
-        const target = moveStr.split(':')[1];
-        const slot = findPokemonSlot(stream.battle, sideNum, target);
-        if (slot > 0) {
-          if (player === 'p1') p1FaintSwitch = `switch ${slot}`;
-          else p2FaintSwitch = `switch ${slot}`;
-        }
-      } else if (moveStr.startsWith('switch:')) {
-        const target = moveStr.split(':')[1];
-        const slot = findPokemonSlot(stream.battle, sideNum, target);
-        if (slot > 0) {
-          if (player === 'p1') p1Cmd = `switch ${slot}`;
-          else p2Cmd = `switch ${slot}`;
-        }
-      } else {
-        // Parse move
-        let movePart = moveStr.split(',')[0];
-        let faintPart = moveStr.includes(',faint:') ? moveStr.split(',faint:')[1] : null;
-        
-        let isTera = false;
-        if (movePart.includes(';')) {
-          isTera = true;
-          movePart = movePart.split(';')[1];
-        }
-        
-        if (movePart.includes(':')) {
-          movePart = movePart.split(':')[0];
-        }
-        
-        const moveName = movePart;
-        const active = stream.battle.sides[sideNum].active[0];
-        
-        if (active) {
-          const moveIdx = active.moveSlots.findIndex(m => toID(m.move) === toID(moveName));
-          if (moveIdx >= 0) {
-            let cmd = `move ${moveIdx + 1}`;
-            if (isTera) cmd += ' terastallize';
-            if (player === 'p1') p1Cmd = cmd;
-            else p2Cmd = cmd;
-          }
-        }
-        
-        if (faintPart) {
-          const slot = findPokemonSlot(stream.battle, sideNum, faintPart);
-          if (slot > 0) {
-            if (player === 'p1') p1FaintSwitch = `switch ${slot}`;
-            else p2FaintSwitch = `switch ${slot}`;
-          }
-        }
-      }
-    }
-    
-    // Execute main actions or handle faint-only turns
-    if ((p1Cmd || p1FaintSwitch) && (p2Cmd || p2FaintSwitch)) {
-      // If both have regular commands, execute them
-      if (p1Cmd && p2Cmd) {
-        stream.write(`>p1 ${p1Cmd}`);
-        stream.write(`>p2 ${p2Cmd}`);
-        
-        // Drain
-        for (let i = 0; i < 50; i++) {
-          const chunk = await readWithTimeout(stream, 50);
-          if (chunk === null) break;
-        }
-      }
-      
-      // Handle faint switches (can happen without regular moves)
-      if (p1FaintSwitch) {
-        stream.write(`>p1 ${p1FaintSwitch}`);
-      }
-      if (p2FaintSwitch) {
-        stream.write(`>p2 ${p2FaintSwitch}`);
-      }
-      
-      if (p1FaintSwitch || p2FaintSwitch) {
-        for (let i = 0; i < 50; i++) {
-          const chunk = await readWithTimeout(stream, 50);
-          if (chunk === null) break;
-        }
-      }
-      
-      // console.log(`  -> ${stream.battle.sides[0].active[0]?.species.name} vs ${stream.battle.sides[1].active[0]?.species.name}`);
-    } else {
-      // console.log(`State ${stateIdx}: SKIPPED (p1=${p1Cmd||p1FaintSwitch}, p2=${p2Cmd||p2FaintSwitch})`);
-    }
-  }
-  
-  // console.log('\n✅ Replayed to turn', stream.battle.turn);
-  // console.log('Active:', stream.battle.sides[0].active[0]?.species.name, 'vs', stream.battle.sides[1].active[0]?.species.name);
-  
-  return stream.battle;
 }
 
 async function simulateBranch(baseBattle, p1Action, p2Action, outcome) {
@@ -1078,7 +766,6 @@ async function simulateBranch(baseBattle, p1Action, p2Action, outcome) {
       
       newMon.hp = baseMon.hp;
       
-      // ✅ ADD: Copy status effects
       if (baseMon.status) {
         newMon.status = baseMon.status;
         
@@ -1090,7 +777,6 @@ async function simulateBranch(baseBattle, p1Action, p2Action, outcome) {
         }
       }
       
-      // ✅ ADD: Copy volatile effects (confusion, leech seed, etc.)
       if (baseMon.volatiles) {
         for (const [key, val] of Object.entries(baseMon.volatiles)) {
           newMon.volatiles[key] = val;
@@ -1136,11 +822,7 @@ async function simulateBranch(baseBattle, p1Action, p2Action, outcome) {
         battle.sides[1].canTerastallize = false;
       }
     }
-    // Override PRNG for hit/miss only
-    // console.log('PRNG type:', typeof battle.prng);
-    // console.log('PRNG keys:', battle.prng && Object.keys(battle.prng));
-    // console.log('PRNG.shuffle type:', battle.prng && typeof battle.prng.shuffle);
-    // console.log('PRNG.next type:', battle.prng && typeof battle.prng.next);
+
     const originalPRNG = battle.prng;
     let movePhase = null;
     let prngCallsThisMove = 0;
@@ -1209,93 +891,6 @@ async function simulateBranch(baseBattle, p1Action, p2Action, outcome) {
   }
 }
 
-// async function calculateBranchingEV(battle, evalFunction) {
-//   const p1Actions = generatePossibleActions(battle, 'p1', false);
-//   const p2Actions = generatePossibleActions(battle, 'p2', true);
-
-//   console.log(`\nGenerating branches for ${p1Actions.length} P1 actions × ${p2Actions.length} P2 actions`);
-
-//   const results = [];
-
-//   // Serialize battle data ONCE
-//   const baseBattleData = {
-//     p1Team: battle.sides[0].pokemon.map(p => {
-//       const species = p.species.name;
-//       const ability = toID(p.ability);
-//       const item = toID(p.item);
-//       const moves = p.moveSlots.map(m => toID(m.move)).join(',');
-//       return `${species}||${item}|${ability}|${moves}|Serious|0,0,0,0,0,0||31,31,31,31,31,31||||||`;
-//     }).join(']'),
-    
-//     p2Team: battle.sides[1].pokemon.map(p => {
-//       const species = p.species.name;
-//       const ability = toID(p.ability);
-//       const item = toID(p.item);
-//       const moves = p.moveSlots.map(m => toID(m.move)).join(',');
-//       return `${species}||${item}|${ability}|${moves}|Serious|0,0,0,0,0,0||31,31,31,31,31,31||||||`;
-//     }).join(']'),
-    
-//     p1HP: battle.sides[0].pokemon.map(p => p.hp),
-//     p2HP: battle.sides[1].pokemon.map(p => p.hp)
-//   };
-
-//   for (const p1Action of p1Actions) {
-//     let totalEV = 0;
-//     let totalProb = 0;
-    
-//     const branchResults = [];
-
-//     for (const p2Action of p2Actions) {
-//       // Get accuracies
-//       const p1Acc = p1Action.type === 'move' ? 
-//         getMoveAccuracyFromAction(p1Action.moveId) : 1.0;
-//       const p2Acc = p2Action.type === 'move' ? 
-//         getMoveAccuracyFromAction(p2Action.moveId) : 1.0;
-      
-//       // Generate 4 outcome branches
-//       const outcomeBranches = [
-//         { p1Hit: true, p2Hit: true, prob: p1Acc * p2Acc },
-//         { p1Hit: true, p2Hit: false, prob: p1Acc * (1 - p2Acc) },
-//         { p1Hit: false, p2Hit: true, prob: (1 - p1Acc) * p2Acc },
-//         { p1Hit: false, p2Hit: false, prob: (1 - p1Acc) * (1 - p2Acc) },
-//       ];
-      
-//       for (const outcome of outcomeBranches) {
-//         if (outcome.prob === 0) continue;
-        
-//         try {
-//           // Use YOUR ORIGINAL simulateBranch
-//           const result = await simulateBranch(battle, p1Action, p2Action, outcome);
-          
-//           if (result.success && result.battle) {
-//             const evaluation = evalFunction ? evalFunction(result.battle) : 0;
-//             totalEV += evaluation * outcome.prob;
-//             totalProb += outcome.prob;
-            
-//             branchResults.push({
-//               p2Action: p2Action.description,
-//               outcome,
-//               evaluation,
-//               weightedValue: evaluation * outcome.prob,
-//             });
-//           }
-//         } catch (err) {
-//           console.error('Branch error:', err.message);
-//         }
-//       }
-//     }
-    
-//     results.push({
-//       action: p1Action.description,
-//       command: p1Action.command,
-//       expectedValue: totalProb > 0 ? totalEV / totalProb : 0,
-//       branches: branchResults,
-//     });
-//   }
-
-//   return results;
-// }
-
 // WORKING VERSION
 function getEffectiveHitProb(sideObj, action) {
   if (!action || action.type === 'switch') return 1.0;
@@ -1323,8 +918,6 @@ function isPivotMove(action) {
     moveId = toID(action.move || action.moveName);
   }
   
-  // console.log(`DEBUG isPivotMove: "${moveId}"`);  // ← Remove after fix
-  
   const pivotMoves = new Set([
     'u-turn', 'volt-switch', 'flip-turn', 'chilly-reception',  // ← WITH DASHES
     'parting-shot', 'baton-pass', 'shed-tail'
@@ -1343,25 +936,9 @@ function willMoveKO(battle, attackerAction, attackerSide, defenderSide) {
   const defender = defenderSide.active[0];
   if (!defender || defender.fainted) return false;
   
-  // Simple heuristic: if defender HP is low and move is damaging, predict KO
-  // You could make this more sophisticated with damage calculation
   const hpPercent = (defender.hp / defender.maxhp) * 100;
   
-  // Rough heuristic: if defender is below 30% HP and attacker is using a damaging move
   return hpPercent <= 30 && move.basePower > 0;
-}
-
-
-function getMoveNameFromAction(action) {
-  if (typeof action === 'string') return action; // Already raw like "U-turn"
-  
-  let moveName = action.moveName || action.moveId || action.move || 'unknown';
-  return moveName.replace(/\s*\(Tera\s+\w+\)/i, '').trim();
-}
-
-function getActiveSpeciesName(battle, sideIndex) {
-  const active = battle.sides[sideIndex]?.active?.[0];
-  return active ? active.species.name : null;
 }
 
 function addUserFaintAndSwitchSuffix(baseBattle, newBattle, moveStr, sideId) {
@@ -1682,7 +1259,6 @@ function battleStateToParserJSON(battle, p2Action, prevActions = [], p2NextMove 
       }
     }
 
-
     // Extract moves with PP
     const moves = mon.moveSlots.map(slot => ({
       name: slot.move,
@@ -1722,8 +1298,7 @@ function battleStateToParserJSON(battle, p2Action, prevActions = [], p2NextMove 
       statusEffects = statusMap[mon.status] || mon.status;
     }
 
-    // Extract volatile effects
-  // Extract volatile effects (compact, parser-friendly)
+  // Extract volatile effects
   const volatileEffects = {};
   if (mon.volatiles) {
     for (const [key, vol] of Object.entries(mon.volatiles)) {
@@ -1905,22 +1480,6 @@ function getLegalSwitchInsForSide(battle, sideId) {
   return candidates;
 }
 
-function userFainted(baseBattle, newBattle, sideId) {
-  const sideIdx = sideId === 'p1' ? 0 : 1;
-  const baseSide = baseBattle.sides[sideIdx];
-  const newSide  = newBattle.sides[sideIdx];
-
-  const baseActive = baseSide.active[0];
-  const newActive  = newSide.active[0];
-
-  if (!baseActive || !newActive) return false;
-
-  const wasAlive = !baseActive.fainted && baseActive.hp > 0;
-  const isDead   = newActive.fainted || newActive.hp <= 0;
-
-  return wasAlive && isDead;
-}
-
 // Simple evaluation function (you'll replace this with your agent)
 function simpleEval(battle) {
   return 0
@@ -1994,82 +1553,13 @@ if (require.main === module) {
             return; // Exit early for lead states
           }
     
-    // // Print battle state...
-    // console.log('\n' + '='.repeat(70));
-    // console.log('BATTLE STATE');
-    // console.log('='.repeat(70));
-    // console.log('Turn:', battle.turn);
-    
-    // // P1 Team
-    // console.log('\n--- P1 Team ---');
-    // battle.sides[0].pokemon.forEach((p, i) => {
-    //   const isActive = battle.sides[0].active[0] === p;
-    //   const status = p.fainted ? '[FAINTED]' : p.status ? `[${p.status.toUpperCase()}]` : '';
-    //   const marker = isActive ? '→ ' : '  ';
-    //   const teraType = p.teraType ? ` [Tera: ${p.teraType}]` : '';
-    //   console.log(`${marker}${i + 1}. ${p.species.name} (${p.hp}/${p.maxhp} HP) ${status}${teraType}`);
-    //   if (isActive) {
-    //     console.log(`     Ability: ${p.ability} | Item: ${p.item || 'None'}`);
-    //     console.log(`     Moves: ${p.moveSlots.map(m => m.move).join(', ')}`);
-    //   }
-    // });
-
-    // // P2 Team
-    // console.log('\n--- P2 Team ---');
-    // battle.sides[1].pokemon.forEach((p, i) => {
-    //   const isActive = battle.sides[1].active[0] === p;
-    //   const status = p.fainted ? '[FAINTED]' : p.status ? `[${p.status.toUpperCase()}]` : '';
-    //   const marker = isActive ? '→ ' : '  ';
-    //   const teraType = p.teraType ? ` [Tera: ${p.teraType}]` : '';
-    //   console.log(`${marker}${i + 1}. ${p.species.name} (${p.hp}/${p.maxhp} HP) ${status}${teraType}`);
-    //   if (isActive) {
-    //     console.log(`     Ability: ${p.ability} | Item: ${p.item || 'None'}`);
-    //     console.log(`     Moves: ${p.moveSlots.map(m => m.move).join(', ')}`);
-    //   }
-    // });
-
-    // // Field conditions
-    // console.log('\n--- Field Conditions ---');
-    // console.log(`P1 Tera Available: ${battle.sides[0].canTerastallize !== false ? 'Yes' : 'No'}`);
-    // console.log(`P2 Tera Available: ${battle.sides[1].canTerastallize !== false ? 'Yes' : 'No'}`);
-    // if (battle.weather) {
-    //   console.log(`Weather: ${battle.weather}`);
-    // }
-    // if (battle.terrain) {
-    //   console.log(`Terrain: ${battle.terrain}`);
-    // }
-
-    // // TO THIS:
-    // console.log('DEBUG TOP-LEVEL: topMovesData.ceruledge exists?', !!topMovesData['ceruledge']);
-    // console.log('DEBUG TOP-LEVEL: topMovesData keys sample:', Object.keys(topMovesData));
-    // console.log('DEBUG CALL: generatePossibleActions("p2", true):', generatePossibleActions(battle, 'p2', true).length);
-    // console.log('\n' + '='.repeat(70));
-    // console.log('BRANCHING ANALYSIS');
-    // console.log('='.repeat(70));
-    
     const branching = await calculateBranchingEV(battle, simpleEval);
 
     // Flatten all branchResults from all actions into a single array
     const flatBranches = branching.flatMap(a => a.branches);
 
-    // This matches your old format (what parser.py expects)
     fs.writeFileSync('branches.json', JSON.stringify(flatBranches, null, 2));
 
-    // Sort by expected value
-    // results.sort((a, b) => b.expectedValue - a.expectedValue);
-    
-    // console.log('\nTop 5 P1 Actions by Expected Value:\n');
-    // results.slice(0, 5).forEach((result, i) => {
-    //   console.log(`${i + 1}. ${result.action}`);
-    //   console.log(`   EV: ${result.expectedValue.toFixed(2)}`);
-    //   console.log(`   Command: ${result.command}`);
-    //   console.log();
-    // });
-    
     console.log('✅ Branching analysis complete!');
-    // DEBUG: Print FIRST branch of FIRST action to see U-turn:Serperior
-    // DEBUG: Find and print U-turn branch
-
-
   })();
 }

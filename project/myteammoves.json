@@ -1,0 +1,152 @@
+[
+  {
+    "species": "Samurott-Hisui",
+    "moves": [
+      {
+        "name": "Ceaseless Edge",
+        "max_pp": 24,
+        "current_pp": 24
+      },
+      {
+        "name": "Flip Turn",
+        "max_pp": 32,
+        "current_pp": 32
+      },
+      {
+        "name": "Aqua Cutter",
+        "max_pp": 32,
+        "current_pp": 32
+      },
+      {
+        "name": "Knock Off",
+        "max_pp": 32,
+        "current_pp": 32
+      }
+    ]
+  },
+  {
+    "species": "Ogerpon-Wellspring",
+    "moves": [
+      {
+        "name": "Horn Leech",
+        "max_pp": 16,
+        "current_pp": 16
+      },
+      {
+        "name": "Ivy Cudgel",
+        "max_pp": 16,
+        "current_pp": 16
+      },
+      {
+        "name": "Play Rough",
+        "max_pp": 16,
+        "current_pp": 16
+      },
+      {
+        "name": "Swords Dance",
+        "max_pp": 32,
+        "current_pp": 32
+      }
+    ]
+  },
+  {
+    "species": "Raging Bolt",
+    "moves": [
+      {
+        "name": "Ancient Power",
+        "max_pp": 8,
+        "current_pp": 8
+      },
+      {
+        "name": "Thunderbolt",
+        "max_pp": 24,
+        "current_pp": 24
+      },
+      {
+        "name": "Thunderclap",
+        "max_pp": 8,
+        "current_pp": 8
+      },
+      {
+        "name": "Dragon Pulse",
+        "max_pp": 16,
+        "current_pp": 16
+      }
+    ]
+  },
+  {
+    "species": "Dragapult",
+    "moves": [
+      {
+        "name": "Dragon Darts",
+        "max_pp": 16,
+        "current_pp": 16
+      },
+      {
+        "name": "Psychic Fangs",
+        "max_pp": 16,
+        "current_pp": 16
+      },
+      {
+        "name": "Dragon Tail",
+        "max_pp": 16,
+        "current_pp": 16
+      },
+      {
+        "name": "U-turn",
+        "max_pp": 32,
+        "current_pp": 32
+      }
+    ]
+  },
+  {
+    "species": "Kyurem",
+    "moves": [
+      {
+        "name": "Freeze-Dry",
+        "max_pp": 32,
+        "current_pp": 32
+      },
+      {
+        "name": "Earth Power",
+        "max_pp": 16,
+        "current_pp": 16
+      },
+      {
+        "name": "Icicle Spear",
+        "max_pp": 48,
+        "current_pp": 48
+      },
+      {
+        "name": "Dragon Pulse",
+        "max_pp": 16,
+        "current_pp": 16
+      }
+    ]
+  },
+  {
+    "species": "Slowking-Galar",
+    "moves": [
+      {
+        "name": "Chilly Reception",
+        "max_pp": 16,
+        "current_pp": 16
+      },
+      {
+        "name": "Toxic Spikes",
+        "max_pp": 32,
+        "current_pp": 32
+      },
+      {
+        "name": "Psychic Noise",
+        "max_pp": 16,
+        "current_pp": 16
+      },
+      {
+        "name": "Sludge Bomb",
+        "max_pp": 16,
+        "current_pp": 16
+      }
+    ]
+  }
+]

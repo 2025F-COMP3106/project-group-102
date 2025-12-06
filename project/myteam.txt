@@ -13,7 +13,7 @@ Ability: Water Absorb
 Tera Type: Water  
 EVs: 4 HP / 252 Atk / 252 Spe  
 Jolly Nature  
-- Trailblaze  
+- Horn Leech
 - Ivy Cudgel  
 - Play Rough  
 - Swords Dance  
