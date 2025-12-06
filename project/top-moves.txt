@@ -1,0 +1,23 @@
+Turn type: MOVE (P=0.625)
+  top moves:
+    Roost: P(cond)=0.198, P(joint)=0.124
+    Will-O-Wisp: P(cond)=0.181, P(joint)=0.113
+    Flamethrower: P(cond)=0.166, P(joint)=0.104
+    U-turn: P(cond)=0.147, P(joint)=0.092
+    Roar: P(cond)=0.126, P(joint)=0.079
+
+Turn type: SWITCH (P=0.151)
+  top switches:
+    Ogerpon-Wellspring: P(cond)=0.326, P(joint)=0.049
+    Iron Treads: P(cond)=0.260, P(joint)=0.039
+    Dragapult: P(cond)=0.255, P(joint)=0.039
+    Moltres: P(cond)=0.085, P(joint)=0.013
+    Garganacl: P(cond)=0.074, P(joint)=0.011
+
+Turn type: NO_ACTION (P=0.136)
+
+Turn type: TERA_MOVE (P=0.011)
+  top tera types:
+    fairy: P(cond)=0.308, P(joint)=0.003
+    water: P(cond)=0.135, P(joint)=0.001
+
