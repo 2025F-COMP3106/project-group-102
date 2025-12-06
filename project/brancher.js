@@ -827,9 +827,11 @@ async function simulateBranch(baseBattle, p1Action, p2Action, outcome) {
     let movePhase = null;
     let prngCallsThisMove = 0;
     
-    battle.prng = function(start, end) {
-      return originalPRNG(start, end);
-    };
+    battle.prng = Object.create(originalPRNG);
+
+    // battle.prng = function(start, end) {
+    //   return originalPRNG(start, end);
+    // };
     
     battle.prng.next = function() {
       prngCallsThisMove++;
