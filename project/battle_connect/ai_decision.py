@@ -280,11 +280,11 @@ def get_ai_command_from_replay(replay_link, request_json=None, device=None, play
         # Data files are in data/ at root level (one level up from project/)
         moves_data = str(project_root.parent / "data" / "gen9_moves.json")
         pokemon_data = str(project_root.parent / "data" / "gen9_pokemon.json")
-        if raw_log and raw_log['players'][0] != 'Gbolshnikss':
+        if raw_log and raw_log['players'][0] != 'Gbolshnik':
             subprocess.run(["python", "switch_viewpoint.py", in_state_file], capture_output=True, text=True)
         parsed_state = parse_replay_with_subprocess(in_state_file, moves_data, pokemon_data)
         
-        if len(parsed_state['player1']['pokemon'][0]['moves']) == 0 and raw_log['players'][0] != 'Gbolshnikss':
+        if len(parsed_state['player1']['pokemon'][0]['moves']) == 0 and raw_log['players'][0] != 'Gbolshnik':
             with open(f"{project_root}/myteammoves.json", "r") as f:
                 team_moves = json.load(f)
             for pokemon in range(6):
