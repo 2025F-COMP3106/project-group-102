@@ -37,16 +37,16 @@ Additional configuration files at the root define Python and Node.js dependencie
 
 1. **Clone the repository**
 
-```git clone https://github.com/2025F-COMP3106/project-group-102.git
-cd project-group-102```
+`git clone https://github.com/2025F-COMP3106/project-group-102.git`
+`cd project-group-102`
 
 2. **Install Python dependencies**
 
-```pip install -r requirements.txt```
+`pip install -r requirements.txt`
 
 3. **Install Node.js dependencies**
 
-```npm install```
+`npm install`
 
 
 These steps prepare the environment for running the data pipeline, agent, and branching tools.[web:1][web:2]
