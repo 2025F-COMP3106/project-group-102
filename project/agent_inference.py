@@ -140,7 +140,7 @@ class PokemonPolicyAgent:
             if mid is not None:
                 self.pivot_move_ids.add(mid)
             
-        with open("data/species_to_moves_gen9.json") as f:
+        with open("../data/species_to_moves_gen9.json") as f:
             self.species_to_moves_gen9 = json.load(f)
 
 
@@ -434,7 +434,7 @@ with open("vocab/shared_types2id.json") as f:
 with open("vocab/shared_species2id.json") as f:
     species2id = json.load(f)
 
-ACTION_TYPE_MAP_PATH = "data/gen9ou_full_action_type_map.json"  # e.g. "data/gen9ou_full_action_type_map.json"
+ACTION_TYPE_MAP_PATH = "../data/gen9ou_full_action_type_map.json"  # e.g. "data/gen9ou_full_action_type_map.json"
 with open(ACTION_TYPE_MAP_PATH, "r") as f:
     ACTION_TYPE_LABELS = json.load(f)
 ACTION_TYPES = list(ACTION_TYPE_LABELS.keys())
